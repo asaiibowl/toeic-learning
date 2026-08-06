@@ -1,0 +1,171 @@
+{
+  "testId": "sample-01",
+  "part": 7,
+  "sets": [
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "sample01-p7-s1",
+          "docType": "email",
+          "title": "Request for Proposal Submission",
+          "from": "Sarah Chen <s.chen@globaltech.com>",
+          "to": "Procurement Team <procurement@meridiangroup.co>",
+          "paragraphs": [
+            {
+              "en": "Dear Procurement Team,",
+              "ja": "調達チームの皆様"
+            },
+            {
+              "en": "I am writing on behalf of GlobalTech Solutions to express our strong interest in the software development project announced on your company's website last week. We believe that our extensive experience in enterprise software solutions makes us an ideal partner for this initiative.",
+              "ja": "GlobalTech Solutionsを代表して、先週御社のウェブサイトで発表されたソフトウェア開発プロジェクトへの強い関心をお伝えするためにご連絡しています。エンタープライズソフトウェアソリューションにおける豊富な経験から、私たちはこの取り組みの理想的なパートナーであると考えています。"
+            },
+            {
+              "en": "GlobalTech Solutions has successfully completed over 150 enterprise projects in the past decade, serving clients across the financial services, healthcare, and manufacturing sectors. Our team of 200 certified developers specializes in cloud migration, system integration, and custom application development.",
+              "ja": "GlobalTech Solutionsはこの10年間で150件以上のエンタープライズプロジェクトを成功裏に完了し、金融サービス、医療、製造業にわたる顧客にサービスを提供してきました。200名の認定開発者からなる私たちのチームは、クラウド移行、システム統合、カスタムアプリケーション開発を専門としています。"
+            },
+            {
+              "en": "We would like to schedule a preliminary meeting to discuss the project requirements in detail. Please let us know your availability for a 30-minute call next week. We can also provide a comprehensive portfolio of our recent projects upon request.",
+              "ja": "プロジェクトの要件を詳細に話し合うための予備的なミーティングをスケジュールしたいと思います。来週の30分の電話についてご都合をお知らせください。ご要望があれば、最近のプロジェクトの包括的なポートフォリオもご提供できます。"
+            },
+            {
+              "en": "Thank you for your consideration. We look forward to the opportunity to collaborate with Meridian Group.",
+              "ja": "ご検討いただきありがとうございます。Meridian Groupと協力できる機会を楽しみにしています。"
+            },
+            {
+              "en": "Best regards,\nSarah Chen\nBusiness Development Manager\nGlobalTech Solutions\nTel: +1 (555) 234-5678",
+              "ja": "敬具\nサラ・チェン\nビジネスデベロップメントマネージャー\nGlobalTech Solutions\n電話: +1 (555) 234-5678"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 147,
+          "type": "main_idea",
+          "questionEn": "What is the main purpose of this email?",
+          "questionJa": "このメールの主な目的は何ですか？",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To request payment for completed services",
+              "explanation": "サービス完了に対する支払いを求める内容ではありません。メールにそのような記述はなく、文書の目的と合いません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To express interest in a project and propose a meeting",
+              "explanation": "メールの第1段落でプロジェクトへの強い関心を示し、第4段落で予備的なミーティングのスケジュール調整を提案しています。このメールの目的を正確に捉えています。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "To follow up on a previous job application",
+              "explanation": "過去の採用応募のフォローアップではありません。これはビジネスプロポーザルの文脈であり、求職活動とは無関係です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To notify clients of a change in company policy",
+              "explanation": "会社方針の変更通知ではありません。GlobalTech が Meridian Group に対して提案を行っているメールです。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "sample01-p7-s1",
+              "paragraphIndex": 1,
+              "snippetEn": "I am writing on behalf of GlobalTech Solutions to express our strong interest in the software development project"
+            },
+            {
+              "passageId": "sample01-p7-s1",
+              "paragraphIndex": 3,
+              "snippetEn": "We would like to schedule a preliminary meeting to discuss the project requirements in detail."
+            }
+          ],
+          "explanationOverall": "メールの目的（main purpose）を問う問題は、第1段落と最後の段落に手がかりがあることが多いです。第1段落で「ソフトウェア開発プロジェクトへの関心を表明する」、第4段落で「予備的なミーティングを設定したい」という目的が明示されています。"
+        },
+        {
+          "no": 148,
+          "type": "detail",
+          "questionEn": "According to the email, how many certified developers does GlobalTech Solutions have?",
+          "questionJa": "メールによると、GlobalTech Solutions には認定開発者が何名いますか？",
+          "choices": [
+            {
+              "label": "A",
+              "text": "50",
+              "explanation": "50名という記述はメールにありません。誤りです。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "150",
+              "explanation": "150はプロジェクト完了数（150件以上）であり、開発者の人数ではありません。数字の混同に注意しましょう。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "200",
+              "explanation": "第3段落に「Our team of 200 certified developers（200名の認定開発者からなるチーム）」と明記されています。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "500",
+              "explanation": "500名という記述はメールにありません。誤りです。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "sample01-p7-s1",
+              "paragraphIndex": 2,
+              "snippetEn": "Our team of 200 certified developers specializes in cloud migration, system integration, and custom application development."
+            }
+          ],
+          "explanationOverall": "詳細情報を問う問題（detail question）。数字が複数登場する場合（150件のプロジェクト、200名の開発者）、ひっかけの選択肢に注意が必要です。本文の「Our team of 200 certified developers」から200名が正解です。"
+        },
+        {
+          "no": 149,
+          "type": "infer",
+          "questionEn": "What can be inferred about GlobalTech Solutions?",
+          "questionJa": "GlobalTech Solutions について何が推測できますか？",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It was founded more than ten years ago.",
+              "explanation": "第3段落に「successfully completed over 150 enterprise projects in the past decade（この10年間で150件以上）」とあります。10年間の実績があると述べているため、10年以上前に設立されたことが推測できます。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "It is currently working on a project for Meridian Group.",
+              "explanation": "現在 Meridian Group のプロジェクトに取り組んでいるとは書かれていません。このメールはプロポーザルの段階であり、まだ契約は成立していません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It only works with companies in the healthcare sector.",
+              "explanation": "「only（のみ）」が誤りです。第3段落に「金融サービス、医療、製造業にわたる顧客」と複数のセクターが挙げられています。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It does not have a portfolio of previous work.",
+              "explanation": "第4段落に「comprehensive portfolio of our recent projects upon request（ご要望があれば最近のプロジェクトのポートフォリオを提供できる）」とあり、ポートフォリオは存在します。逆の内容です。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "sample01-p7-s1",
+              "paragraphIndex": 2,
+              "snippetEn": "GlobalTech Solutions has successfully completed over 150 enterprise projects in the past decade"
+            }
+          ],
+          "explanationOverall": "推測問題（infer）では、本文に直接書かれていない情報を論理的に導き出す必要があります。「この10年間で150件以上のプロジェクトを完了した」という事実から、会社が少なくとも10年以上前に設立されたことが推測できます。「only」「does not have」など断定的・否定的な選択肢は慎重に検討しましょう。"
+        }
+      ]
+    }
+  ]
+}

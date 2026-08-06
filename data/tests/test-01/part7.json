@@ -1,0 +1,2759 @@
+{
+  "testId": "test-01",
+  "part": 7,
+  "sets": [
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s1-email",
+          "docType": "email",
+          "title": "Atrium Lighting Inspection",
+          "from": "Evan Holt <e.holt@lumenworks.example>",
+          "to": "Marina Ortega <facilities@bellmere.example>",
+          "paragraphs": [
+            {
+              "en": "Hello Ms. Ortega, Our electrician has finished replacing the atrium lights at the Bellmere Hotel. Before we close the work order, could you inspect the new fixtures on Thursday morning?",
+              "ja": "オルテガ様、電気技師がベルメールホテルのアトリウム照明の交換を終えました。作業票を閉じる前に、木曜午前に新しい器具をご確認いただけますか。"
+            },
+            {
+              "en": "I will be on site from 9:00 to 11:00 and can adjust any fixture that is not aimed correctly. Please meet me beside the front desk at 9:30. Bring the inspection checklist that I sent on Monday.",
+              "ja": "私は9時から11時まで現場におり、向きが正しくない器具を調整できます。9時30分にフロントデスク横でお会いください。月曜に送った点検表をお持ちください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 147,
+          "type": "main_idea",
+          "questionEn": "Why did Mr. Holt write the email?",
+          "questionJa": "ホルト氏がメールを書いたのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To change the hotel front desk hours",
+              "explanation": "フロントデスクの営業時間変更は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To apply for an electrician position",
+              "explanation": "採用応募ではなく、既存工事の確認連絡です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To arrange a final inspection",
+              "explanation": "作業票を閉じる前の器具点検を依頼しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To order replacement light bulbs",
+              "explanation": "電球の注文ではなく、交換作業は完了しています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "Before we close the work order, could you inspect the new fixtures on Thursday morning?"
+            }
+          ],
+          "explanationOverall": "目的は新しい照明器具の最終点検日時を調整することです。"
+        },
+        {
+          "no": 148,
+          "type": "detail",
+          "questionEn": "What should Ms. Ortega bring to the meeting?",
+          "questionJa": "オルテガ氏は会合へ何を持参すべきですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A box of spare fixtures",
+              "explanation": "予備器具を持参するのは電気技師側の仕事で、指示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The original work order",
+              "explanation": "作業票ではなく点検表が指定されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A hotel access card",
+              "explanation": "入館カードの持参指示はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "An inspection checklist",
+              "explanation": "月曜に送った点検表を持参するよう明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "Bring the inspection checklist that I sent on Monday."
+            }
+          ],
+          "explanationOverall": "第2段落末尾の持参物を確認します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s2-notice",
+          "docType": "notice",
+          "title": "Temporary Bicycle Parking",
+          "paragraphs": [
+            {
+              "en": "From September 3 through September 14, the bicycle racks beside the east entrance will be unavailable while the pavement is repaired. Employees should use the covered racks behind Building C.",
+              "ja": "9月3日から14日まで、舗装工事のため東口横の自転車ラックは使用できません。従業員はC棟裏の屋根付きラックを利用してください。"
+            },
+            {
+              "en": "Access cards will open the rear gate between 6:00 A.M. and 10:00 P.M. Bicycles left near the east entrance after September 2 will be moved to the security office.",
+              "ja": "入館カードで午前6時から午後10時まで裏門を開けられます。9月2日以降に東口付近へ置かれた自転車は警備室へ移動されます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 149,
+          "type": "detail",
+          "questionEn": "Where should employees park their bicycles during the repairs?",
+          "questionJa": "工事中、従業員は自転車をどこへ置くべきですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Behind Building C",
+              "explanation": "C棟裏の屋根付きラックが代替場所です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Inside the security office",
+              "explanation": "警備室は移動された自転車の保管先で、通常の駐輪場所ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Near the front gate",
+              "explanation": "正門付近は代替場所として案内されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Beside the east entrance",
+              "explanation": "東口横のラックは工事中使用できません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s2-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "Employees should use the covered racks behind Building C."
+            }
+          ],
+          "explanationOverall": "一時的な代替駐輪場所を問う詳細問題です。"
+        },
+        {
+          "no": 150,
+          "type": "infer",
+          "questionEn": "Why is the rear-gate access time mentioned?",
+          "questionJa": "裏門の利用時間が記載されているのはなぜだと考えられますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Access cards are being replaced.",
+              "explanation": "カード交換の案内はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Employees need the gate to reach the temporary racks.",
+              "explanation": "代替ラックがC棟裏にあるため、裏門の利用条件が必要です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The security office closes at 10:00 P.M.",
+              "explanation": "警備室の閉室時間とは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Repair workers will enter through the rear gate.",
+              "explanation": "工事業者の入場経路は説明されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s2-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "Employees should use the covered racks behind Building C."
+            },
+            {
+              "passageId": "t01-s2-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "Access cards will open the rear gate between 6:00 A.M. and 10:00 P.M."
+            }
+          ],
+          "explanationOverall": "代替駐輪場所と裏門の案内を関連付けて推測します。"
+        },
+        {
+          "no": 151,
+          "type": "synonym",
+          "questionEn": "The word \"unavailable\" in paragraph 1 is closest in meaning to",
+          "questionJa": "第1段落の「unavailable」に最も近い意味はどれですか。",
+          "targetWord": "unavailable",
+          "choices": [
+            {
+              "label": "A",
+              "text": "unpopular",
+              "explanation": "人気の有無は扱っていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "unlocked",
+              "explanation": "施錠状態を示す語ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "not usable",
+              "explanation": "工事中ラックを使えないという文脈に合います。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "uncovered",
+              "explanation": "屋根がないという意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s2-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "the bicycle racks beside the east entrance will be unavailable"
+            }
+          ],
+          "explanationOverall": "unavailable はここでは「利用できない」を意味します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s3-article",
+          "docType": "article",
+          "title": "Riverside Bakery Expands Its Training Program",
+          "paragraphs": [
+            {
+              "en": "Riverside Bakery has opened a small training kitchen above its Oak Street shop. The space will allow newly hired bakers to practice recipes without interrupting daily production.",
+              "ja": "リバーサイド・ベーカリーはオーク通り店の上階に小規模な研修厨房を開設しました。新任のパン職人は日々の製造を妨げずにレシピを練習できます。"
+            },
+            {
+              "en": "Owner Lena Brooks said the kitchen will also host monthly classes for local residents beginning in November. Class fees will support a scholarship for culinary students at North County College.",
+              "ja": "オーナーのレナ・ブルックス氏によると、11月から地域住民向けの月例講座も開催します。受講料はノース郡大学の調理学生向け奨学金に充てられます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 152,
+          "type": "main_idea",
+          "questionEn": "What is the article mainly about?",
+          "questionJa": "この記事は主に何についてですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A shop moving away from Oak Street",
+              "explanation": "店舗移転ではなく上階活用の話です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A contest for experienced bakers",
+              "explanation": "コンテストの案内ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A bakery opening a training facility",
+              "explanation": "新しい研修厨房の開設が記事の中心です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "A college closing its culinary program",
+              "explanation": "大学の調理課程閉鎖は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s3-article",
+              "paragraphIndex": 0,
+              "snippetEn": "Riverside Bakery has opened a small training kitchen above its Oak Street shop."
+            }
+          ],
+          "explanationOverall": "第1文の研修厨房開設が主題です。"
+        },
+        {
+          "no": 153,
+          "type": "detail",
+          "questionEn": "When will classes for residents begin?",
+          "questionJa": "地域住民向け講座はいつ始まりますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "In October",
+              "explanation": "10月開始ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "In November",
+              "explanation": "第2段落に11月開始とあります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "In December",
+              "explanation": "12月開始ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "In September",
+              "explanation": "9月という記載はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "beginning in November"
+            }
+          ],
+          "explanationOverall": "開始月を本文から直接特定します。"
+        },
+        {
+          "no": 154,
+          "type": "infer",
+          "questionEn": "What will most likely benefit from the class fees?",
+          "questionJa": "講座の受講料から最も恩恵を受けるのは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Culinary students",
+              "explanation": "受講料は調理学生の奨学金を支援します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Oak Street property owners",
+              "explanation": "不動産所有者への支援ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Classroom equipment suppliers",
+              "explanation": "備品業者への支払いという記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The bakery production line",
+              "explanation": "受講料を製造設備に使うとは書かれていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "Class fees will support a scholarship for culinary students at North County College."
+            }
+          ],
+          "explanationOverall": "受講料の用途である奨学金の受益者を推測します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s4-ad",
+          "docType": "advertisement",
+          "title": "Harborview Meeting Rooms",
+          "paragraphs": [
+            {
+              "en": "Need a quiet space near Central Station? Harborview offers three meeting rooms for groups of 4 to 24. Every booking includes wireless Internet, a display screen, and unlimited tea.",
+              "ja": "中央駅近くの静かな場所をお探しですか。ハーバービューには4名から24名用の会議室が3室あります。全予約に無線インターネット、表示画面、紅茶が含まれます。"
+            },
+            {
+              "en": "Book at least seven days in advance to receive a 15 percent discount. Catering is available from Pine Table Café for an additional charge. Weekend reservations must be made by telephone.",
+              "ja": "7日前までの予約で15パーセント割引になります。パイン・テーブル・カフェのケータリングは追加料金で利用できます。週末の予約は電話で行う必要があります。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 155,
+          "type": "detail",
+          "questionEn": "What is included with every room booking?",
+          "questionJa": "すべての会議室予約に含まれるものは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Parking at Central Station",
+              "explanation": "駅の駐車場は案内されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A catered lunch",
+              "explanation": "ケータリングは追加料金です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Unlimited coffee",
+              "explanation": "含まれる飲み物は紅茶で、コーヒーではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A display screen",
+              "explanation": "全予約に表示画面が含まれます。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s4-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "Every booking includes wireless Internet, a display screen, and unlimited tea."
+            }
+          ],
+          "explanationOverall": "基本料金に含まれる設備を確認します。"
+        },
+        {
+          "no": 156,
+          "type": "not",
+          "questionEn": "What is NOT indicated about Harborview?",
+          "questionJa": "ハーバービューについて示されていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It has rooms for different group sizes.",
+              "explanation": "4名から24名用という記載があります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It offers an advance-booking discount.",
+              "explanation": "7日前予約の割引があります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It provides free catering.",
+              "explanation": "ケータリングは追加料金であり、無料とは示されていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "It accepts weekend bookings by phone.",
+              "explanation": "週末予約は電話で行うとあります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s4-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "Catering is available from Pine Table Café for an additional charge."
+            }
+          ],
+          "explanationOverall": "NOT問題では、本文にある3項目を消去します。"
+        },
+        {
+          "no": 157,
+          "type": "infer",
+          "questionEn": "What should someone do to reserve a room for Saturday?",
+          "questionJa": "土曜日の部屋を予約するにはどうすべきですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Send a request to Central Station",
+              "explanation": "駅は所在地の目印で予約先ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Call Harborview",
+              "explanation": "週末予約は電話で行う必要があります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Visit Pine Table Café",
+              "explanation": "カフェはケータリング提供者で予約窓口ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Wait until seven days before the event",
+              "explanation": "7日前までなら割引ですが、待つ必要はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s4-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "Weekend reservations must be made by telephone."
+            }
+          ],
+          "explanationOverall": "Saturday は weekend に該当するため電話予約です。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s5-web",
+          "docType": "web_page",
+          "title": "Marlow Library: Device Lending",
+          "paragraphs": [
+            {
+              "en": "Library members may borrow a tablet or mobile hotspot for up to seven days. Devices can be reserved online, but they must be collected from the Technology Desk before 6:00 P.M.",
+              "ja": "図書館会員はタブレットまたはモバイルホットスポットを最長7日間借りられます。オンライン予約できますが、午後6時までに技術カウンターで受け取る必要があります。"
+            },
+            {
+              "en": "A replacement fee will be charged for lost chargers. Renewals are permitted only when no other member has reserved the device. Staff provide a brief orientation at pickup.",
+              "ja": "充電器を紛失した場合は交換料が請求されます。更新は他の会員がその機器を予約していない場合に限られます。受取時に職員が短い説明を行います。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 158,
+          "type": "main_idea",
+          "questionEn": "What is the purpose of the web page?",
+          "questionJa": "このウェブページの目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To explain how members can borrow devices",
+              "explanation": "貸出対象・期間・受取・更新条件を案内しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To sell used library computers",
+              "explanation": "機器販売のページではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To recruit staff for the Technology Desk",
+              "explanation": "職員募集は行っていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To compare mobile service providers",
+              "explanation": "通信会社の比較はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s5-web",
+              "paragraphIndex": 0,
+              "snippetEn": "Library members may borrow a tablet or mobile hotspot for up to seven days."
+            }
+          ],
+          "explanationOverall": "図書館の機器貸出サービスの利用方法が中心です。"
+        },
+        {
+          "no": 159,
+          "type": "detail",
+          "questionEn": "Under what condition may a device be renewed?",
+          "questionJa": "どのような条件で機器を更新できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A staff orientation is completed twice.",
+              "explanation": "説明を2回受ける条件はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The borrower pays a replacement fee.",
+              "explanation": "交換料は紛失充電器に関するものです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The device is returned before 6:00 P.M.",
+              "explanation": "午後6時は受取期限で、更新条件ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "No other member has reserved it.",
+              "explanation": "他の会員の予約がない場合のみ更新できます。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s5-web",
+              "paragraphIndex": 1,
+              "snippetEn": "Renewals are permitted only when no other member has reserved the device."
+            }
+          ],
+          "explanationOverall": "renewals の直後に示された条件を選びます。"
+        },
+        {
+          "no": 160,
+          "type": "synonym",
+          "questionEn": "The word \"brief\" in paragraph 2 is closest in meaning to",
+          "questionJa": "第2段落の「brief」に最も近い意味はどれですか。",
+          "targetWord": "brief",
+          "choices": [
+            {
+              "label": "A",
+              "text": "technical",
+              "explanation": "技術的に難しいという意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "short",
+              "explanation": "受取時の短い説明という意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "written",
+              "explanation": "書面によるという意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "mandatory",
+              "explanation": "義務的という意味そのものではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s5-web",
+              "paragraphIndex": 1,
+              "snippetEn": "Staff provide a brief orientation at pickup."
+            }
+          ],
+          "explanationOverall": "brief は時間や長さが「短い」を表します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s6-texts",
+          "docType": "text_message_chain",
+          "title": "Delivery Team Messages",
+          "messages": [
+            {
+              "sender": "Noah",
+              "timeLabel": "8:12 A.M.",
+              "bodyEn": "The display cases arrived, but the loading dock door is locked.",
+              "bodyJa": "展示ケースは到着しましたが、搬入口の扉が施錠されています。"
+            },
+            {
+              "sender": "Priya",
+              "timeLabel": "8:14 A.M.",
+              "bodyEn": "I am calling building security now. Please keep the truck in lane two so the bakery delivery can use lane one.",
+              "bodyJa": "今、ビル警備へ電話しています。パン店の配送が1番レーンを使えるよう、トラックは2番レーンに置いてください。"
+            },
+            {
+              "sender": "Noah",
+              "timeLabel": "8:18 A.M.",
+              "bodyEn": "Understood. The driver can wait for about twenty minutes before his next appointment.",
+              "bodyJa": "了解です。運転手は次の予定まで約20分待てます。"
+            },
+            {
+              "sender": "Priya",
+              "timeLabel": "8:23 A.M.",
+              "bodyEn": "Security is sending someone downstairs. We should be ready shortly.",
+              "bodyJa": "警備員が階下へ向かっています。まもなく準備できます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 161,
+          "type": "intention",
+          "questionEn": "At 8:23 A.M., what does Priya most likely mean by \"We should be ready shortly\"?",
+          "questionJa": "午前8時23分の「まもなく準備できます」でプリヤが最も伝えたいことは何ですか。",
+          "intentionTarget": {
+            "sender": "Priya",
+            "utteranceEn": "We should be ready shortly."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "The truck must leave lane two immediately.",
+              "explanation": "2番レーンで待つ指示と矛盾します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The next appointment will be delayed.",
+              "explanation": "次の予定の遅延を断定していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The display cases can soon be unloaded.",
+              "explanation": "警備員が解錠に向かっているため、間もなく荷下ろしできます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "The bakery delivery has been canceled.",
+              "explanation": "パン店配送の中止は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s6-texts",
+              "paragraphIndex": 3,
+              "snippetEn": "Security is sending someone downstairs. We should be ready shortly."
+            }
+          ],
+          "explanationOverall": "直前の警備員派遣を受け、搬入口がまもなく使えるという意図です。"
+        },
+        {
+          "no": 162,
+          "type": "detail",
+          "questionEn": "Why should the truck remain in lane two?",
+          "questionJa": "トラックが2番レーンに留まるべきなのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Security vehicles use lane one.",
+              "explanation": "警備車両の利用ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The display cases are stored in lane two.",
+              "explanation": "展示ケースはトラックで到着したのであり、レーン保管ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Lane one needs repairs.",
+              "explanation": "レーン工事は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A bakery delivery needs lane one.",
+              "explanation": "パン店配送が1番レーンを使うためです。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s6-texts",
+              "paragraphIndex": 1,
+              "snippetEn": "Please keep the truck in lane two so the bakery delivery can use lane one."
+            }
+          ],
+          "explanationOverall": "Priya の8時14分の指示理由を確認します。"
+        },
+        {
+          "no": 163,
+          "type": "infer",
+          "questionEn": "What will probably happen next?",
+          "questionJa": "次に何が起こる可能性が高いですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The loading dock will be opened.",
+              "explanation": "警備員が階下へ向かっているため解錠が見込まれます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Noah will return the display cases.",
+              "explanation": "返品する理由はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Priya will drive to the bakery.",
+              "explanation": "プリヤがパン店へ行くとは示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The driver will attend his next appointment early.",
+              "explanation": "待機が必要なので早着を示す根拠はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s6-texts",
+              "paragraphIndex": 3,
+              "snippetEn": "Security is sending someone downstairs."
+            }
+          ],
+          "explanationOverall": "警備員派遣という最後の状況から次の出来事を推測します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s7-form",
+          "docType": "form",
+          "title": "Community Workshop Registration",
+          "paragraphs": [
+            {
+              "en": "Workshop: Balcony Gardening | Date: April 18 | Time: 2:00–4:00 P.M. | Location: Westfield Community Center, Room 204 | Fee: $18",
+              "ja": "講座：ベランダ園芸｜日付：4月18日｜時間：午後2時～4時｜場所：ウェストフィールド・コミュニティセンター204号室｜料金：18ドル"
+            },
+            {
+              "en": "Registrant: Owen Price | Experience level: Beginner | Requested materials: Starter seed kit | Payment method: Credit card | Accessibility request: Chair near entrance",
+              "ja": "申込者：オーウェン・プライス｜経験：初心者｜希望教材：初心者向け種セット｜支払方法：クレジットカード｜配慮事項：入口近くの椅子"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 164,
+          "type": "detail",
+          "questionEn": "What did Mr. Price request?",
+          "questionJa": "プライス氏は何を希望しましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "An advanced gardening class",
+              "explanation": "経験欄は初心者です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A starter seed kit",
+              "explanation": "希望教材欄に初心者向け種セットとあります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "A refund by credit card",
+              "explanation": "カードは支払方法で、返金依頼ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A seat beside the instructor",
+              "explanation": "希望は入口近くの椅子です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s7-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Requested materials: Starter seed kit"
+            }
+          ],
+          "explanationOverall": "フォームの Requested materials 欄を読み取ります。"
+        },
+        {
+          "no": 165,
+          "type": "infer",
+          "questionEn": "Why will Mr. Price probably sit near the entrance?",
+          "questionJa": "プライス氏が入口近くに座る可能性が高いのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "He is teaching the workshop.",
+              "explanation": "申込者であり講師ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "He registered after the deadline.",
+              "explanation": "締切や遅延登録の情報はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "He made an accessibility request.",
+              "explanation": "配慮事項として入口近くの椅子を希望しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "He will collect class fees.",
+              "explanation": "料金徴収を担当する記載はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s7-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Accessibility request: Chair near entrance"
+            }
+          ],
+          "explanationOverall": "フォームのアクセシビリティ希望から判断します。"
+        },
+        {
+          "no": 166,
+          "type": "not",
+          "questionEn": "Which statement is NOT true about the registration?",
+          "questionJa": "この申込みについて正しくないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The workshop fee is $18.",
+              "explanation": "料金欄に18ドルとあります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The workshop is held in Room 204.",
+              "explanation": "会場欄に204号室と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Mr. Price requested a beginner seed kit.",
+              "explanation": "希望教材欄に初心者向け種セットとあります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Mr. Price will pay the fee in cash.",
+              "explanation": "支払方法はクレジットカードなので、現金払いではありません。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s7-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Payment method: Credit card"
+            }
+          ],
+          "explanationOverall": "支払方法の記載と矛盾する選択肢を選びます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s8-invoice",
+          "docType": "invoice",
+          "title": "Northline Office Supply Invoice 8842",
+          "paragraphs": [
+            {
+              "en": "Invoice date: January 8 | Customer: Halden Design Studio | 6 drawing pads at $12 each | 2 desk lamps at $35 each | Delivery: $8",
+              "ja": "請求日：1月8日｜顧客：ホールデン・デザイン・スタジオ｜画用紙6冊（各12ドル）｜デスクライト2台（各35ドル）｜配送料：8ドル"
+            },
+            {
+              "en": "Total due: $150 | Payment due: January 29 | Terms: A $10 late fee applies after the due date. Contact orders@northline.example to report damaged items within five business days.",
+              "ja": "支払総額：150ドル｜支払期限：1月29日｜条件：期限後は10ドルの延滞料が発生します。破損品は5営業日以内にorders@northline.exampleへ連絡してください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 167,
+          "type": "detail",
+          "questionEn": "How much was charged for delivery?",
+          "questionJa": "配送料はいくらですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "$8",
+              "explanation": "明細に Delivery: $8 とあります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "$10",
+              "explanation": "10ドルは期限後の延滞料です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "$12",
+              "explanation": "12ドルは画用紙1冊の価格です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "$35",
+              "explanation": "35ドルはライト1台の価格です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s8-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "Delivery: $8"
+            }
+          ],
+          "explanationOverall": "同じ文書内の複数の金額を区別します。"
+        },
+        {
+          "no": 168,
+          "type": "synonym",
+          "questionEn": "The word \"due\" in paragraph 2 is closest in meaning to",
+          "questionJa": "第2段落の「due」に最も近い意味はどれですか。",
+          "targetWord": "due",
+          "choices": [
+            {
+              "label": "A",
+              "text": "owed",
+              "explanation": "支払うべき総額という文脈で owed が一致します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "reduced",
+              "explanation": "減額されたという意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "delivered",
+              "explanation": "配送済みという意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "estimated",
+              "explanation": "見積額ではなく確定した支払額です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s8-invoice",
+              "paragraphIndex": 1,
+              "snippetEn": "Total due: $150"
+            }
+          ],
+          "explanationOverall": "Total due の due は「支払われるべき」を意味します。"
+        },
+        {
+          "no": 169,
+          "type": "infer",
+          "questionEn": "What happens if payment is made on February 1?",
+          "questionJa": "2月1日に支払うとどうなりますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Delivery will become free.",
+              "explanation": "配送料免除の規定はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The desk lamps must be returned.",
+              "explanation": "支払遅延と返品は関連しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A damaged-item report will be accepted automatically.",
+              "explanation": "破損連絡は5営業日以内という別条件です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A late fee will apply.",
+              "explanation": "1月29日の期限後なので10ドルの延滞料がかかります。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s8-invoice",
+              "paragraphIndex": 1,
+              "snippetEn": "Payment due: January 29"
+            },
+            {
+              "passageId": "t01-s8-invoice",
+              "paragraphIndex": 1,
+              "snippetEn": "A $10 late fee applies after the due date."
+            }
+          ],
+          "explanationOverall": "支払日と期限を比較し、期限後の条件を適用します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s9-schedule",
+          "docType": "schedule",
+          "title": "Product Photography — Tuesday",
+          "paragraphs": [
+            {
+              "en": "9:00–9:30 Equipment setup (Studio B) | 9:30–11:00 Kitchenware collection | 11:00–11:30 Break | 11:30–1:00 Outdoor collection",
+              "ja": "9:00～9:30 機材準備（スタジオB）｜9:30～11:00 台所用品コレクション｜11:00～11:30 休憩｜11:30～1:00 屋外用品コレクション"
+            },
+            {
+              "en": "1:00–2:00 Lunch | 2:00–3:30 Furniture collection | 3:30–4:00 File backup and Studio B cleanup. Models are required only for the outdoor and furniture sessions.",
+              "ja": "1:00～2:00 昼食｜2:00～3:30 家具コレクション｜3:30～4:00 ファイルのバックアップとスタジオBの清掃。モデルが必要なのは屋外用品と家具の撮影のみです。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 170,
+          "type": "detail",
+          "questionEn": "What is scheduled immediately after the break?",
+          "questionJa": "休憩の直後に予定されているものは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "File backup",
+              "explanation": "バックアップは最後です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Equipment setup",
+              "explanation": "機材準備は一日の最初です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The outdoor collection",
+              "explanation": "11時30分から屋外用品の撮影です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Lunch",
+              "explanation": "昼食は屋外用品撮影の後です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s9-schedule",
+              "paragraphIndex": 0,
+              "snippetEn": "11:30–1:00 Outdoor collection"
+            }
+          ],
+          "explanationOverall": "11時終了の休憩に続く予定を時系列で確認します。"
+        },
+        {
+          "no": 171,
+          "type": "not",
+          "questionEn": "During which activity are models NOT required?",
+          "questionJa": "どの活動ではモデルが必要ありませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The furniture collection",
+              "explanation": "家具撮影にもモデルが必要です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The kitchenware collection",
+              "explanation": "モデルが必要なのは屋外用品と家具だけなので、台所用品では不要です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Both the outdoor and furniture collections",
+              "explanation": "この両方にはモデルが必要です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The outdoor collection",
+              "explanation": "屋外用品撮影にはモデルが必要です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s9-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "Models are required only for the outdoor and furniture sessions."
+            }
+          ],
+          "explanationOverall": "モデルが必要な2セッションを本文から除外します。"
+        },
+        {
+          "no": 172,
+          "type": "infer",
+          "questionEn": "Where will the photographer most likely be at 3:45 P.M.?",
+          "questionJa": "午後3時45分に撮影者はどこにいる可能性が高いですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "In Studio B",
+              "explanation": "3時30分からスタジオのバックアップと清掃を行います。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "At a furniture store",
+              "explanation": "家具撮影は3時30分に終了しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "At lunch",
+              "explanation": "昼食は1時から2時です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "At the outdoor location",
+              "explanation": "屋外用品は1時までです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s9-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "3:30–4:00 File backup and Studio B cleanup."
+            }
+          ],
+          "explanationOverall": "3時45分はバックアップとスタジオB清掃の時間帯です。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t01-s10-markers",
+          "docType": "notice",
+          "title": "New Reusable Container Program",
+          "paragraphs": [
+            {
+              "en": "Beginning October 1, the cafeteria will offer reusable containers for takeout meals. [1] Customers pay a five-dollar deposit when requesting a container. [2] The deposit is returned when the rinsed container is brought back to any cafeteria register. [3] Containers may be kept for up to fourteen days. [4]",
+              "ja": "10月1日から、食堂では持ち帰り用の再利用容器を提供します。[1] 容器を希望する際に5ドルの保証金を支払います。[2] すすいだ容器を食堂のレジへ返すと保証金が返金されます。[3] 容器は最長14日間保有できます。[4]"
+            },
+            {
+              "en": "This program will reduce the number of disposable boxes sent to the landfill. Questions may be directed to cafeteria manager June Park.",
+              "ja": "この制度は埋立地へ送られる使い捨て容器を減らします。質問は食堂責任者のジューン・パークへお寄せください。"
+            }
+          ],
+          "hasInsertionMarkers": true
+        }
+      ],
+      "questions": [
+        {
+          "no": 173,
+          "type": "insertion",
+          "questionEn": "Where does the following sentence best belong? \"This small payment encourages people to return what they borrow.\"",
+          "questionJa": "次の文を入れるのに最も適切な位置はどこですか。「この少額の支払いは、借りた物を返すよう利用者に促します。」",
+          "choices": [
+            {
+              "label": "A",
+              "text": "[3]",
+              "explanation": "返金手順の後では支払いの導入説明から離れます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "[4]",
+              "explanation": "保有期限の後では照応先から遠く、段落の流れが弱まります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "[1]",
+              "explanation": "この位置では this small payment が指す保証金がまだ登場していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "[2]",
+              "explanation": "直前の five-dollar deposit を this small payment で受け、その目的を説明できます。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "this small payment が直前の five-dollar deposit を明確に受けるため[2]が最適です。"
+        },
+        {
+          "no": 174,
+          "type": "main_idea",
+          "questionEn": "What is the main purpose of the notice?",
+          "questionJa": "このお知らせの主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To change cafeteria opening hours",
+              "explanation": "営業時間変更はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To recruit a cafeteria manager",
+              "explanation": "責任者名は問い合わせ先で、募集ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To announce a reusable-container system",
+              "explanation": "新しい再利用容器制度と利用方法を案内しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To advertise a new cafeteria menu",
+              "explanation": "料理メニューの広告ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s10-markers",
+              "paragraphIndex": 0,
+              "snippetEn": "Beginning October 1, the cafeteria will offer reusable containers for takeout meals."
+            }
+          ],
+          "explanationOverall": "制度の開始、保証金、返却方法を知らせる文書です。"
+        },
+        {
+          "no": 175,
+          "type": "detail",
+          "questionEn": "When is the deposit returned?",
+          "questionJa": "保証金はいつ返金されますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "When a meal is purchased",
+              "explanation": "購入時は保証金を支払います。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "When the rinsed container is returned",
+              "explanation": "すすいだ容器をレジへ返すと返金されます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Fourteen days after borrowing",
+              "explanation": "14日は保有上限で自動返金日ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "After contacting June Park",
+              "explanation": "責任者への連絡は返金条件ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-s10-markers",
+              "paragraphIndex": 0,
+              "snippetEn": "The deposit is returned when the rinsed container is brought back to any cafeteria register."
+            }
+          ],
+          "explanationOverall": "保証金返金の具体的条件を選びます。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t01-d1-email",
+          "docType": "email",
+          "title": "Friday Client Orientation",
+          "from": "Mia Chen <mia@northcrest.example>",
+          "to": "Rafael Silva <rafael@northcrest.example>",
+          "paragraphs": [
+            {
+              "en": "Hi Rafael, The new client orientation has been confirmed for Friday afternoon. I reserved the Cedar Room from 1:00 to 3:00 P.M. for the twelve visitors from Alton Foods.",
+              "ja": "ラファエルさん、新規顧客向け説明会が金曜午後に確定しました。アルトン・フーズからの訪問者12名のため、午後1時から3時までシーダー室を予約しました。"
+            },
+            {
+              "en": "Please print the name badges by Thursday and place them at reception. The IT team will test the video connection at 12:30 on Friday, so the presenter should upload her slides to the shared folder before noon.",
+              "ja": "木曜までに名札を印刷し、受付へ置いてください。ITチームが金曜12時30分に映像接続を試すため、発表者は正午までにスライドを共有フォルダーへアップロードしてください。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-d1-schedule",
+          "docType": "schedule",
+          "title": "Conference Rooms — Friday",
+          "paragraphs": [
+            {
+              "en": "Maple Room | 9:00–11:00 | Sales planning | 8 people\nCedar Room | 10:00–11:30 | Safety briefing | 20 people\nCedar Room | 1:00–3:00 | New client orientation | 16 people",
+              "ja": "メープル室｜9:00～11:00｜販売計画｜8名\nシーダー室｜10:00～11:30｜安全説明｜20名\nシーダー室｜1:00～3:00｜新規顧客説明会｜16名"
+            },
+            {
+              "en": "Willow Room | 1:30–4:30 | Supplier interviews | 6 people\nNote: Video equipment is installed only in the Cedar and Willow rooms.",
+              "ja": "ウィロー室｜1:30～4:30｜仕入先面談｜6名\n注：映像機器はシーダー室とウィロー室にのみ設置されています。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 176,
+          "type": "main_idea",
+          "questionEn": "Why did Ms. Chen write to Mr. Silva?",
+          "questionJa": "チェン氏がシルバ氏へメールした主な理由は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To cancel a safety briefing",
+              "explanation": "安全説明の中止連絡ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To request a larger conference room",
+              "explanation": "部屋はすでに予約済みで変更依頼はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To interview a new supplier",
+              "explanation": "仕入先面談は別室の予定です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To assign preparations for a client visit",
+              "explanation": "名札印刷や受付への配置を依頼しています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "Please print the name badges by Thursday and place them at reception."
+            }
+          ],
+          "explanationOverall": "顧客説明会の確定と準備作業の依頼が目的です。"
+        },
+        {
+          "no": 177,
+          "type": "detail",
+          "questionEn": "According to the schedule, for how many people is the Cedar Room listed for the orientation?",
+          "questionJa": "予定表では、説明会のシーダー室は何名用として記載されていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "16",
+              "explanation": "説明会のシーダー室には16名と記載されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "6",
+              "explanation": "6名はウィロー室の仕入先面談です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "8",
+              "explanation": "8名はメープル室の販売計画です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "12",
+              "explanation": "12名は実際の訪問者数で、部屋の収容設定ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d1-schedule",
+              "paragraphIndex": 0,
+              "snippetEn": "Cedar Room | 1:00–3:00 | New client orientation | 16 people"
+            }
+          ],
+          "explanationOverall": "メールの説明会名と予定表の同じ行を照合します。"
+        },
+        {
+          "no": 178,
+          "type": "infer",
+          "questionEn": "Why was the Cedar Room probably selected?",
+          "questionJa": "シーダー室が選ばれた理由として最も考えられるものは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It is beside reception.",
+              "explanation": "受付との位置関係は示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It has video equipment and enough capacity.",
+              "explanation": "映像設備があり、12名の訪問者を収容できる16名用です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "It is available all day.",
+              "explanation": "午前には安全説明で使われます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It is the only room for supplier interviews.",
+              "explanation": "仕入先面談はウィロー室です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "the twelve visitors from Alton Foods"
+            },
+            {
+              "passageId": "t01-d1-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "Video equipment is installed only in the Cedar and Willow rooms."
+            }
+          ],
+          "explanationOverall": "メールの人数・映像テストと予定表の設備・定員を組み合わせます。"
+        },
+        {
+          "no": 179,
+          "type": "not",
+          "questionEn": "What is Mr. Silva NOT asked to do?",
+          "questionJa": "シルバ氏が依頼されていないことはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Print name badges",
+              "explanation": "メールで木曜までの印刷を依頼されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Put badges at reception",
+              "explanation": "名札を受付へ置くよう依頼されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Test the video connection",
+              "explanation": "映像接続の試験はITチームが行います。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Complete the tasks by Thursday",
+              "explanation": "名札関連作業は木曜までです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "The IT team will test the video connection at 12:30 on Friday"
+            }
+          ],
+          "explanationOverall": "担当者を区別すると、映像テストだけはITチームの作業です。"
+        },
+        {
+          "no": 180,
+          "type": "detail",
+          "questionEn": "By what time should the presenter upload her slides?",
+          "questionJa": "発表者は何時までにスライドをアップロードすべきですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Friday at 12:30 P.M.",
+              "explanation": "12時30分はITテスト開始時刻です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Friday at 3:00 P.M.",
+              "explanation": "3時は説明会終了時刻です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Thursday morning",
+              "explanation": "木曜は名札の期限です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Friday at noon",
+              "explanation": "金曜正午までと明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "the presenter should upload her slides to the shared folder before noon."
+            }
+          ],
+          "explanationOverall": "映像テスト前のアップロード期限を直接読み取ります。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t01-d2-invoice",
+          "docType": "invoice",
+          "title": "Brightmark Signs — Invoice BM-3107",
+          "paragraphs": [
+            {
+              "en": "Customer: Oriole Events | 4 directional signs at $28 each | 1 lobby banner at $95 | Installation: $40 | Subtotal: $247",
+              "ja": "顧客：オリオール・イベント｜案内標識4枚（各28ドル）｜ロビーバナー1枚（95ドル）｜設置料40ドル｜小計247ドル"
+            },
+            {
+              "en": "Adjustment: Banner size credit -$20 | Total due: $227 | Delivery date: May 6 | Payment terms: Due within 15 days of delivery",
+              "ja": "調整：バナー寸法差額 -20ドル｜支払総額227ドル｜納品日5月6日｜支払条件：納品後15日以内"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-d2-chat",
+          "docType": "online_chat",
+          "title": "Oriole Events Purchasing Chat",
+          "messages": [
+            {
+              "sender": "Keiko",
+              "timeLabel": "10:05 A.M.",
+              "bodyEn": "The banner arrived at 180 centimeters wide, but our order specified 200 centimeters.",
+              "bodyJa": "バナーは幅180センチで届きましたが、注文では200センチを指定していました。"
+            },
+            {
+              "sender": "Martin",
+              "timeLabel": "10:07 A.M.",
+              "bodyEn": "Brightmark offered either a replacement next week or a twenty-dollar credit. The event is tomorrow, so I accepted the credit.",
+              "bodyJa": "ブライトマークは来週の交換か20ドルの値引きを提案しました。イベントは明日なので、値引きを受け入れました。"
+            },
+            {
+              "sender": "Keiko",
+              "timeLabel": "10:09 A.M.",
+              "bodyEn": "That makes sense. Please ask the setup crew to center the smaller banner above the registration desk.",
+              "bodyJa": "それが妥当ですね。設営班に小さいバナーを受付机の上の中央へ配置するよう頼んでください。"
+            },
+            {
+              "sender": "Martin",
+              "timeLabel": "10:11 A.M.",
+              "bodyEn": "Already done. I will update the expense sheet after lunch.",
+              "bodyJa": "すでに済ませました。昼食後に経費表を更新します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 181,
+          "type": "detail",
+          "questionEn": "What caused the invoice adjustment?",
+          "questionJa": "請求書の調整が行われた原因は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The banner was the wrong width.",
+              "explanation": "注文より20センチ狭いバナーだったため値引きされました。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Installation was canceled.",
+              "explanation": "設置料は明細に残っています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "One directional sign was missing.",
+              "explanation": "案内標識の不足は報告されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A sign was delivered late.",
+              "explanation": "納品遅延は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d2-chat",
+              "paragraphIndex": 0,
+              "snippetEn": "The banner arrived at 180 centimeters wide, but our order specified 200 centimeters."
+            },
+            {
+              "passageId": "t01-d2-invoice",
+              "paragraphIndex": 1,
+              "snippetEn": "Adjustment: Banner size credit -$20"
+            }
+          ],
+          "explanationOverall": "チャットの寸法違いが請求書の20ドル調整に対応します。"
+        },
+        {
+          "no": 182,
+          "type": "intention",
+          "questionEn": "What does Keiko mean when she says, \"That makes sense\"?",
+          "questionJa": "ケイコの「それが妥当ですね」は何を意味しますか。",
+          "intentionTarget": {
+            "sender": "Keiko",
+            "utteranceEn": "That makes sense."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "She will contact Brightmark herself.",
+              "explanation": "連絡を引き継ぐとは言っていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "She agrees with accepting the credit.",
+              "explanation": "翌日のイベントに間に合わないため値引きを選んだ判断に同意しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "She wants to postpone the event.",
+              "explanation": "延期を提案していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She believes the original width was correct.",
+              "explanation": "寸法違いを認めた上での発言です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d2-chat",
+              "paragraphIndex": 1,
+              "snippetEn": "Brightmark offered either a replacement next week or a twenty-dollar credit. The event is tomorrow, so I accepted the credit."
+            },
+            {
+              "passageId": "t01-d2-chat",
+              "paragraphIndex": 2,
+              "snippetEn": "That makes sense."
+            }
+          ],
+          "explanationOverall": "直前の交換ではなく値引きを選んだ判断への同意です。"
+        },
+        {
+          "no": 183,
+          "type": "infer",
+          "questionEn": "When is payment most likely due?",
+          "questionJa": "支払期限はいつになる可能性が高いですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "May 6",
+              "explanation": "5月6日は納品日です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "May 15",
+              "explanation": "納品から9日後で、15日以内の最終日ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "May 21",
+              "explanation": "5月6日の15日後なので支払期限と考えられます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "June 6",
+              "explanation": "納品から1か月後ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d2-invoice",
+              "paragraphIndex": 1,
+              "snippetEn": "Delivery date: May 6 | Payment terms: Due within 15 days of delivery"
+            }
+          ],
+          "explanationOverall": "納品日5月6日と「15日以内」という条件を計算します。"
+        },
+        {
+          "no": 184,
+          "type": "synonym",
+          "questionEn": "The word \"center\" in the chat is closest in meaning to",
+          "questionJa": "チャット内の「center」に最も近い意味はどれですか。",
+          "targetWord": "center",
+          "choices": [
+            {
+              "label": "A",
+              "text": "replace immediately",
+              "explanation": "交換の意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "hang outdoors",
+              "explanation": "屋外設置という意味ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "place in the middle",
+              "explanation": "受付机の上の中央に配置するという意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "measure carefully",
+              "explanation": "寸法を測る指示ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d2-chat",
+              "paragraphIndex": 2,
+              "snippetEn": "Please ask the setup crew to center the smaller banner above the registration desk."
+            }
+          ],
+          "explanationOverall": "ここで center は動詞で「中央に置く」です。"
+        },
+        {
+          "no": 185,
+          "type": "detail",
+          "questionEn": "What will Martin do after lunch?",
+          "questionJa": "マーティンは昼食後に何をしますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Move the registration desk",
+              "explanation": "机を移動する話はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Update the expense sheet",
+              "explanation": "本人が昼食後に更新すると述べています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Pay the installation fee",
+              "explanation": "設置料だけを支払う予定ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Replace the banner",
+              "explanation": "交換ではなく値引きを選びました。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-d2-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "I will update the expense sheet after lunch."
+            }
+          ],
+          "explanationOverall": "チャット最後の発言から次の作業を特定します。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t01-t1-ad",
+          "docType": "advertisement",
+          "title": "Greenway Learning Center — Team Retreat Package",
+          "paragraphs": [
+            {
+              "en": "The Garden Room accommodates up to 20 guests and includes a projector, whiteboards, and access to a private patio. The weekday package costs $420 and includes morning coffee.",
+              "ja": "ガーデン室は最大20名を収容し、プロジェクター、ホワイトボード、専用パティオが含まれます。平日パッケージは420ドルで朝のコーヒー付きです。"
+            },
+            {
+              "en": "A buffet lunch may be added for $24 per person. Vegetarian and gluten-free meals are available with five days notice. A deposit equal to 25 percent of the total charge secures the reservation.",
+              "ja": "ビュッフェ昼食は1人24ドルで追加できます。ベジタリアン食とグルテンフリー食は5日前までの連絡で利用できます。合計料金の25パーセントに相当する保証金で予約が確定します。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t1-email",
+          "docType": "email",
+          "title": "Retreat Request",
+          "from": "Dana Wells <dana@lumio.example>",
+          "to": "Bookings <events@greenway.example>",
+          "paragraphs": [
+            {
+              "en": "Hello Greenway Team, I would like to reserve a room for our eighteen-person design team on Wednesday, June 22. We plan to meet from 9:00 A.M. until 3:00 P.M. and will need to show several product videos.",
+              "ja": "グリーンウェイご担当者様、6月22日水曜日に18名のデザインチーム用の部屋を予約したいです。午前9時から午後3時まで会合を行い、製品動画を数本上映する予定です。"
+            },
+            {
+              "en": "Please include buffet lunches, with four vegetarian meals. Could you confirm the total price and tell me when the deposit is due?",
+              "ja": "ビュッフェ昼食を付け、うち4食をベジタリアン食にしてください。合計金額と保証金の期限をご確認いただけますか。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t1-form",
+          "docType": "form",
+          "title": "Greenway Reservation Confirmation G-622",
+          "paragraphs": [
+            {
+              "en": "Client: Lumio Design | Date: Wednesday, June 22 | Room: Garden Room | Guests: 18 | Hours: 9:00 A.M.–3:00 P.M.",
+              "ja": "顧客：ルミオ・デザイン｜日付：6月22日水曜日｜部屋：ガーデン室｜人数：18名｜時間：午前9時～午後3時"
+            },
+            {
+              "en": "Room package: $420 | Buffet lunches: 18 × $24 = $432 | Total: $852 | Deposit due: June 10 | Meal note: 4 vegetarian",
+              "ja": "部屋パッケージ：420ドル｜ビュッフェ昼食：18×24ドル＝432ドル｜合計：852ドル｜保証金期限：6月10日｜食事注記：ベジタリアン4食"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 186,
+          "type": "detail",
+          "questionEn": "Why does Ms. Wells need a room with a projector?",
+          "questionJa": "ウェルズ氏がプロジェクター付きの部屋を必要とするのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "She will display product videos.",
+              "explanation": "メールで製品動画を上映すると述べています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "She will conduct remote interviews.",
+              "explanation": "遠隔面談の予定はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She will teach a gardening class.",
+              "explanation": "園芸講座ではなくチーム会合です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She will replace the whiteboards.",
+              "explanation": "設備交換を行うのではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "will need to show several product videos."
+            },
+            {
+              "passageId": "t01-t1-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "includes a projector"
+            }
+          ],
+          "explanationOverall": "メールの用途と広告の設備を結び付けます。"
+        },
+        {
+          "no": 187,
+          "type": "infer",
+          "questionEn": "Why was the Garden Room appropriate for the group?",
+          "questionJa": "ガーデン室がこのグループに適していたのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It includes free buffet lunches.",
+              "explanation": "昼食は1人24ドルの追加です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It requires no deposit.",
+              "explanation": "25パーセントの保証金が必要です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It is available only on weekends.",
+              "explanation": "予約日は水曜で平日です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It holds the group and has the needed equipment.",
+              "explanation": "18名は定員20名以内で、必要なプロジェクターがあります。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t1-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "accommodates up to 20 guests and includes a projector"
+            },
+            {
+              "passageId": "t01-t1-form",
+              "paragraphIndex": 0,
+              "snippetEn": "Guests: 18"
+            }
+          ],
+          "explanationOverall": "人数と設備の両条件を3文書で照合します。"
+        },
+        {
+          "no": 188,
+          "type": "detail",
+          "questionEn": "How much is the required deposit?",
+          "questionJa": "必要な保証金はいくらですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "$852",
+              "explanation": "852ドルは保証金ではなく合計額です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "$105",
+              "explanation": "105ドルは部屋代420ドルだけの25パーセントで、総額基準ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "$213",
+              "explanation": "総額852ドルの25パーセントは213ドルです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "$420",
+              "explanation": "420ドルは部屋パッケージ料金です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t1-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "A deposit equal to 25 percent of the total charge secures the reservation."
+            },
+            {
+              "passageId": "t01-t1-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Total: $852"
+            }
+          ],
+          "explanationOverall": "広告の25パーセントと確認書の総額852ドルを用いて計算します。"
+        },
+        {
+          "no": 189,
+          "type": "detail",
+          "questionEn": "How many standard buffet meals were ordered?",
+          "questionJa": "通常のビュッフェ食は何食注文されましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "4",
+              "explanation": "4食はベジタリアン食です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "14",
+              "explanation": "全18食からベジタリアン4食を引くと通常食は14食です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "18",
+              "explanation": "18は昼食の総数です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "20",
+              "explanation": "20は部屋の最大収容人数です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t1-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Buffet lunches: 18 × $24 = $432"
+            },
+            {
+              "passageId": "t01-t1-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Meal note: 4 vegetarian"
+            }
+          ],
+          "explanationOverall": "総食数と特別食数の差を求めます。"
+        },
+        {
+          "no": 190,
+          "type": "not",
+          "questionEn": "Which statement is NOT correct about the confirmed reservation?",
+          "questionJa": "確定した予約について正しくないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "All eighteen lunches are standard meals.",
+              "explanation": "4食はベジタリアン食なので、全食が通常食ではありません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The meeting is on June 22.",
+              "explanation": "日付欄に6月22日と確認されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Eighteen guests will attend.",
+              "explanation": "人数欄に18名と確認されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The deposit is due on June 10.",
+              "explanation": "保証金期限欄に6月10日とあります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t1-form",
+              "paragraphIndex": 1,
+              "snippetEn": "Meal note: 4 vegetarian"
+            }
+          ],
+          "explanationOverall": "食事注記と矛盾する内容を選びます。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t01-t2-article",
+          "docType": "article",
+          "title": "Solar Roof Completed at Bayport Ferry Terminal",
+          "paragraphs": [
+            {
+              "en": "Bayport Transit has completed a solar roof above the passenger waiting area. The panels are expected to provide about 40 percent of the terminal building’s annual electricity.",
+              "ja": "ベイポート交通局は旅客待合所の上に太陽光屋根を完成させました。パネルはターミナル建物の年間電力の約40パーセントを供給する見込みです。"
+            },
+            {
+              "en": "The project also added shaded seating and two charging stations for electric bicycles. A public tour will be offered on Saturday as part of the city’s Clean Energy Week.",
+              "ja": "この事業では日陰付き座席と電動自転車用充電所2基も追加されました。市のクリーンエネルギー週間の一環として土曜日に一般見学会が行われます。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t2-schedule",
+          "docType": "schedule",
+          "title": "Saturday Terminal Tours",
+          "paragraphs": [
+            {
+              "en": "Tour A: 9:00 A.M. | Guide: Luis Moreno | Spaces: 20\nTour B: 11:00 A.M. | Guide: Erin Cho | Spaces: 20",
+              "ja": "ツアーA：午前9時｜案内：ルイス・モレノ｜定員20名\nツアーB：午前11時｜案内：エリン・チョー｜定員20名"
+            },
+            {
+              "en": "Tour C: 2:00 P.M. | Guide: Erin Cho | Spaces: 25\nMeet at the ticket hall ten minutes before each tour. Bicycle parking is beside the west platform.",
+              "ja": "ツアーC：午後2時｜案内：エリン・チョー｜定員25名\n各ツアー開始10分前に切符売場へ集合してください。自転車置場は西ホーム横です。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t2-texts",
+          "docType": "text_message_chain",
+          "title": "Tour Volunteers",
+          "messages": [
+            {
+              "sender": "Erin",
+              "timeLabel": "7:35 A.M.",
+              "bodyEn": "Heavy rain is expected until 10:00. The coordinator has canceled Tour A because part of its route is outdoors.",
+              "bodyJa": "10時まで大雨の予報です。経路の一部が屋外なので、責任者がツアーAを中止しました。"
+            },
+            {
+              "sender": "Luis",
+              "timeLabel": "7:38 A.M.",
+              "bodyEn": "I will email the registered visitors and offer them spaces on Tour C. It has five more spaces than the morning tours.",
+              "bodyJa": "登録者へメールし、ツアーCの空きを案内します。午後のツアーは午前の各ツアーより定員が5名多いです。"
+            },
+            {
+              "sender": "Erin",
+              "timeLabel": "7:42 A.M.",
+              "bodyEn": "Good. Tour B is still full, so that is our best option. I will put a cancellation sign in the ticket hall.",
+              "bodyJa": "いいですね。ツアーBは満員のままなので、それが最善です。切符売場に中止の掲示を出します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 191,
+          "type": "main_idea",
+          "questionEn": "What is the article mainly about?",
+          "questionJa": "記事は主に何についてですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A rise in ferry ticket prices",
+              "explanation": "運賃変更は扱っていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A delay in terminal construction",
+              "explanation": "事業は完成しており遅延記事ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A new electric bicycle retailer",
+              "explanation": "自転車店の開業ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A completed renewable-energy improvement",
+              "explanation": "太陽光屋根完成と関連設備追加を報じています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t2-article",
+              "paragraphIndex": 0,
+              "snippetEn": "Bayport Transit has completed a solar roof above the passenger waiting area."
+            }
+          ],
+          "explanationOverall": "ターミナルの太陽光設備完成が記事の主題です。"
+        },
+        {
+          "no": 192,
+          "type": "detail",
+          "questionEn": "What percentage of the terminal’s electricity is the solar roof expected to provide?",
+          "questionJa": "太陽光屋根はターミナル電力の何パーセントを供給する見込みですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "25 percent",
+              "explanation": "25はツアーCの定員です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "40 percent",
+              "explanation": "年間電力の約40パーセントとあります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "50 percent",
+              "explanation": "50パーセントという数値はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "20 percent",
+              "explanation": "20は午前ツアーの定員で、電力割合ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t2-article",
+              "paragraphIndex": 0,
+              "snippetEn": "about 40 percent of the terminal building’s annual electricity."
+            }
+          ],
+          "explanationOverall": "記事第1段落の割合を読み取ります。"
+        },
+        {
+          "no": 193,
+          "type": "infer",
+          "questionEn": "Why did Luis offer Tour C to Tour A visitors?",
+          "questionJa": "ルイスがツアーAの参加者へツアーCを案内したのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Luis was scheduled to guide Tour C.",
+              "explanation": "Cの案内役はエリンです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Tour C follows the same morning route.",
+              "explanation": "同じ経路という説明はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Tour B was full and Tour C had more capacity.",
+              "explanation": "Bは満員で、Cは午前ツアーより定員が5名多いからです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Tour C is entirely indoors.",
+              "explanation": "Cが全て屋内とは書かれていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t2-texts",
+              "paragraphIndex": 2,
+              "snippetEn": "Tour B is still full, so that is our best option."
+            },
+            {
+              "passageId": "t01-t2-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "Tour C: 2:00 P.M. | Guide: Erin Cho | Spaces: 25"
+            }
+          ],
+          "explanationOverall": "予定表の定員とメッセージの満員情報を統合します。"
+        },
+        {
+          "no": 194,
+          "type": "intention",
+          "questionEn": "What does Erin mean by \"that is our best option\"?",
+          "questionJa": "エリンの「それが最善です」は何を意味しますか。",
+          "intentionTarget": {
+            "sender": "Erin",
+            "utteranceEn": "that is our best option"
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "The cancellation sign should be removed.",
+              "explanation": "中止掲示はこれから設置します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Tour A should start after the rain.",
+              "explanation": "Aは中止され、延期とは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Luis should guide Tour B.",
+              "explanation": "Bの案内役変更は話題ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Visitors should be moved to Tour C.",
+              "explanation": "Bが満員なのでCへの振替案を支持しています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t2-texts",
+              "paragraphIndex": 1,
+              "snippetEn": "I will email the registered visitors and offer them spaces on Tour C."
+            },
+            {
+              "passageId": "t01-t2-texts",
+              "paragraphIndex": 2,
+              "snippetEn": "Tour B is still full, so that is our best option."
+            }
+          ],
+          "explanationOverall": "直前のツアーCへの振替提案を指しています。"
+        },
+        {
+          "no": 195,
+          "type": "detail",
+          "questionEn": "Where will Erin place a cancellation sign?",
+          "questionJa": "エリンは中止の掲示をどこへ置きますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "In the ticket hall",
+              "explanation": "メッセージで切符売場に置くと述べています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Above the waiting area",
+              "explanation": "待合所上は太陽光屋根の場所です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Beside the west platform",
+              "explanation": "西ホーム横は自転車置場です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "At a charging station",
+              "explanation": "充電所に掲示するとは言っていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t2-texts",
+              "paragraphIndex": 2,
+              "snippetEn": "I will put a cancellation sign in the ticket hall."
+            }
+          ],
+          "explanationOverall": "最後のメッセージの掲示場所を確認します。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t01-t3-web",
+          "docType": "web_page",
+          "title": "LedgerLeaf Scheduled Maintenance",
+          "paragraphs": [
+            {
+              "en": "LedgerLeaf accounting services will be unavailable from 11:00 P.M. Saturday until 3:00 A.M. Sunday while database upgrades are installed. Saved reports and receipts will not be affected.",
+              "ja": "データベース更新のため、レジャーリーフ会計サービスは土曜午後11時から日曜午前3時まで利用できません。保存済みの報告書と領収書には影響しません。"
+            },
+            {
+              "en": "Customers who schedule automatic invoice delivery during this period may see a delay of up to two hours. For urgent access, download needed reports before maintenance begins.",
+              "ja": "この時間帯に請求書の自動送信を予定した利用者は、最大2時間の遅延が生じる場合があります。緊急利用には保守開始前に必要な報告書をダウンロードしてください。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t3-notice",
+          "docType": "notice",
+          "title": "Finance Department Weekend Work",
+          "paragraphs": [
+            {
+              "en": "The Finance Department will prepare quarterly statements on Sunday from 8:00 A.M. to noon. Employees may work remotely or use Conference Room 3, which has been reserved for the team.",
+              "ja": "財務部は日曜午前8時から正午まで四半期報告書を作成します。従業員は在宅勤務するか、予約済みの会議室3を利用できます。"
+            },
+            {
+              "en": "Download LedgerLeaf reports by 5:00 P.M. Friday and save them in the Q3 shared folder. Contact Mel Torres before Friday noon if remote network access needs to be tested.",
+              "ja": "レジャーリーフの報告書を金曜午後5時までにダウンロードし、Q3共有フォルダーへ保存してください。在宅ネットワーク接続のテストが必要な場合は金曜正午までにメル・トレスへ連絡してください。"
+            }
+          ]
+        },
+        {
+          "passageId": "t01-t3-chat",
+          "docType": "online_chat",
+          "title": "Finance Team Chat",
+          "messages": [
+            {
+              "sender": "Mel",
+              "timeLabel": "Thursday 3:10 P.M.",
+              "bodyEn": "Has everyone decided where to work on Sunday?",
+              "bodyJa": "皆さん、日曜にどこで作業するか決めましたか。"
+            },
+            {
+              "sender": "Aisha",
+              "timeLabel": "Thursday 3:12 P.M.",
+              "bodyEn": "I will work from home. My network test was successful this morning, and I have already saved the sales report.",
+              "bodyJa": "私は自宅で作業します。今朝ネットワークテストに成功し、販売報告書も保存済みです。"
+            },
+            {
+              "sender": "Jon",
+              "timeLabel": "Thursday 3:15 P.M.",
+              "bodyEn": "I will use Conference Room 3. Could someone download the expense report? I am visiting a supplier all day Friday.",
+              "bodyJa": "私は会議室3を使います。誰か経費報告書をダウンロードしてもらえますか。金曜は終日仕入先を訪問します。"
+            },
+            {
+              "sender": "Mel",
+              "timeLabel": "Thursday 3:18 P.M.",
+              "bodyEn": "I can take care of that. I will place it in the shared folder with the other files.",
+              "bodyJa": "私が対応できます。他のファイルと一緒に共有フォルダーへ置きます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 196,
+          "type": "main_idea",
+          "questionEn": "What is the purpose of the LedgerLeaf web page?",
+          "questionJa": "レジャーリーフのウェブページの目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To explain how to prepare quarterly statements",
+              "explanation": "四半期報告書の作り方ではなくサービス保守の告知です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To announce maintenance and its possible effects",
+              "explanation": "保守時間、影響、事前対応を案内しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "To introduce a new accounting subscription",
+              "explanation": "新料金プランの紹介ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To request customer receipts",
+              "explanation": "領収書提出の依頼ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t3-web",
+              "paragraphIndex": 0,
+              "snippetEn": "LedgerLeaf accounting services will be unavailable from 11:00 P.M. Saturday until 3:00 A.M. Sunday"
+            }
+          ],
+          "explanationOverall": "サービス停止時間と利用者への影響を知らせるページです。"
+        },
+        {
+          "no": 197,
+          "type": "detail",
+          "questionEn": "By when should Finance employees download the reports?",
+          "questionJa": "財務部員はいつまでに報告書をダウンロードすべきですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Thursday at 3:00 P.M.",
+              "explanation": "木曜はチャット日ですが締切ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Friday at noon",
+              "explanation": "金曜正午はネットワークテスト連絡の期限です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Friday at 5:00 P.M.",
+              "explanation": "通知にダウンロード期限として明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Saturday at 11:00 P.M.",
+              "explanation": "これは保守開始時刻で、社内期限より遅いです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t3-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "Download LedgerLeaf reports by 5:00 P.M. Friday"
+            }
+          ],
+          "explanationOverall": "社内通知の報告書保存期限を選びます。"
+        },
+        {
+          "no": 198,
+          "type": "infer",
+          "questionEn": "Why did Jon ask someone else to download the expense report?",
+          "questionJa": "ジョンが別の人に経費報告書のダウンロードを頼んだのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The report can be opened only in Conference Room 3.",
+              "explanation": "会議室限定のファイルではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "He does not work for Finance.",
+              "explanation": "日曜作業へ参加する財務チーム員です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "His remote network test failed.",
+              "explanation": "ジョンのネットワークテスト結果は示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "He will be away from the office on Friday.",
+              "explanation": "金曜は終日仕入先を訪問するため期限対応が難しいからです。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t3-chat",
+              "paragraphIndex": 2,
+              "snippetEn": "I am visiting a supplier all day Friday."
+            },
+            {
+              "passageId": "t01-t3-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "Download LedgerLeaf reports by 5:00 P.M. Friday"
+            }
+          ],
+          "explanationOverall": "金曜のダウンロード期限とジョンの外出予定を関連付けます。"
+        },
+        {
+          "no": 199,
+          "type": "detail",
+          "questionEn": "Which report had already been saved at the time of the chat?",
+          "questionJa": "チャット時点ですでに保存されていた報告書はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The sales report",
+              "explanation": "アイシャが販売報告書を保存済みと述べています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The expense report",
+              "explanation": "経費報告書はメルがこれから対応します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The supplier report",
+              "explanation": "仕入先報告書というファイルはありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The maintenance report",
+              "explanation": "保守報告書の保存は話題ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t3-chat",
+              "paragraphIndex": 1,
+              "snippetEn": "I have already saved the sales report."
+            }
+          ],
+          "explanationOverall": "アイシャの発言から保存済みファイルを特定します。"
+        },
+        {
+          "no": 200,
+          "type": "intention",
+          "questionEn": "What does Mel mean by \"I can take care of that\"?",
+          "questionJa": "メルの「私が対応できます」は何を意味しますか。",
+          "intentionTarget": {
+            "sender": "Mel",
+            "utteranceEn": "I can take care of that."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "She will download and save the expense report.",
+              "explanation": "ジョンの直前の依頼を引き受けています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "She will visit the supplier with Jon.",
+              "explanation": "仕入先訪問に同行する話ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She will reserve Conference Room 3.",
+              "explanation": "会議室はすでに予約済みです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She will change the maintenance schedule.",
+              "explanation": "保守時間を変更する権限や意図はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t01-t3-chat",
+              "paragraphIndex": 2,
+              "snippetEn": "Could someone download the expense report?"
+            },
+            {
+              "passageId": "t01-t3-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "I can take care of that."
+            }
+          ],
+          "explanationOverall": "that はジョンの経費報告書ダウンロード依頼を指します。"
+        }
+      ]
+    }
+  ]
+}

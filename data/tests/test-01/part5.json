@@ -1,0 +1,996 @@
+{
+  "testId": "test-01",
+  "part": 5,
+  "questions": [
+    {
+      "no": 101,
+      "sentence": "The finance team responded ______ to the auditor's request for additional records.",
+      "sentenceJa": "財務チームは、追加記録を求める監査人の依頼に迅速に対応しました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "promptly",
+          "explanation": "「promptly」が文法と文脈の両方に合います。動詞 responded を修飾する副詞 promptly が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "prompt",
+          "explanation": "「prompt」はこの空所で求められる形または意味に合いません。動詞 responded を修飾する副詞 promptly が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "promptness",
+          "explanation": "「promptness」はこの空所で求められる形または意味に合いません。動詞 responded を修飾する副詞 promptly が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "prompted",
+          "explanation": "「prompted」はこの空所で求められる形または意味に合いません。動詞 responded を修飾する副詞 promptly が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "動詞 responded を修飾する副詞 promptly が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 102,
+      "sentence": "The product demonstration ______ until next Tuesday because the equipment has not arrived.",
+      "sentenceJa": "機器が到着していないため、製品実演は来週火曜日まで延期されました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "postpones",
+          "explanation": "「postpones」はこの空所で求められる形または意味に合いません。demonstration は延期される側なので現在完了の受動態が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "has been postponed",
+          "explanation": "「has been postponed」が文法と文脈の両方に合います。demonstration は延期される側なので現在完了の受動態が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "postponed",
+          "explanation": "「postponed」はこの空所で求められる形または意味に合いません。demonstration は延期される側なので現在完了の受動態が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "has postponed",
+          "explanation": "「has postponed」はこの空所で求められる形または意味に合いません。demonstration は延期される側なので現在完了の受動態が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "demonstration は延期される側なので現在完了の受動態が適切です。",
+      "tag": "verb_form"
+    },
+    {
+      "no": 103,
+      "sentence": "Several flights were delayed ______ heavy fog near the airport.",
+      "sentenceJa": "空港付近の濃霧のため、複数の便が遅延しました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "because",
+          "explanation": "「because」はこの空所で求められる形または意味に合いません。後ろが名詞句 heavy fog なので because of を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "although",
+          "explanation": "「although」はこの空所で求められる形または意味に合いません。後ろが名詞句 heavy fog なので because of を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "because of",
+          "explanation": "「because of」が文法と文脈の両方に合います。後ろが名詞句 heavy fog なので because of を使います。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "unless",
+          "explanation": "「unless」はこの空所で求められる形または意味に合いません。後ろが名詞句 heavy fog なので because of を使います。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "後ろが名詞句 heavy fog なので because of を使います。",
+      "tag": "preposition"
+    },
+    {
+      "no": 104,
+      "sentence": "All ______ must submit a résumé and two professional references by May 18.",
+      "sentenceJa": "すべての応募者は5月18日までに履歴書と2通の職務上の推薦状を提出しなければなりません。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "applications",
+          "explanation": "「applications」はこの空所で求められる形または意味に合いません。All の後で「応募者」を表す複数名詞 applicants が主語になります。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "applicable",
+          "explanation": "「applicable」はこの空所で求められる形または意味に合いません。All の後で「応募者」を表す複数名詞 applicants が主語になります。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "applying",
+          "explanation": "「applying」はこの空所で求められる形または意味に合いません。All の後で「応募者」を表す複数名詞 applicants が主語になります。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "applicants",
+          "explanation": "「applicants」が文法と文脈の両方に合います。All の後で「応募者」を表す複数名詞 applicants が主語になります。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "All の後で「応募者」を表す複数名詞 applicants が主語になります。",
+      "tag": "grammar"
+    },
+    {
+      "no": 105,
+      "sentence": "The new printer is ______ faster and quieter than the model it replaces.",
+      "sentenceJa": "新しいプリンターは、置き換え前の機種より速く、しかも静かです。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "both",
+          "explanation": "「both」が文法と文脈の両方に合います。both A and B の相関表現で2つの長所を結びます。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "either",
+          "explanation": "「either」はこの空所で求められる形または意味に合いません。both A and B の相関表現で2つの長所を結びます。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "neither",
+          "explanation": "「neither」はこの空所で求められる形または意味に合いません。both A and B の相関表現で2つの長所を結びます。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "whether",
+          "explanation": "「whether」はこの空所で求められる形または意味に合いません。both A and B の相関表現で2つの長所を結びます。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "both A and B の相関表現で2つの長所を結びます。",
+      "tag": "conjunction"
+    },
+    {
+      "no": 106,
+      "sentence": "Ms. Ortega is known for providing ______ estimates even when project details are limited.",
+      "sentenceJa": "オルテガさんは、プロジェクトの詳細が限られている場合でも信頼できる見積もりを出すことで知られています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rely",
+          "explanation": "「rely」はこの空所で求められる形または意味に合いません。名詞 estimates を修飾する形容詞 reliable が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "reliable",
+          "explanation": "「reliable」が文法と文脈の両方に合います。名詞 estimates を修飾する形容詞 reliable が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "reliably",
+          "explanation": "「reliably」はこの空所で求められる形または意味に合いません。名詞 estimates を修飾する形容詞 reliable が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "reliability",
+          "explanation": "「reliability」はこの空所で求められる形または意味に合いません。名詞 estimates を修飾する形容詞 reliable が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "名詞 estimates を修飾する形容詞 reliable が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 107,
+      "sentence": "Please ______ the completed expense form to your department manager.",
+      "sentenceJa": "記入済みの経費申請書を部門マネージャーに提出してください。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attend",
+          "explanation": "「attend」はこの空所で求められる形または意味に合いません。書類を「提出する」という意味の submit が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "borrow",
+          "explanation": "「borrow」はこの空所で求められる形または意味に合いません。書類を「提出する」という意味の submit が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "submit",
+          "explanation": "「submit」が文法と文脈の両方に合います。書類を「提出する」という意味の submit が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "arrange",
+          "explanation": "「arrange」はこの空所で求められる形または意味に合いません。書類を「提出する」という意味の submit が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "書類を「提出する」という意味の submit が適切です。",
+      "tag": "vocab"
+    },
+    {
+      "no": 108,
+      "sentence": "______ the unexpected increase in material costs, the project remained within budget.",
+      "sentenceJa": "予想外の資材費上昇にもかかわらず、プロジェクトは予算内に収まりました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "During",
+          "explanation": "「During」はこの空所で求められる形または意味に合いません。逆接の意味で名詞句を導く Despite が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "Except",
+          "explanation": "「Except」はこの空所で求められる形または意味に合いません。逆接の意味で名詞句を導く Despite が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "Toward",
+          "explanation": "「Toward」はこの空所で求められる形または意味に合いません。逆接の意味で名詞句を導く Despite が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "Despite",
+          "explanation": "「Despite」が文法と文脈の両方に合います。逆接の意味で名詞句を導く Despite が適切です。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "逆接の意味で名詞句を導く Despite が適切です。",
+      "tag": "preposition"
+    },
+    {
+      "no": 109,
+      "sentence": "Employees ______ wish to join the volunteer event should register online.",
+      "sentenceJa": "ボランティアイベントへの参加を希望する従業員は、オンラインで登録してください。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "who",
+          "explanation": "「who」が文法と文脈の両方に合います。先行詞 Employees を受け、関係節の主語になる who を使います。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "which",
+          "explanation": "「which」はこの空所で求められる形または意味に合いません。先行詞 Employees を受け、関係節の主語になる who を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "whose",
+          "explanation": "「whose」はこの空所で求められる形または意味に合いません。先行詞 Employees を受け、関係節の主語になる who を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "whom",
+          "explanation": "「whom」はこの空所で求められる形または意味に合いません。先行詞 Employees を受け、関係節の主語になる who を使います。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "先行詞 Employees を受け、関係節の主語になる who を使います。",
+      "tag": "pronoun"
+    },
+    {
+      "no": 110,
+      "sentence": "The hotel plans a major ______ of its conference facilities this winter.",
+      "sentenceJa": "そのホテルは今冬、会議施設の大規模な拡張を計画しています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "expand",
+          "explanation": "「expand」はこの空所で求められる形または意味に合いません。冠詞 a と形容詞 major の後には名詞 expansion が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "expansion",
+          "explanation": "「expansion」が文法と文脈の両方に合います。冠詞 a と形容詞 major の後には名詞 expansion が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "expands",
+          "explanation": "「expands」はこの空所で求められる形または意味に合いません。冠詞 a と形容詞 major の後には名詞 expansion が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "expansive",
+          "explanation": "「expansive」はこの空所で求められる形または意味に合いません。冠詞 a と形容詞 major の後には名詞 expansion が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "冠詞 a と形容詞 major の後には名詞 expansion が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 111,
+      "sentence": "Visitors must obtain a security badge ______ entering the research laboratory.",
+      "sentenceJa": "訪問者は研究所に入る前にセキュリティバッジを取得しなければなりません。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "while",
+          "explanation": "「while」はこの空所で求められる形または意味に合いません。入室より先に取得するため、時間関係を示す before が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "since",
+          "explanation": "「since」はこの空所で求められる形または意味に合いません。入室より先に取得するため、時間関係を示す before が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "before",
+          "explanation": "「before」が文法と文脈の両方に合います。入室より先に取得するため、時間関係を示す before が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "until",
+          "explanation": "「until」はこの空所で求められる形または意味に合いません。入室より先に取得するため、時間関係を示す before が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "入室より先に取得するため、時間関係を示す before が適切です。",
+      "tag": "conjunction"
+    },
+    {
+      "no": 112,
+      "sentence": "The survey results were ______ summarized in a report for senior management.",
+      "sentenceJa": "調査結果は上級管理職向けの報告書に正確にまとめられました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "accuracy",
+          "explanation": "「accuracy」はこの空所で求められる形または意味に合いません。動詞 summarized を修飾する副詞 accurately が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "accurate",
+          "explanation": "「accurate」はこの空所で求められる形または意味に合いません。動詞 summarized を修飾する副詞 accurately が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "more accurate",
+          "explanation": "「more accurate」はこの空所で求められる形または意味に合いません。動詞 summarized を修飾する副詞 accurately が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "accurately",
+          "explanation": "「accurately」が文法と文脈の両方に合います。動詞 summarized を修飾する副詞 accurately が必要です。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "動詞 summarized を修飾する副詞 accurately が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 113,
+      "sentence": "Mr. Chen ______ at the Osaka branch since it opened in 2019.",
+      "sentenceJa": "チェンさんは2019年の大阪支店開設以来、同支店で勤務しています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has worked",
+          "explanation": "「has worked」が文法と文脈の両方に合います。since と継続期間があるため現在完了 has worked を使います。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "works",
+          "explanation": "「works」はこの空所で求められる形または意味に合いません。since と継続期間があるため現在完了 has worked を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "worked",
+          "explanation": "「worked」はこの空所で求められる形または意味に合いません。since と継続期間があるため現在完了 has worked を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "will work",
+          "explanation": "「will work」はこの空所で求められる形または意味に合いません。since と継続期間があるため現在完了 has worked を使います。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "since と継続期間があるため現在完了 has worked を使います。",
+      "tag": "verb_form"
+    },
+    {
+      "no": 114,
+      "sentence": "Final ______ from the safety committee is required before production can begin.",
+      "sentenceJa": "生産を開始する前に、安全委員会の最終承認が必要です。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "approve",
+          "explanation": "「approve」はこの空所で求められる形または意味に合いません。形容詞 Final の後で主語になる名詞 approval が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "approval",
+          "explanation": "「approval」が文法と文脈の両方に合います。形容詞 Final の後で主語になる名詞 approval が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "approved",
+          "explanation": "「approved」はこの空所で求められる形または意味に合いません。形容詞 Final の後で主語になる名詞 approval が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "approving",
+          "explanation": "「approving」はこの空所で求められる形または意味に合いません。形容詞 Final の後で主語になる名詞 approval が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "形容詞 Final の後で主語になる名詞 approval が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 115,
+      "sentence": "The outdoor concert will proceed as scheduled ______ severe weather is expected.",
+      "sentenceJa": "荒天が予想されない限り、屋外コンサートは予定どおり開催されます。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "because",
+          "explanation": "「because」はこの空所で求められる形または意味に合いません。「～でない限り」という条件を示す unless が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "so that",
+          "explanation": "「so that」はこの空所で求められる形または意味に合いません。「～でない限り」という条件を示す unless が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "unless",
+          "explanation": "「unless」が文法と文脈の両方に合います。「～でない限り」という条件を示す unless が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "whereas",
+          "explanation": "「whereas」はこの空所で求められる形または意味に合いません。「～でない限り」という条件を示す unless が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "「～でない限り」という条件を示す unless が適切です。",
+      "tag": "conjunction"
+    },
+    {
+      "no": 116,
+      "sentence": "A limited number of complimentary tickets are ______ at the reception desk.",
+      "sentenceJa": "無料チケットは受付で数量限定で配布されています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "capable",
+          "explanation": "「capable」はこの空所で求められる形または意味に合いません。「入手可能な」という意味の available が文脈に合います。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "probable",
+          "explanation": "「probable」はこの空所で求められる形または意味に合いません。「入手可能な」という意味の available が文脈に合います。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "responsible",
+          "explanation": "「responsible」はこの空所で求められる形または意味に合いません。「入手可能な」という意味の available が文脈に合います。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "available",
+          "explanation": "「available」が文法と文脈の両方に合います。「入手可能な」という意味の available が文脈に合います。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "「入手可能な」という意味の available が文脈に合います。",
+      "tag": "vocab"
+    },
+    {
+      "no": 117,
+      "sentence": "The purchasing director will ______ a lower delivery fee with the supplier.",
+      "sentenceJa": "購買部長は供給業者と、より低い配送料について交渉します。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "negotiate",
+          "explanation": "「negotiate」が文法と文脈の両方に合います。条件について「交渉する」という意味の negotiate が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "inspect",
+          "explanation": "「inspect」はこの空所で求められる形または意味に合いません。条件について「交渉する」という意味の negotiate が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "reserve",
+          "explanation": "「reserve」はこの空所で求められる形または意味に合いません。条件について「交渉する」という意味の negotiate が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "manufacture",
+          "explanation": "「manufacture」はこの空所で求められる形または意味に合いません。条件について「交渉する」という意味の negotiate が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "条件について「交渉する」という意味の negotiate が適切です。",
+      "tag": "vocab"
+    },
+    {
+      "no": 118,
+      "sentence": "The consultant, ______ recommendations were adopted last year, will return in June.",
+      "sentenceJa": "昨年提案が採用されたそのコンサルタントは、6月に戻ってきます。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "who",
+          "explanation": "「who」はこの空所で求められる形または意味に合いません。recommendations との所有関係を表す whose が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "whose",
+          "explanation": "「whose」が文法と文脈の両方に合います。recommendations との所有関係を表す whose が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "whom",
+          "explanation": "「whom」はこの空所で求められる形または意味に合いません。recommendations との所有関係を表す whose が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "which",
+          "explanation": "「which」はこの空所で求められる形または意味に合いません。recommendations との所有関係を表す whose が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "recommendations との所有関係を表す whose が必要です。",
+      "tag": "pronoun"
+    },
+    {
+      "no": 119,
+      "sentence": "Online orders increased ______ after the company introduced free shipping.",
+      "sentenceJa": "会社が送料無料を導入した後、オンライン注文は大幅に増加しました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "considerable",
+          "explanation": "「considerable」はこの空所で求められる形または意味に合いません。動詞 increased を修飾する副詞 considerably が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "consideration",
+          "explanation": "「consideration」はこの空所で求められる形または意味に合いません。動詞 increased を修飾する副詞 considerably が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "considerably",
+          "explanation": "「considerably」が文法と文脈の両方に合います。動詞 increased を修飾する副詞 considerably が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "considering",
+          "explanation": "「considering」はこの空所で求められる形または意味に合いません。動詞 increased を修飾する副詞 considerably が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "動詞 increased を修飾する副詞 considerably が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 120,
+      "sentence": "The museum will close early on Friday ______ a private reception.",
+      "sentenceJa": "博物館は貸切レセプションのため、金曜日は早く閉館します。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "apart from",
+          "explanation": "「apart from」はこの空所で求められる形または意味に合いません。理由を表す前置詞句 due to が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "instead of",
+          "explanation": "「instead of」はこの空所で求められる形または意味に合いません。理由を表す前置詞句 due to が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "next to",
+          "explanation": "「next to」はこの空所で求められる形または意味に合いません。理由を表す前置詞句 due to が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "due to",
+          "explanation": "「due to」が文法と文脈の両方に合います。理由を表す前置詞句 due to が適切です。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "理由を表す前置詞句 due to が適切です。",
+      "tag": "preposition"
+    },
+    {
+      "no": 121,
+      "sentence": "All electrical inspections must ______ before tenants move into the building.",
+      "sentenceJa": "入居者が建物に入る前に、すべての電気検査を完了しなければなりません。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "be completed",
+          "explanation": "「be completed」が文法と文脈の両方に合います。inspections は完了される側で、助動詞 must の後なので be completed です。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "complete",
+          "explanation": "「complete」はこの空所で求められる形または意味に合いません。inspections は完了される側で、助動詞 must の後なので be completed です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "completed",
+          "explanation": "「completed」はこの空所で求められる形または意味に合いません。inspections は完了される側で、助動詞 must の後なので be completed です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "be completing",
+          "explanation": "「be completing」はこの空所で求められる形または意味に合いません。inspections は完了される側で、助動詞 must の後なので be completed です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "inspections は完了される側で、助動詞 must の後なので be completed です。",
+      "tag": "verb_form"
+    },
+    {
+      "no": 122,
+      "sentence": "The marketing campaign was so ______ that demand exceeded the factory's capacity.",
+      "sentenceJa": "マーケティングキャンペーンが非常に成功したため、需要が工場の生産能力を超えました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "success",
+          "explanation": "「success」はこの空所で求められる形または意味に合いません。be動詞 was の補語となる形容詞 successful が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "successful",
+          "explanation": "「successful」が文法と文脈の両方に合います。be動詞 was の補語となる形容詞 successful が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "successfully",
+          "explanation": "「successfully」はこの空所で求められる形または意味に合いません。be動詞 was の補語となる形容詞 successful が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "succeed",
+          "explanation": "「succeed」はこの空所で求められる形または意味に合いません。be動詞 was の補語となる形容詞 successful が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "be動詞 was の補語となる形容詞 successful が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 123,
+      "sentence": "The annual award is presented to the most innovative proposal ______ all submissions.",
+      "sentenceJa": "年次賞は、すべての応募案の中で最も革新的な提案に贈られます。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "between",
+          "explanation": "「between」はこの空所で求められる形または意味に合いません。3つ以上の集合の中を示す among が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "through",
+          "explanation": "「through」はこの空所で求められる形または意味に合いません。3つ以上の集合の中を示す among が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "among",
+          "explanation": "「among」が文法と文脈の両方に合います。3つ以上の集合の中を示す among が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "beside",
+          "explanation": "「beside」はこの空所で求められる形または意味に合いません。3つ以上の集合の中を示す among が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "3つ以上の集合の中を示す among が適切です。",
+      "tag": "preposition"
+    },
+    {
+      "no": 124,
+      "sentence": "We will ______ customers by e-mail when their orders are ready for pickup.",
+      "sentenceJa": "注文品の受け取り準備ができた時点で、顧客に電子メールで通知します。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mention",
+          "explanation": "「mention」はこの空所で求められる形または意味に合いません。notify + 人で「人に通知する」という形を取ります。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "announce",
+          "explanation": "「announce」はこの空所で求められる形または意味に合いません。notify + 人で「人に通知する」という形を取ります。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "explain",
+          "explanation": "「explain」はこの空所で求められる形または意味に合いません。notify + 人で「人に通知する」という形を取ります。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "notify",
+          "explanation": "「notify」が文法と文脈の両方に合います。notify + 人で「人に通知する」という形を取ります。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "notify + 人で「人に通知する」という形を取ります。",
+      "tag": "vocab"
+    },
+    {
+      "no": 125,
+      "sentence": "The instructions have been simplified ______ new users can install the software easily.",
+      "sentenceJa": "新規利用者がソフトウェアを簡単にインストールできるよう、説明書が簡略化されました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "so that",
+          "explanation": "「so that」が文法と文脈の両方に合います。目的を表す so that が適切です。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "even though",
+          "explanation": "「even though」はこの空所で求められる形または意味に合いません。目的を表す so that が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "as if",
+          "explanation": "「as if」はこの空所で求められる形または意味に合いません。目的を表す so that が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "rather than",
+          "explanation": "「rather than」はこの空所で求められる形または意味に合いません。目的を表す so that が適切です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "目的を表す so that が適切です。",
+      "tag": "conjunction"
+    },
+    {
+      "no": 126,
+      "sentence": "Regular ______ of the ventilation system will help reduce energy costs.",
+      "sentenceJa": "換気システムを定期的に保守することで、エネルギー費用の削減につながります。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "maintain",
+          "explanation": "「maintain」はこの空所で求められる形または意味に合いません。形容詞 Regular の後で主語になる名詞 maintenance が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "maintenance",
+          "explanation": "「maintenance」が文法と文脈の両方に合います。形容詞 Regular の後で主語になる名詞 maintenance が必要です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "maintained",
+          "explanation": "「maintained」はこの空所で求められる形または意味に合いません。形容詞 Regular の後で主語になる名詞 maintenance が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "maintaining",
+          "explanation": "「maintaining」はこの空所で求められる形または意味に合いません。形容詞 Regular の後で主語になる名詞 maintenance が必要です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "形容詞 Regular の後で主語になる名詞 maintenance が必要です。",
+      "tag": "grammar"
+    },
+    {
+      "no": 127,
+      "sentence": "The revised contract arrived two days ______ than the legal team had expected.",
+      "sentenceJa": "改訂契約書は法務チームの予想より2日早く届きました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "early",
+          "explanation": "「early」はこの空所で求められる形または意味に合いません。than があるため比較級 earlier を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "earliest",
+          "explanation": "「earliest」はこの空所で求められる形または意味に合いません。than があるため比較級 earlier を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "earlier",
+          "explanation": "「earlier」が文法と文脈の両方に合います。than があるため比較級 earlier を使います。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "more early",
+          "explanation": "「more early」はこの空所で求められる形または意味に合いません。than があるため比較級 earlier を使います。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "than があるため比較級 earlier を使います。",
+      "tag": "grammar"
+    },
+    {
+      "no": 128,
+      "sentence": "Department heads are expected to prepare the monthly reports ______.",
+      "sentenceJa": "各部門長は月次報告書を自ら作成することが求められています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their",
+          "explanation": "「their」はこの空所で求められる形または意味に合いません。主語 Department heads を強調する再帰代名詞 themselves が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "them",
+          "explanation": "「them」はこの空所で求められる形または意味に合いません。主語 Department heads を強調する再帰代名詞 themselves が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "they",
+          "explanation": "「they」はこの空所で求められる形または意味に合いません。主語 Department heads を強調する再帰代名詞 themselves が適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "themselves",
+          "explanation": "「themselves」が文法と文脈の両方に合います。主語 Department heads を強調する再帰代名詞 themselves が適切です。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "主語 Department heads を強調する再帰代名詞 themselves が適切です。",
+      "tag": "pronoun"
+    },
+    {
+      "no": 129,
+      "sentence": "The architect ______ using recycled materials for the lobby renovation.",
+      "sentenceJa": "建築家はロビー改装に再生材料を使用することを勧めました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "recommended",
+          "explanation": "「recommended」が文法と文脈の両方に合います。recommend doing の形で「～することを勧める」と表します。",
+          "isCorrect": true
+        },
+        {
+          "label": "B",
+          "text": "prevented",
+          "explanation": "「prevented」はこの空所で求められる形または意味に合いません。recommend doing の形で「～することを勧める」と表します。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "refused",
+          "explanation": "「refused」はこの空所で求められる形または意味に合いません。recommend doing の形で「～することを勧める」と表します。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "expected",
+          "explanation": "「expected」はこの空所で求められる形または意味に合いません。recommend doing の形で「～することを勧める」と表します。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "recommend doing の形で「～することを勧める」と表します。",
+      "tag": "verb_form"
+    },
+    {
+      "no": 130,
+      "sentence": "Please indicate ______ you require vegetarian meals on the registration form.",
+      "sentenceJa": "登録用紙に、ベジタリアン食が必要かどうかを記入してください。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "until",
+          "explanation": "「until」はこの空所で求められる形または意味に合いません。「～かどうか」を表す whether が名詞節を導きます。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "whether",
+          "explanation": "「whether」が文法と文脈の両方に合います。「～かどうか」を表す whether が名詞節を導きます。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "despite",
+          "explanation": "「despite」はこの空所で求められる形または意味に合いません。「～かどうか」を表す whether が名詞節を導きます。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "wherever",
+          "explanation": "「wherever」はこの空所で求められる形または意味に合いません。「～かどうか」を表す whether が名詞節を導きます。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "「～かどうか」を表す whether が名詞節を導きます。",
+      "tag": "conjunction"
+    }
+  ]
+}

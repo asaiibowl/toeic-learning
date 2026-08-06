@@ -1,0 +1,332 @@
+{
+  "testId": "sample-01",
+  "part": 6,
+  "passages": [
+    {
+      "passageNo": 1,
+      "docType": "memo",
+      "title": "Internal Memorandum: Office Relocation Schedule",
+      "paragraphs": [
+        {
+          "en": "To: All Staff\nFrom: Facilities Management\nDate: October 15\nRe: Office Relocation",
+          "ja": "宛先：全スタッフ\n差出人：施設管理部\n日付：10月15日\n件名：オフィス移転"
+        },
+        {
+          "en": "We are pleased to ______[131] that our company will be relocating to a new building on November 1. The new office is located at 450 Commerce Drive, Suite 800, and offers significantly more workspace for our growing team.",
+          "ja": "11月1日に当社が新しいビルへ移転することを______[131]できることをお伝えします。新しいオフィスは、コマース・ドライブ450番地、スイート800にあり、成長する私たちのチームにとってはるかに広いワークスペースを提供しています。"
+        },
+        {
+          "en": "All employees are ______[132] to update their contact information in the HR system by October 25. Please also ensure that any business cards or printed materials bearing the old address are replaced before the move.",
+          "ja": "全従業員は10月25日までに人事システムの連絡先情報を更新する______[132]があります。また、古い住所が記載された名刺や印刷物は、移転前に交換するようにしてください。"
+        },
+        {
+          "en": "The relocation team has arranged for professional movers to assist with the transition. ______[133] Personal belongings should be packed in the labeled boxes provided at the reception desk.",
+          "ja": "移転チームは、引越しの専門業者を手配しています。______[133] 個人の所持品は、受付デスクに用意されたラベル付きの箱に梱包してください。"
+        },
+        {
+          "en": "If you have any questions or concerns about the move, please do not hesitate to contact the Facilities Management team ______[134] extension 4500. We appreciate your cooperation during this exciting transition.",
+          "ja": "引越しについてご質問やご不明な点がございましたら、内線4500______[134]施設管理チームにお気軽にお問い合わせください。このわくわくする転換期におけるご協力に感謝いたします。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 131,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "announce",
+              "explanation": "announce（発表する）は他動詞で「〜を発表する」。be pleased to announce that という表現はビジネス文書で非常によく使われる定型表現です。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "announced",
+              "explanation": "announced は過去形または過去分詞。to の後には動詞の原形が必要なので不適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "announcing",
+              "explanation": "announcing は現在分詞/動名詞。to の後に動名詞は来ません（to + 動詞原形が不定詞）。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "announcement",
+              "explanation": "announcement は名詞「発表」。to の後には動詞の原形が必要で、名詞は不適切です。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 1,
+            "snippetEn": "We are pleased to ______[131] that our company will be relocating"
+          },
+          "explanationOverall": "be pleased to ______ という不定詞構造から、空所には動詞の原形が入ります。「発表できて光栄です」という意味の announce が正解です。ビジネスメモの定型表現として頻出です。"
+        },
+        {
+          "no": 132,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "required",
+              "explanation": "required は形容詞/過去分詞「要求される」。are required to（〜することが求められる）は正しい表現で、義務を表します。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "requiring",
+              "explanation": "requiring は現在分詞。are requiring to という形は通常使いません。require は通常、require someone to do の形で使います。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "requirement",
+              "explanation": "requirement は名詞「要件」。are + 名詞 + to という構造は成立しません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "require",
+              "explanation": "require は動詞原形。All employees are require to というのは動詞が重複し文法的に誤りです。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 2,
+            "snippetEn": "All employees are ______[132] to update their contact information"
+          },
+          "explanationOverall": "All employees are ______ to update という受動態の構造。are required to do（〜することが求められる）という義務表現が適切です。TOEIC 頻出の be + 過去分詞 + to 不定詞のパターンです。"
+        },
+        {
+          "no": 133,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Employees are encouraged to arrive at the new location by 9:00 A.M. on the first day.",
+              "explanation": "最初の日に新しい場所へ9時までに来るよう奨励するという内容。移転作業の文脈で、引越し業者の話の後に「従業員の行動指示」として自然に続きます。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The old building will be demolished next spring.",
+              "explanation": "旧ビルが来春取り壊されるという内容。話の流れとして移転手順の説明の途中に挿入するには唐突で、文書の目的（移転手順の伝達）とずれています。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Please submit your annual performance review by the end of this month.",
+              "explanation": "年次業績評価を今月末までに提出するよう求める内容。移転に関するメモの文脈とは全く関係がなく不適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The Facilities Management team was established in 2010.",
+              "explanation": "施設管理チームが2010年に設立されたという内容。移転手順の説明とは無関係な歴史的情報であり、文書の流れに合いません。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "文挿入問題。挿入後の文「Personal belongings should be packed...（個人の所持品は梱包してください）」との接続を考えます。引越し業者についての文の後、従業員向けの行動指示として「最初の日に新しい場所へ9時までに来る」という(A)が最も自然に流れをつなぎます。"
+        },
+        {
+          "no": 134,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "by",
+              "explanation": "by extension 4500 という表現はありません。by は手段を表しますが、内線番号には at または on を使います。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "at",
+              "explanation": "at extension 4500（内線4500で/に）は正しい表現です。電話番号・内線番号には at または on を使います。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "for",
+              "explanation": "for extension 4500 という表現はビジネス文書で内線番号を表すのに適していません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "with",
+              "explanation": "with extension 4500 という表現はありません。電話/内線番号の前置詞として with は使いません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 4,
+            "snippetEn": "contact the Facilities Management team ______[134] extension 4500"
+          },
+          "explanationOverall": "電話・内線番号の前置詞問題。「内線4500で連絡する」は contact ... at extension 4500 または reach ... at extension 4500 という表現が正しい英語です。at が正解です。"
+        }
+      ]
+    },
+    {
+      "passageNo": 2,
+      "docType": "advertisement",
+      "title": "Job Opening: Customer Success Manager",
+      "paragraphs": [
+        {
+          "en": "TechBridge Solutions is ______[135] for a motivated Customer Success Manager to join our growing team in San Francisco. The ideal candidate will have at least three years of experience in client relations and a strong background in software products.",
+          "ja": "TechBridge Solutionsは、サンフランシスコの成長するチームに加わる意欲的なカスタマーサクセスマネージャーを______[135]しています。理想的な候補者は、クライアント対応において少なくとも3年の経験と、ソフトウェア製品に関する強固な知識を持つ方です。"
+        },
+        {
+          "en": "In this role, you will be ______[136] for building and maintaining long-term relationships with our enterprise clients. You will work closely with the product and engineering teams to ensure client needs are met in a timely manner.",
+          "ja": "この職務では、エンタープライズクライアントとの長期的な関係の構築・維持に______[136]を持っていただきます。製品チームおよびエンジニアリングチームと密接に協力し、クライアントのニーズが適時に満たされるよう取り組んでいただきます。"
+        },
+        {
+          "en": "______[137] Applicants who meet the qualifications are encouraged to submit a resume and cover letter through our online portal at www.techbridge.example.com/careers.",
+          "ja": "______[137] 応募資格を満たす方は、オンラインポータル（www.techbridge.example.com/careers）から履歴書とカバーレターをご提出ください。"
+        },
+        {
+          "en": "TechBridge Solutions offers a competitive salary and a comprehensive benefits package, ______[138] medical, dental, and vision coverage. We value diversity and encourage applicants from all backgrounds to apply.",
+          "ja": "TechBridge Solutionsは、医療・歯科・ビジョンカバレッジを______[138]、競争力のある給与と充実した福利厚生パッケージを提供しています。私たちは多様性を重視し、あらゆる背景を持つ応募者を歓迎します。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 135,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "searching",
+              "explanation": "searching は現在分詞。is searching for（〜を探している）は現在進行形で、求人広告で「現在募集中」を表す正しい表現です。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "searched",
+              "explanation": "searched は過去形または過去分詞。is searched for という表現は「〜について調査される」という受動態になり、文脈に合いません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "to search",
+              "explanation": "to search は不定詞。is to search for という表現は「〜を探す予定/義務がある」という意味になり、求人広告として自然ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "search",
+              "explanation": "search は動詞原形。is search という形は文法的に誤りで、be 動詞の後に動詞原形は来ません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 0,
+            "snippetEn": "TechBridge Solutions is ______[135] for a motivated Customer Success Manager"
+          },
+          "explanationOverall": "be + V-ing（現在進行形）で「現在〜している」を表す。求人広告では is looking for / is searching for / is hiring のように現在進行形で募集中であることを表現するのが定型です。searching が正解。"
+        },
+        {
+          "no": 136,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "responsible",
+              "explanation": "responsible は形容詞「責任のある」。be responsible for（〜に責任を持つ）はビジネス英語で職務の責任範囲を説明する定型表現です。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "responsibility",
+              "explanation": "responsibility は名詞「責任」。be + 名詞 + for という構造は成立しません（be a responsibility for なら可能ですが文脈が変わる）。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "responsibly",
+              "explanation": "responsibly は副詞「責任を持って」。be responsibly for という表現はなく、文法的に誤りです。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "respond",
+              "explanation": "respond は動詞「対応する」。you will be respond という形は受動態「対応される」になり、文意が変わります。また respond for という表現はなく不適切です。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 1,
+            "snippetEn": "you will be ______[136] for building and maintaining long-term relationships"
+          },
+          "explanationOverall": "be responsible for do-ing（〜することに責任がある）はビジネス職務記述書で最頻出の表現の一つです。品詞問題として、be 動詞の後に形容詞（responsible）が来ることを理解できているかが問われています。"
+        },
+        {
+          "no": 137,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "We are no longer accepting applications for this position.",
+              "explanation": "「この職位への応募受付はもう終了しました」という内容。直後の「応募資格を満たす方は…ご提出ください」と矛盾するため不適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The position requires frequent travel to client sites across North America.",
+              "explanation": "「この職位では北米全体のクライアントサイトへの頻繁な出張が必要です」という内容。応募の詳細説明の前に職務内容の補足として自然に続き、直後の応募手順への流れも滑らかです。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Our headquarters was founded in 1998 in Seattle, Washington.",
+              "explanation": "「本社は1998年にワシントン州シアトルで設立されました」という内容。職務内容や応募手順とは無関係な歴史的情報であり、文書の流れに合いません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "All candidates must be fluent in at least two programming languages.",
+              "explanation": "「すべての候補者は少なくとも2つのプログラミング言語に流暢でなければならない」という内容。カスタマーサクセスマネージャーの職務要件としては不自然で、直前の「クライアント対応経験」の文脈とも合いません。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "文挿入問題。挿入箇所の直後に「応募資格を満たす方は…ご提出ください」（応募手順の案内）があります。その直前には職務内容の詳細が説明されているため、追加の職務要件情報（出張の必要性）を提示する(B)が文の流れを最も自然につなぎます。"
+        },
+        {
+          "no": 138,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "including",
+              "explanation": "including は前置詞「〜を含む」。a comprehensive benefits package, including medical, dental, and vision coverage（医療・歯科・ビジョンカバレッジを含む充実した福利厚生）は正しく自然な表現です。正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "included",
+              "explanation": "included は過去分詞/形容詞。benefits package, included medical... という表現は文法的に不自然です（benefits included は「福利厚生含む」という形容詞用法なら可能だが、列挙には使いません）。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "includes",
+              "explanation": "includes は三人称単数現在の動詞。主節の動詞（offers）があるため、カンマ後に接続詞なしで動詞をつなぐことはできません（文法的に誤り）。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "to include",
+              "explanation": "to include は不定詞。benefits package, to include... という用法は英語として不自然で、この文脈では使いません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": {
+            "paragraphIndex": 3,
+            "snippetEn": "a comprehensive benefits package, ______[138] medical, dental, and vision coverage"
+          },
+          "explanationOverall": "列挙の前置詞 including（〜を含む）は TOEIC Part 6 で頻繁に出題される表現です。カンマ＋including で具体的な内容を列挙する用法を理解していることが求められます。動詞（includes）ではなく前置詞（including）として使うことがポイントです。"
+        }
+      ]
+    }
+  ]
+}
