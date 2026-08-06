@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - master
+  workflow_dispatch:
 
 # GitHub Pages への書き込みに必要な権限設定
 permissions:
@@ -18,11 +18,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: リポジトリをチェックアウト
@@ -36,6 +33,9 @@ jobs:
 
       - name: 依存関係のインストール
         run: npm ci
+
+      - name: GitHub Pages の設定
+        uses: actions/configure-pages@v5
 
       - name: データ検証
         run: npm run validate-data
@@ -55,10 +55,21 @@ jobs:
         run: npm run build
 
       - name: GitHub Pages アーティファクトのアップロード
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: out
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: GitHub Pages へのデプロイ
         id: deployment
         uses: actions/deploy-pages@v4
