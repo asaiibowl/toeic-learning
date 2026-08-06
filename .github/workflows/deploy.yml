@@ -6,9 +6,11 @@ on:
       - main
   workflow_dispatch:
 
-# gh-pages ブランチへの書き込みに必要な権限設定
+# GitHub Actions を配信元とする Pages デプロイに必要な権限
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 # 同時に1つのデプロイだけ実行（並行デプロイを防ぐ）
 concurrency:
@@ -16,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +30,10 @@ jobs:
         with:
           node-version: 20
           cache: npm
+
+      - name: Pages 設定の取得
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: 依存関係のインストール
         run: npm ci
@@ -46,12 +52,26 @@ jobs:
 
       - name: ビルド
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: npm run build
 
-      - name: gh-pages ブランチへデプロイ
-        uses: peaceiris/actions-gh-pages@v4
+      - name: 成果物をアップロード
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          force_orphan: true
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Pages へデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          # GitHub 側の反映が 10 分を超えることがあるため上限を 30 分に延長
+          timeout: 1800000
