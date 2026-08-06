@@ -70,52 +70,47 @@ npx tsc --noEmit
 
 コード内コメントおよび UI 文言はすべて日本語。
 
-## Claude Code 引き継ぎ（2026-08-07）
+## GitHub Pages
 
-### Git / GitHub
+- 公開リポジトリ: `https://github.com/asaiibowl/toeic-learning`（public / project site）
+- 公開URL: `https://asaiibowl.github.io/toeic-learning/` — **公開済み・稼働中**
+- 配信元: GitHub Actions（`build_type=workflow`）。`.github/workflows/deploy.yml` が
+  検証 → ビルド → `upload-pages-artifact` → `deploy-pages` を実行する
+- `basePath` は `configure-pages` の `base_path` 出力を `NEXT_PUBLIC_BASE_PATH` に渡して決まる。
+  リポジトリ名をワークフローに直書きしない
 
-- 公開リポジトリ: `https://github.com/asaiibowl/toeic-learning`
-- ローカルブランチ: `main`
-- リモート: `origin/main`
-- アプリ本体の完成コミット: `aac69be`
-- 現在の公開ワークフロー: `.github/workflows/deploy.yml`
-- Pages用ブランチ: `gh-pages`
-- 予定URL: `https://asaiibowl.github.io/toeic-learning/`
+### `deploy-pages` の timeout を 30 分にしている理由（2026-08-07 調査）
 
-この引き継ぎ追記は、不要なPages再実行を避けるためローカルコミットのみとし、GitHubにはpushしていない。
-次にpushすると `main` のPagesワークフローが起動する。
+GitHub側のPages反映が `deploy-pages` の既定上限10分を超えることがある。
+既定のままだと `deployment_in_progress` を延々ポーリングした末に `Timeout reached, aborting!` で
+run が failure になるが、**実際にはその数分後にデプロイが完走している**。
 
-### Pagesの現在地
+実測: run `31110329077` は 14:30:59 にタイムアウト中断 → サイトの `Last-Modified` は 14:33:03。
+つまり「デプロイが失敗している」のではなく **成功をワークフローが取りこぼしていた**。
+Pages API の `status` が `errored` のままなのも同じ取りこぼしに由来する。
 
-- Pages設定は `build_type=legacy`、配信元は `gh-pages` の `/`、HTTPS有効
-- `main` の検証・ビルド・`gh-pages`への配置は成功している
-  - 成功run: `https://github.com/asaiibowl/toeic-learning/actions/runs/31110270085`
-- GitHub管理の最終Pages deployだけが10分間進まず、タイムアウトしている
-  - 直近の失敗run: `https://github.com/asaiibowl/toeic-learning/actions/runs/31110329077`
-  - ログでは `deployment_in_progress` が続いた後に `Timeout reached, aborting!`
-- 2026-08-07の最終確認時点で公開URLは404、Pages APIは `status=errored`
-- artifact方式、`gh-pages`方式、Pages設定の削除・再作成、古いdeploymentの明示キャンセルを試したが、いずれもGitHub管理の最終deployで停止した
-- 他リポジトリのPages利用とは競合しない。本サイトはユーザーサイトではなくproject site
+このため `timeout: 1800000`（30分）を明示している。ここを既定に戻さないこと。
 
-### 再試行手順
+### 切り分けの順序
+
+Pagesが失敗したと思ったら、ワークフローのログより先に**実サイトを叩く**。
 
 ```powershell
-# 1. 現在状態を確認
-gh api repos/asaiibowl/toeic-learning/pages
-gh run list --repo asaiibowl/toeic-learning --limit 5
-
-# 2. mainの公開ワークフローを手動実行
-gh workflow run "Deploy to GitHub Pages" --repo asaiibowl/toeic-learning --ref main
-
-# 3. 表示されたrun IDを監視
-gh run watch <run-id> --repo asaiibowl/toeic-learning --exit-status
-
-# 4. 続いて発生するGitHub管理の pages build and deployment を監視
-gh run list --repo asaiibowl/toeic-learning --limit 5
-
-# 5. 公開確認
 Invoke-WebRequest -Uri 'https://asaiibowl.github.io/toeic-learning/' -UseBasicParsing
+gh api repos/asaiibowl/toeic-learning/pages --jq '.status,.build_type,.source'
+gh run list --repo asaiibowl/toeic-learning --limit 5
 ```
 
-再び最終deployだけが10分でタイムアウトする場合、アプリ修正やPages再設定を繰り返さず、
-最小Pagesリポジトリでアカウント全体か当該リポジトリ固有かを切り分けるか、run URLを添えてGitHub Supportへ問い合わせる。
+200が返るなら公開は成立しており、run の赤×はCI側の表示問題。
+サイトも落ちている場合に限りワークフローを疑う。
+
+なお run がキュー滞留のまま cancelled になる、push でrunが起動しない、といった症状は
+GitHub側の障害であることがある（2026-08-06 15:22 UTC のActions/Pages大規模障害で実際に発生）。
+アプリやワークフローを触る前に `https://www.githubstatus.com/api/v2/summary.json` を確認すること。
+
+### 手動デプロイ
+
+```powershell
+gh workflow run "Deploy to GitHub Pages" --repo asaiibowl/toeic-learning --ref main
+gh run watch <run-id> --repo asaiibowl/toeic-learning --exit-status
+```
