@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+# GitHub Pages への書き込みに必要な権限設定
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時に1つのデプロイだけ実行（並行デプロイを防ぐ）
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.js のセットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 依存関係のインストール
+        run: npm ci
+
+      - name: データ検証
+        run: npm run validate-data
+
+      - name: ESLint
+        run: npm run lint
+
+      - name: TypeScript 型検査
+        run: npx tsc --noEmit --incremental false
+
+      - name: ユニットテスト
+        run: npm test
+
+      - name: ビルド
+        env:
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+        run: npm run build
+
+      - name: GitHub Pages アーティファクトのアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+      - name: GitHub Pages へのデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4

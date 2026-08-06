@@ -1,0 +1,171 @@
+{
+  "testId": "sample-01",
+  "part": 5,
+  "questions": [
+    {
+      "no": 101,
+      "sentence": "The new ______ guidelines issued by the HR department apply to all staff members.",
+      "sentenceJa": "人事部が発行した新しい______ガイドラインは、全スタッフに適用されます。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attend",
+          "explanation": "attend は動詞「出席する」。名詞 guidelines を修飾する位置には形容詞か形容詞的な品詞が必要です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "attendance",
+          "explanation": "attendance（出席・在席）は名詞。名詞を修飾するには形容詞が必要で、名詞は不適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "attendant",
+          "explanation": "attendant には「付随する」という形容詞用法があり名詞修飾も可能ですが、HR ガイドラインの文脈では意味的にやや不自然です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "attending",
+          "explanation": "attending は動詞 attend の現在分詞で「在籍している・常勤の」という形容詞的用法があり、名詞 guidelines を修飾する形として文法的・文脈的に最も適切です。",
+          "isCorrect": true
+        }
+      ],
+      "explanationOverall": "空所は名詞 guidelines の直前にあり、修飾語（形容詞相当語）が入ります。品詞問題では、空所の位置を確認し、名詞を修飾できる品詞（形容詞・分詞）を選びます。attending guidelines（在籍規定）が文脈に合います。",
+      "tag": "grammar"
+    },
+    {
+      "no": 102,
+      "sentence": "The project team will meet ______ Friday to discuss the quarterly budget report.",
+      "sentenceJa": "プロジェクトチームは四半期予算報告書を議論するため、金曜日______会合を開きます。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in",
+          "explanation": "in は「〜の中に」「〜後に（期間）」を表します。in Friday のように曜日に使うのは誤りです。曜日には on を使います。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "at",
+          "explanation": "at は時刻（at 3 p.m.）や特定の時点に使います。曜日には使いません。",
+          "isCorrect": false
+        },
+        {
+          "label": "C",
+          "text": "on",
+          "explanation": "on は曜日・日付に使う前置詞です。on Friday（金曜日に）は正しい用法で、この問題の正解です。",
+          "isCorrect": true
+        },
+        {
+          "label": "D",
+          "text": "by",
+          "explanation": "by は「〜までに（期限）」を表します。by Friday だと「金曜日までに」という締め切りの意味になり、「金曜日に会合を開く」という文脈には合いません。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "曜日の前に置く前置詞を選ぶ問題です。TOEIC 頻出の前置詞用法: on + 曜日/日付、at + 時刻、in + 年/月/季節/期間、by + 期限。on Friday が正解です。",
+      "tag": "preposition"
+    },
+    {
+      "no": 103,
+      "sentence": "By the time the CEO ______ her speech, the audience had already gathered in the hall.",
+      "sentenceJa": "CEO がスピーチを______頃には、聴衆はすでにホールに集まっていました。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "begins",
+          "explanation": "begins は現在形。文中に had already gathered（過去完了）があることから、過去の時点を表す時制が必要です。現在形は不適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "began",
+          "explanation": "began は過去形「始めた」。By the time S + 過去形, S + 過去完了 という構文に合い、CEOがスピーチを始めた時点で聴衆がすでに集まっていたという意味になります。これが正解です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "had begun",
+          "explanation": "had begun（過去完了）も文法的には成立しますが、By the time 節では通常シンプルな過去形を使い、主節に過去完了を置くのが標準的です。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "will begin",
+          "explanation": "will begin は未来形。文全体が過去の話をしており、未来形は文脈に合いません。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "By the time 構文の時制問題です。「By the time S + 過去形, S + 過去完了」が基本パターン。主節が had already gathered（過去完了）なので、従属節には過去形 began を使います。",
+      "tag": "verb_form"
+    },
+    {
+      "no": 104,
+      "sentence": "The marketing team is looking for a ______ approach to reach younger consumers online.",
+      "sentenceJa": "マーケティングチームは、オンラインで若い消費者にリーチするための______なアプローチを探しています。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "customary",
+          "explanation": "customary は「慣習的な・通例の」という意味。既存の方法を踏襲するニュアンスがあり、若い消費者へのリーチという文脈で「新鮮さ」を示す語としては不適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "innovative",
+          "explanation": "innovative は「革新的な・斬新な」という意味。デジタルマーケティングで若い消費者を獲得するための新しいアプローチを指すのに最も適切です。正解です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "reluctant",
+          "explanation": "reluctant は「気乗りしない・渋々の」という意味で形容詞ですが、アプローチを修飾する語としては意味が合いません。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "preliminary",
+          "explanation": "preliminary は「予備的な・準備段階の」という意味。approach を修飾する語としては使えますが、若者向けマーケティングの文脈では innovative の方が自然です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "語彙問題（形容詞選択）。文脈から「オンラインで若い消費者を引き付けるための新しい手法を探している」という意味が読み取れます。innovative（革新的な）が最も文脈に合います。TOEIC では文脈から最適な語彙を選ぶ力が問われます。",
+      "tag": "vocab"
+    },
+    {
+      "no": 105,
+      "sentence": "The office will remain closed ______ the renovation work is completed next month.",
+      "sentenceJa": "改修工事が来月完了する______、オフィスは閉鎖されたままです。",
+      "choices": [
+        {
+          "label": "A",
+          "text": "although",
+          "explanation": "although は「〜にもかかわらず」という逆接の接続詞。「改修工事が完了するにもかかわらず閉鎖されたまま」では文意が逆になり不適切です。",
+          "isCorrect": false
+        },
+        {
+          "label": "B",
+          "text": "until",
+          "explanation": "until は「〜まで（ずっと）」という継続を表す接続詞。「改修工事が完了するまで閉鎖される」という文意に最も合います。正解です。",
+          "isCorrect": true
+        },
+        {
+          "label": "C",
+          "text": "because",
+          "explanation": "because は「〜だから」という理由の接続詞。「改修工事が完了するから閉鎖される」では因果関係がおかしく、文意が通りません。",
+          "isCorrect": false
+        },
+        {
+          "label": "D",
+          "text": "so that",
+          "explanation": "so that は「〜するために（目的）」を表す接続詞。「改修工事が完了するために閉鎖される」では目的の使い方として不自然です。",
+          "isCorrect": false
+        }
+      ],
+      "explanationOverall": "接続詞問題。「オフィスは改修工事が完了するまで閉鎖されたまま」という継続期間を表す文意を読み取り、until を選びます。TOEIC 頻出接続詞: until（〜まで）、although（〜にもかかわらず）、because（〜だから）、so that（〜するために）。",
+      "tag": "conjunction"
+    }
+  ]
+}

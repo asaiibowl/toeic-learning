@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "tests": [
+    {
+      "testId": "test-01",
+      "title": "テストセット01（75分・100問）",
+      "description": "TOEIC L&R Readingの現行公式構成に準拠したオリジナル100問セット。Part 5: 30問、Part 6: 16問、Part 7: 単一文書29問・複数文書25問。",
+      "createdAt": "2026-08-06T21:00:00+09:00",
+      "tags": [
+        "full-test",
+        "75-minutes",
+        "original"
+      ],
+      "completeness": {
+        "part5": 30,
+        "part6": 16,
+        "part7": 54
+      }
+    },
+    {
+      "testId": "sample-01",
+      "title": "サンプル練習セット 01",
+      "description": "全機能の動作確認用サンプルデータ。Part5（品詞・前置詞・時制・語彙・接続詞）5問、Part6（2文書）8問、Part7（メール）3問の計16問。",
+      "createdAt": "2024-10-15T09:00:00",
+      "tags": [
+        "sample",
+        "grammar",
+        "business-english"
+      ],
+      "completeness": {
+        "part5": 5,
+        "part6": 8,
+        "part7": 3
+      }
+    }
+  ]
+}

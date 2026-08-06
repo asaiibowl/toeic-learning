@@ -1,0 +1,12 @@
+{
+  "testId": "YOUR_TEST_ID",
+  "title": "テストセットのタイトル",
+  "description": "テストセットの説明（任意）",
+  "createdAt": "2024-01-01T00:00:00",
+  "tags": ["practice", "official"],
+  "completeness": {
+    "part5": 0,
+    "part6": 0,
+    "part7": 0
+  }
+}

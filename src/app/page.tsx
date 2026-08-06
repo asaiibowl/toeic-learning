@@ -1,69 +1,200 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+/**
+ * テストセット一覧ページ（トップページ）
+ *
+ * index.json をクライアントで fetch し、テストセットをカード表示する。
+ * レスポンシブ: スマホ1列 / タブレット2列 / PC3列
+ */
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { fetchTestIndex } from "@/lib/data/loader";
+import type { TestIndex } from "@/types/question";
+import { listHistory, type HistoryEntry } from "@/lib/storage/idb";
+
+export default function HomePage() {
+  const [testIndex, setTestIndex] = useState<TestIndex | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
+
+  useEffect(() => {
+    Promise.all([fetchTestIndex(), listHistory().catch(() => [])])
+      .then(([data, historyEntries]) => {
+        setTestIndex(data);
+        setHistory(historyEntries);
+        setLoading(false);
+      })
+      .catch((err: unknown) => {
+        setError(
+          err instanceof Error ? err.message : "データの取得に失敗しました"
+        );
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-24">
+        <div className="text-zinc-500 dark:text-zinc-400 animate-pulse">
+          読み込み中...
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="rounded-lg border border-red-200 bg-red-50 dark:border-red-800 dark:bg-red-950 p-6">
+        <h2 className="text-base font-semibold text-red-700 dark:text-red-400">
+          エラー
+        </h2>
+        <p className="mt-1 text-sm text-red-600 dark:text-red-300">{error}</p>
+      </div>
+    );
+  }
+
+  const tests = testIndex?.tests ?? [];
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      {/* ページタイトル */}
+      <div className="mb-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-zinc-900 dark:text-zinc-50">
+          テストセット一覧
+        </h1>
+        <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+          練習するテストセットを選んでください
+        </p>
+      </div>
+
+      {tests.length === 0 ? (
+        /* テストセットが存在しない場合 */
+        <div className="rounded-lg border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-8 text-center">
+          <p className="text-zinc-500 dark:text-zinc-400">
+            テストセットがまだありません
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      ) : (
+        /* テストカードグリッド: スマホ1列 / タブレット2列 / PC3列 */
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {tests.map((test) => (
+            <TestCard key={test.testId} test={test} history={history} />
+          ))}
         </div>
-      </main>
-    </div>
+      )}
+    </>
+  );
+}
+
+function TestCard({
+  test,
+  history,
+}: {
+  test: TestIndex['tests'][number];
+  history: HistoryEntry[];
+}) {
+  const latest = history.find((entry) => entry.testId === test.testId);
+  const latestStats = latest
+    ? Object.values(latest.partStats).reduce(
+        (sum, stat) => ({ correct: sum.correct + stat.correct, total: sum.total + stat.total }),
+        { correct: 0, total: 0 },
+      )
+    : null;
+  const totalQuestions = test.completeness.part5 + test.completeness.part6 + test.completeness.part7;
+
+  return (
+    <article className="flex flex-col rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="flex-1 p-5">
+                <div className="mb-3 flex flex-wrap gap-2">
+                  {totalQuestions < 100 && (
+                    <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-700 dark:bg-amber-900 dark:text-amber-200">
+                      ドリル · {totalQuestions}問
+                    </span>
+                  )}
+                  {latestStats && latestStats.total > 0 && (
+                    <span className="rounded-full bg-green-100 px-2.5 py-1 text-xs font-semibold text-green-700 dark:bg-green-900 dark:text-green-200">
+                      受験済み · {Math.round((latestStats.correct / latestStats.total) * 100)}%
+                    </span>
+                  )}
+                </div>
+                {/* タイトル */}
+                <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-50 leading-snug">
+                  {test.title}
+                </h2>
+
+                {/* 説明文 */}
+                {test.description && (
+                  <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400 line-clamp-2">
+                    {test.description}
+                  </p>
+                )}
+
+                {/* 収録問数 */}
+                <dl className="mt-4 grid grid-cols-3 gap-2">
+                  <div className="rounded-lg bg-blue-50 dark:bg-blue-950 px-3 py-2 text-center">
+                    <dt className="text-xs text-blue-600 dark:text-blue-400 font-medium">
+                      Part 5
+                    </dt>
+                    <dd className="text-lg font-bold text-blue-700 dark:text-blue-300">
+                      {test.completeness.part5}
+                      <span className="text-xs font-normal text-blue-500 dark:text-blue-500">
+                        問
+                      </span>
+                    </dd>
+                  </div>
+                  <div className="rounded-lg bg-green-50 dark:bg-green-950 px-3 py-2 text-center">
+                    <dt className="text-xs text-green-600 dark:text-green-400 font-medium">
+                      Part 6
+                    </dt>
+                    <dd className="text-lg font-bold text-green-700 dark:text-green-300">
+                      {test.completeness.part6}
+                      <span className="text-xs font-normal text-green-500 dark:text-green-500">
+                        問
+                      </span>
+                    </dd>
+                  </div>
+                  <div className="rounded-lg bg-purple-50 dark:bg-purple-950 px-3 py-2 text-center">
+                    <dt className="text-xs text-purple-600 dark:text-purple-400 font-medium">
+                      Part 7
+                      {test.completeness.part7 === 54 && (
+                        <span className="block text-[10px] font-normal">単一29・複数25</span>
+                      )}
+                    </dt>
+                    <dd className="text-lg font-bold text-purple-700 dark:text-purple-300">
+                      {test.completeness.part7}
+                      <span className="text-xs font-normal text-purple-500 dark:text-purple-500">
+                        問
+                      </span>
+                    </dd>
+                  </div>
+                </dl>
+
+                {/* タグ */}
+                {test.tags && test.tags.length > 0 && (
+                  <div className="mt-4 flex flex-wrap gap-1">
+                    {test.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="inline-block rounded-full bg-zinc-100 dark:bg-zinc-800 px-2.5 py-0.5 text-xs text-zinc-600 dark:text-zinc-400"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* 開始ボタン */}
+              <div className="border-t border-zinc-100 dark:border-zinc-800 p-4">
+                <Link
+                  href={`/test/${test.testId}/`}
+                  className="block w-full rounded-lg bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-sm font-semibold text-center py-2.5 transition-colors duration-150"
+                >
+                  開始する
+                </Link>
+              </div>
+    </article>
   );
 }

@@ -1,0 +1,570 @@
+{
+  "testId": "test-01",
+  "part": 6,
+  "passages": [
+    {
+      "passageNo": 1,
+      "docType": "email",
+      "title": "Leadership Workshop Registration",
+      "paragraphs": [
+        {
+          "en": "To: Department Supervisors\nFrom: Human Resources\nSubject: Leadership Workshop\n\nThank you for ______[131] for the leadership workshop on September 12. The session will ______[132] at 9:00 A.M. in Conference Room B.",
+          "ja": "宛先：部門監督者\n送信者：人事部\n件名：リーダーシップ研修\n\n9月12日のリーダーシップ研修にご登録いただきありがとうございます。研修は午前9時に会議室Bで始まります。"
+        },
+        {
+          "en": "Because seating is limited, please confirm your attendance ______[133] Friday afternoon. ______[134] If you have dietary restrictions, include them in your reply.",
+          "ja": "座席数に限りがあるため、金曜日の午後までに出席を確認してください。確認後、詳しい日程をお送りします。食事制限がある場合は返信に記載してください。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 131,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "registering",
+              "explanation": "「registering」が文法と文脈の両方に合います。前置詞 for の後には動名詞 registering が必要です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "register",
+              "explanation": "「register」はこの空所で求められる形または意味に合いません。前置詞 for の後には動名詞 registering が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "registered",
+              "explanation": "「registered」はこの空所で求められる形または意味に合いません。前置詞 for の後には動名詞 registering が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "registration",
+              "explanation": "「registration」はこの空所で求められる形または意味に合いません。前置詞 for の後には動名詞 registering が必要です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "前置詞 for の後には動名詞 registering が必要です。"
+        },
+        {
+          "no": 132,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "began",
+              "explanation": "「began」はこの空所で求められる形または意味に合いません。助動詞 will の後には動詞原形 begin を置きます。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "begin",
+              "explanation": "「begin」が文法と文脈の両方に合います。助動詞 will の後には動詞原形 begin を置きます。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "begun",
+              "explanation": "「begun」はこの空所で求められる形または意味に合いません。助動詞 will の後には動詞原形 begin を置きます。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "beginning",
+              "explanation": "「beginning」はこの空所で求められる形または意味に合いません。助動詞 will の後には動詞原形 begin を置きます。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "助動詞 will の後には動詞原形 begin を置きます。"
+        },
+        {
+          "no": 133,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "at",
+              "explanation": "「at」はこの空所で求められる形または意味に合いません。締切を示すため by Friday afternoon が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "from",
+              "explanation": "「from」はこの空所で求められる形または意味に合いません。締切を示すため by Friday afternoon が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "by",
+              "explanation": "「by」が文法と文脈の両方に合います。締切を示すため by Friday afternoon が適切です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "during",
+              "explanation": "「during」はこの空所で求められる形または意味に合いません。締切を示すため by Friday afternoon が適切です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "締切を示すため by Friday afternoon が適切です。"
+        },
+        {
+          "no": 134,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The conference room was renovated several years ago.",
+              "explanation": "「The conference room was renovated several years ago.」はこの空所で求められる形または意味に合いません。出席確認の依頼から、確認後に日程を送る説明へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Supervisors may submit travel expenses every month.",
+              "explanation": "「Supervisors may submit travel expenses every month.」はこの空所で求められる形または意味に合いません。出席確認の依頼から、確認後に日程を送る説明へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The company cafeteria closes at 3:00 P.M.",
+              "explanation": "「The company cafeteria closes at 3:00 P.M.」はこの空所で求められる形または意味に合いません。出席確認の依頼から、確認後に日程を送る説明へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A detailed schedule will be sent after we receive your confirmation.",
+              "explanation": "「A detailed schedule will be sent after we receive your confirmation.」が文法と文脈の両方に合います。出席確認の依頼から、確認後に日程を送る説明へ自然につながります。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "出席確認の依頼から、確認後に日程を送る説明へ自然につながります。"
+        }
+      ]
+    },
+    {
+      "passageNo": 2,
+      "docType": "notice",
+      "title": "Temporary Lobby Closure",
+      "paragraphs": [
+        {
+          "en": "The main lobby of the Harborside Office Center will be closed from October 3 to October 7 while new flooring is ______[135]. During this period, employees and visitors should enter the building ______[136] the east entrance on Mason Street.",
+          "ja": "Harborside Office Centerの正面ロビーは、新しい床材の設置工事のため10月3日から7日まで閉鎖されます。この期間、従業員と来訪者はMason Street側の東入口から入館してください。"
+        },
+        {
+          "en": "Security staff will be available there to issue visitor badges and provide ______[137]. ______[138] We apologize for any inconvenience caused by the temporary change.",
+          "ja": "東入口には警備員が待機し、来訪者バッジの発行と案内を行います。正面受付の電話番号は工事期間中も変更ありません。一時的な変更によるご不便をおわびします。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 135,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "installed",
+              "explanation": "「installed」が文法と文脈の両方に合います。flooring は設置される側なので is installed の受動態が必要です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "install",
+              "explanation": "「install」はこの空所で求められる形または意味に合いません。flooring は設置される側なので is installed の受動態が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "installing",
+              "explanation": "「installing」はこの空所で求められる形または意味に合いません。flooring は設置される側なので is installed の受動態が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "installation",
+              "explanation": "「installation」はこの空所で求められる形または意味に合いません。flooring は設置される側なので is installed の受動態が必要です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "flooring は設置される側なので is installed の受動態が必要です。"
+        },
+        {
+          "no": 136,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "among",
+              "explanation": "「among」はこの空所で求められる形または意味に合いません。入口を通って入るため through the east entrance が自然です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "through",
+              "explanation": "「through」が文法と文脈の両方に合います。入口を通って入るため through the east entrance が自然です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "beside",
+              "explanation": "「beside」はこの空所で求められる形または意味に合いません。入口を通って入るため through the east entrance が自然です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "until",
+              "explanation": "「until」はこの空所で求められる形または意味に合いません。入口を通って入るため through the east entrance が自然です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "入口を通って入るため through the east entrance が自然です。"
+        },
+        {
+          "no": 137,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "direct",
+              "explanation": "「direct」はこの空所で求められる形または意味に合いません。案内を表す可算名詞の複数形 directions が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "direction",
+              "explanation": "「direction」はこの空所で求められる形または意味に合いません。案内を表す可算名詞の複数形 directions が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "directions",
+              "explanation": "「directions」が文法と文脈の両方に合います。案内を表す可算名詞の複数形 directions が適切です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "directly",
+              "explanation": "「directly」はこの空所で求められる形または意味に合いません。案内を表す可算名詞の複数形 directions が適切です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "案内を表す可算名詞の複数形 directions が適切です。"
+        },
+        {
+          "no": 138,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Several offices are currently available for rent on the fifth floor.",
+              "explanation": "「Several offices are currently available for rent on the fifth floor.」はこの空所で求められる形または意味に合いません。一時閉鎖中も利用できる連絡手段の説明が、案内とおわびの間に自然に入ります。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The flooring supplier opened a store near the airport.",
+              "explanation": "「The flooring supplier opened a store near the airport.」はこの空所で求められる形または意味に合いません。一時閉鎖中も利用できる連絡手段の説明が、案内とおわびの間に自然に入ります。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Employees received their identification cards last January.",
+              "explanation": "「Employees received their identification cards last January.」はこの空所で求められる形または意味に合いません。一時閉鎖中も利用できる連絡手段の説明が、案内とおわびの間に自然に入ります。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The main reception telephone number will remain unchanged during the work.",
+              "explanation": "「The main reception telephone number will remain unchanged during the work.」が文法と文脈の両方に合います。一時閉鎖中も利用できる連絡手段の説明が、案内とおわびの間に自然に入ります。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "一時閉鎖中も利用できる連絡手段の説明が、案内とおわびの間に自然に入ります。"
+        }
+      ]
+    },
+    {
+      "passageNo": 3,
+      "docType": "article",
+      "title": "Local Bakery Expands Distribution",
+      "paragraphs": [
+        {
+          "en": "Riverside Breads announced yesterday that its products will soon be sold in 40 additional grocery stores. The agreement is the company's largest distribution ______[139] since it opened eight years ago.",
+          "ja": "Riverside Breadsは昨日、同社製品が新たに40店舗の食料品店で販売されると発表しました。この契約は8年前の創業以来、同社最大の流通拡大です。"
+        },
+        {
+          "en": "To meet the expected demand, the bakery has purchased a second oven and plans to ______[140] six more employees. Production manager Lila Gomez said the expansion had been planned ______[141] so that product quality would not be affected. ______[142]",
+          "ja": "予想される需要に対応するため、同社は2台目のオーブンを購入し、従業員をさらに6名採用する予定です。生産責任者のリラ・ゴメス氏は、製品品質に影響が出ないよう拡大を慎重に計画したと述べました。新店舗への最初の配送は来月初めに予定されています。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 139,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "expansion",
+              "explanation": "「expansion」が文法と文脈の両方に合います。largest distribution の後には名詞 expansion が必要です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "expand",
+              "explanation": "「expand」はこの空所で求められる形または意味に合いません。largest distribution の後には名詞 expansion が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "expansive",
+              "explanation": "「expansive」はこの空所で求められる形または意味に合いません。largest distribution の後には名詞 expansion が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "expanded",
+              "explanation": "「expanded」はこの空所で求められる形または意味に合いません。largest distribution の後には名詞 expansion が必要です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "largest distribution の後には名詞 expansion が必要です。"
+        },
+        {
+          "no": 140,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "hired",
+              "explanation": "「hired」はこの空所で求められる形または意味に合いません。plan to の後には動詞原形 hire を置きます。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "hire",
+              "explanation": "「hire」が文法と文脈の両方に合います。plan to の後には動詞原形 hire を置きます。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "hiring",
+              "explanation": "「hiring」はこの空所で求められる形または意味に合いません。plan to の後には動詞原形 hire を置きます。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "hires",
+              "explanation": "「hires」はこの空所で求められる形または意味に合いません。plan to の後には動詞原形 hire を置きます。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "plan to の後には動詞原形 hire を置きます。"
+        },
+        {
+          "no": 141,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "care",
+              "explanation": "「care」はこの空所で求められる形または意味に合いません。動詞 planned を修飾する副詞 carefully が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "careful",
+              "explanation": "「careful」はこの空所で求められる形または意味に合いません。動詞 planned を修飾する副詞 carefully が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "carefully",
+              "explanation": "「carefully」が文法と文脈の両方に合います。動詞 planned を修飾する副詞 carefully が必要です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "more careful",
+              "explanation": "「more careful」はこの空所で求められる形または意味に合いません。動詞 planned を修飾する副詞 carefully が必要です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "動詞 planned を修飾する副詞 carefully が必要です。"
+        },
+        {
+          "no": 142,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Customers can request refunds without a receipt.",
+              "explanation": "「Customers can request refunds without a receipt.」はこの空所で求められる形または意味に合いません。拡大計画の実施時期を示す文が記事の結びとして適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The company stopped producing bread eight years ago.",
+              "explanation": "「The company stopped producing bread eight years ago.」はこの空所で求められる形または意味に合いません。拡大計画の実施時期を示す文が記事の結びとして適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Ms. Gomez will speak at a banking conference this week.",
+              "explanation": "「Ms. Gomez will speak at a banking conference this week.」はこの空所で求められる形または意味に合いません。拡大計画の実施時期を示す文が記事の結びとして適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The first deliveries to the new stores are scheduled for early next month.",
+              "explanation": "「The first deliveries to the new stores are scheduled for early next month.」が文法と文脈の両方に合います。拡大計画の実施時期を示す文が記事の結びとして適切です。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "拡大計画の実施時期を示す文が記事の結びとして適切です。"
+        }
+      ]
+    },
+    {
+      "passageNo": 4,
+      "docType": "memo",
+      "title": "New Inventory System",
+      "paragraphs": [
+        {
+          "en": "Beginning November 1, all warehouse teams will use the StockPoint inventory system. The new system updates product counts ______[143] and alerts staff when supplies fall below a preset level.",
+          "ja": "11月1日から、すべての倉庫チームはStockPoint在庫システムを使用します。新システムは製品数を自動更新し、在庫が設定水準を下回るとスタッフへ通知します。"
+        },
+        {
+          "en": "Employees must complete an online tutorial before they are ______[144] access to StockPoint. Team leaders should make sure that everyone finishes the tutorial ______[145] October 28. ______[146] Questions may be sent to systems@northstar.example.",
+          "ja": "従業員はStockPointへのアクセス権を付与される前に、オンラインチュートリアルを修了しなければなりません。チームリーダーは全員が10月28日までに修了するよう確認してください。各シフトの実習会も翌週に実施されます。質問はsystems@northstar.exampleへ送ってください。"
+        }
+      ],
+      "questions": [
+        {
+          "no": 143,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "automatically",
+              "explanation": "「automatically」が文法と文脈の両方に合います。動詞 updates を修飾する副詞 automatically が適切です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "automatic",
+              "explanation": "「automatic」はこの空所で求められる形または意味に合いません。動詞 updates を修飾する副詞 automatically が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "automation",
+              "explanation": "「automation」はこの空所で求められる形または意味に合いません。動詞 updates を修飾する副詞 automatically が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "automate",
+              "explanation": "「automate」はこの空所で求められる形または意味に合いません。動詞 updates を修飾する副詞 automatically が適切です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "動詞 updates を修飾する副詞 automatically が適切です。"
+        },
+        {
+          "no": 144,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "grant",
+              "explanation": "「grant」はこの空所で求められる形または意味に合いません。employees は権限を与えられる側なので are granted が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "granted",
+              "explanation": "「granted」が文法と文脈の両方に合います。employees は権限を与えられる側なので are granted が必要です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "granting",
+              "explanation": "「granting」はこの空所で求められる形または意味に合いません。employees は権限を与えられる側なので are granted が必要です。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "grants",
+              "explanation": "「grants」はこの空所で求められる形または意味に合いません。employees は権限を与えられる側なので are granted が必要です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "employees は権限を与えられる側なので are granted が必要です。"
+        },
+        {
+          "no": 145,
+          "type": "blank",
+          "choices": [
+            {
+              "label": "A",
+              "text": "for",
+              "explanation": "「for」はこの空所で求められる形または意味に合いません。完了期限を表す by October 28 が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "since",
+              "explanation": "「since」はこの空所で求められる形または意味に合いません。完了期限を表す by October 28 が適切です。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "by",
+              "explanation": "「by」が文法と文脈の両方に合います。完了期限を表す by October 28 が適切です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "through",
+              "explanation": "「through」はこの空所で求められる形または意味に合いません。完了期限を表す by October 28 が適切です。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "完了期限を表す by October 28 が適切です。"
+        },
+        {
+          "no": 146,
+          "type": "insertion",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The warehouse was built beside a railway station.",
+              "explanation": "「The warehouse was built beside a railway station.」はこの空所で求められる形または意味に合いません。研修期限の説明から追加研修、問い合わせ先へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Customers should return damaged goods to a retail store.",
+              "explanation": "「Customers should return damaged goods to a retail store.」はこの空所で求められる形または意味に合いません。研修期限の説明から追加研修、問い合わせ先へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "StockPoint is the name of a local delivery company.",
+              "explanation": "「StockPoint is the name of a local delivery company.」はこの空所で求められる形または意味に合いません。研修期限の説明から追加研修、問い合わせ先へ自然につながります。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Hands-on sessions for each shift will also be offered the following week.",
+              "explanation": "「Hands-on sessions for each shift will also be offered the following week.」が文法と文脈の両方に合います。研修期限の説明から追加研修、問い合わせ先へ自然につながります。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "研修期限の説明から追加研修、問い合わせ先へ自然につながります。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "testId": "sample-01",
+  "title": "サンプル練習セット 01",
+  "description": "全機能の動作確認用サンプルデータ。Part5（品詞・前置詞・時制・語彙・接続詞）5問、Part6（2文書）8問、Part7（メール）3問の計16問。",
+  "createdAt": "2024-10-15T09:00:00",
+  "tags": ["sample", "grammar", "business-english"],
+  "completeness": {
+    "part5": 5,
+    "part6": 8,
+    "part7": 3
+  }
+}
