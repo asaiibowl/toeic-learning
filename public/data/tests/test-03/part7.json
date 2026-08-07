@@ -1,0 +1,2906 @@
+{
+  "testId": "test-03",
+  "part": 7,
+  "sets": [
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s1-email",
+          "docType": "email",
+          "title": "Design Revision Approval Request — Hartwell Residence",
+          "from": "Daniel Voss, Voss & Mercer Design Associates",
+          "to": "Mr. and Mrs. Hartwell",
+          "paragraphs": [
+            {
+              "en": "Dear Mr. and Mrs. Hartwell, I am writing to request your formal approval of the structural modifications outlined in Revision Set C, which our engineering consultants have determined to be necessary following the geotechnical assessment conducted on March 12.",
+              "ja": "ハートウェル様ご夫妻、3月12日に実施された地盤調査の結果を受けて、弊社の構造エンジニアが必要と判断した改訂セットCに記載の構造変更について、正式なご承認をお願いするためにご連絡差し上げます。"
+            },
+            {
+              "en": "The primary change concerns the foundation system: we propose replacing the originally specified shallow spread footings with a driven-pile foundation extending to a depth of twelve metres, which will adequately transfer the building loads to the competent bearing stratum identified below the fill layer. Additionally, the ground-floor slab thickness is to be increased from 150 mm to 225 mm to accommodate the revised load distribution. These amendments will add approximately eight working days to the construction schedule and increase the foundation contract value by $34,800, a figure that has been reviewed and endorsed by your quantity surveyor, Ms. Patricia Obi.",
+              "ja": "主な変更点は基礎システムに関するものです。当初仕様の浅い直接基礎を、埋め立て層の下に確認された支持力のある地層まで荷重を伝達できる深さ12メートルの打込み杭基礎に変更することを提案します。また、改訂された荷重分散に対応するため、1階スラブの厚さを150ミリから225ミリに増加します。これらの修正により、工期は約8営業日延長され、基礎工事の契約金額は34,800ドル増加します。この金額については、担当数量積算士のパトリシア・オビ氏が確認・承認済みです。"
+            },
+            {
+              "en": "Kindly review the enclosed drawings—sheets S-04 through S-07 of Revision Set C—and return the signed Client Approval Form by April 4 so that we may place the pile subcontract order without further delay. Should you have any questions or wish to arrange a meeting to discuss the implications of these changes, please do not hesitate to contact me directly at the number below.",
+              "ja": "同封の図面（改訂セットCのS-04からS-07シート）をご確認のうえ、杭工事の下請発注を遅滞なく進められるよう、4月4日までに署名済みの施主承認書をご返送ください。変更内容の影響について質問がある場合、またはご説明の機会をご希望の場合は、下記番号まで直接ご連絡ください。"
+            },
+            {
+              "en": "Yours sincerely, Daniel Voss, Principal Architect, Voss & Mercer Design Associates",
+              "ja": "ダニエル・フォス　主任建築士　フォス＆マーサーデザインアソシエイツ"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 147,
+          "type": "main_idea",
+          "questionEn": "What is the primary purpose of this e-mail?",
+          "questionJa": "このメールの主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To introduce a new quantity surveyor who will be overseeing the project",
+              "explanation": "数量積算士のパトリシア・オビ氏はコスト確認者として言及されているにとどまり、紹介が目的ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To inform the client that construction has been completed ahead of schedule",
+              "explanation": "工事完了の事前通知という内容は本文にありません。メールは施工前の変更承認を求める内容です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To seek the client's authorisation for engineering changes to the foundation design",
+              "explanation": "メール冒頭に「改訂セットCに記載の構造変更について正式なご承認をお願いする」と目的が明示されており、基礎設計の変更承認を求めることが主目的です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To provide a final cost summary for the Hartwell Residence project",
+              "explanation": "コスト変更は第2段落で言及されていますが、それはあくまで変更内容の説明の一部であり、「最終コスト概要」を提供することが目的ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "I am writing to request your formal approval of the structural modifications outlined in Revision Set C"
+            }
+          ],
+          "explanationOverall": "メールの冒頭でフォス氏は「改訂セットCに記載の構造変更について正式なご承認をお願いする」と目的を明示しており、本文全体が地盤調査を根拠とした基礎変更の承認依頼に終始しています。"
+        },
+        {
+          "no": 148,
+          "type": "detail",
+          "questionEn": "What does Mr. Voss indicate about the cost increase?",
+          "questionJa": "フォス氏はコスト増加について何を示していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It is contingent on the results of a second geotechnical assessment",
+              "explanation": "2回目の地盤調査への言及は本文にありません。調査はすでに完了しており、その結果が変更の根拠となっています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It was calculated by Voss & Mercer Design Associates without external verification",
+              "explanation": "コスト増加額はフォス氏の事務所ではなく、施主側の数量積算士によって確認・承認されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It reflects the cost of extending the construction timeline by eight months",
+              "explanation": "工期延長は8「営業日」であり「8か月」ではありません。また、コスト増加は工期延長費用ではなく基礎工事変更に伴うものです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It has already been confirmed by the client's quantity surveyor",
+              "explanation": "第2段落末尾に「この金額は担当数量積算士のパトリシア・オビ氏が確認・承認済み」と明記されており、施主側の専門家によってすでに検証済みです。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "a figure that has been reviewed and endorsed by your quantity surveyor, Ms. Patricia Obi"
+            }
+          ],
+          "explanationOverall": "第2段落の末尾に「この金額は担当数量積算士のパトリシア・オビ氏が確認・承認済み（reviewed and endorsed by your quantity surveyor, Ms. Patricia Obi）」と明記されており、コスト増加がすでに施主側の専門家によって検証済みであることが分かります。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s2-article",
+          "docType": "article",
+          "title": "Automated Cargo Handling Reshapes Port Operations at Kelford Terminal",
+          "paragraphs": [
+            {
+              "en": "KELFORD — Kelford Maritime Terminal has become the first facility on the eastern seaboard to deploy a fully integrated automated container-handling system across all three of its deepwater berths, a transition that management says has cut average vessel turnaround time by 31 percent since the system reached full operational capacity in February. [1] The installation, carried out over fourteen months by Dutch logistics-technology firm Portronix B.V., encompasses an array of laser-guided straddle carriers, automated stacking cranes, and a centralised traffic-management platform that coordinates container movements in real time. [2]",
+              "ja": "ケルフォード — ケルフォード海運ターミナルは、東海岸初の施設として、3つすべての深水バースに完全統合型自動コンテナ荷役システムを導入しました。同システムが2月に本格稼働して以来、平均船舶折り返し時間が31パーセント短縮されたと経営陣は述べています。[1] オランダの物流テクノロジー企業ポートロニクスB.V.が14か月かけて設置したこのシステムは、レーザー誘導式ストラドルキャリア、自動スタッキングクレーン、そしてコンテナの動きをリアルタイムで調整する集中型交通管理プラットフォームで構成されています。[2]"
+            },
+            {
+              "en": "[3] Critics, however, caution that the productivity gains come at a significant social cost. The Kelford Dockworkers Union reports that 214 of its members have been displaced since the phased rollout began, and union president Angela Mwangi argues that the terminal operator's retraining programme—which covers forklift certification and basic data-entry skills—is wholly inadequate preparation for the technical roles that remain. [4] Terminal director Mark Sorensen acknowledges the displacement but contends that the long-term competitiveness of the port, which handles roughly 40 percent of the region's container throughput, made modernisation unavoidable.",
+              "ja": "[3] しかし批判派は、生産性向上が大きな社会的コストを伴うと警告しています。ケルフォード埠頭労働組合によると、段階的導入が始まって以来214名の組合員が職を失っており、組合長のアンジェラ・ムワンギ氏は、ターミナル運営会社の再教育プログラム（フォークリフト資格取得と基本的なデータ入力スキルが対象）は、残存する技術的職種への準備として全く不十分だと主張しています。[4] ターミナル長のマーク・ソーレンセン氏は雇用喪失を認めつつも、地域のコンテナ輸送量の約40パーセントを取り扱うこの港の長期的競争力にとって、近代化は避けられなかったと主張しています。"
+            },
+            {
+              "en": "A feasibility study commissioned by the Regional Ports Authority and released last week suggests that two further terminals in the region are likely to follow Kelford's lead within five years, provided that capital financing conditions remain favourable and pending environmental-impact assessments are resolved without material conditions being imposed.",
+              "ja": "地域港湾局が発注し先週公表された実現可能性調査によれば、資本調達条件が良好なままであり、審査中の環境影響評価が実質的な条件なしに解決されれば、地域の他の2つのターミナルが5年以内にケルフォードの先例に続く可能性が高いとしています。"
+            }
+          ],
+          "hasInsertionMarkers": true
+        }
+      ],
+      "questions": [
+        {
+          "no": 149,
+          "type": "insertion",
+          "questionEn": "In which position marked [1], [2], [3], or [4] does the following sentence best belong?\n\"Port officials note that the new straddle carriers and stacking cranes operated alongside manually controlled equipment during a six-month transition phase.\"",
+          "questionJa": "[1]、[2]、[3]、[4]のどの位置に次の文が最もよく当てはまりますか。\n「港湾当局者によると、新しいストラドルキャリアとスタッキングクレーンは、6か月間の移行期間中、手動制御の設備と並行して稼働していた。」",
+          "choices": [
+            {
+              "label": "A",
+              "text": "[2]",
+              "explanation": "位置[2]の直前で straddle carriers と stacking cranes が初めて列挙されます。挿入文の \"the new straddle carriers and stacking cranes\" がそれらを直接受けるため、参照関係が一意に成立します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "[3]",
+              "explanation": "位置[3]は批判論についての段落の冒頭に当たり、移行の円滑化という肯定的な内容とはトーンが合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "[4]",
+              "explanation": "位置[4]は組合長の批判（再教育プログラムへの不満）の後であり、移行プロセスの技術的説明を挿入する文脈として不適切です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "[1]",
+              "explanation": "位置[1]より後で初めて straddle carriers と stacking cranes が具体的に紹介されるため、この位置では挿入文中の機器名が先走ってしまいます。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "挿入文中の \"the new straddle carriers and stacking cranes\" は、直前でその2種類の機器を列挙する[2]だけで明確な先行内容を持ちます。設備の紹介から6か月間の並行運用へ進む流れも自然です。"
+        },
+        {
+          "no": 150,
+          "type": "detail",
+          "questionEn": "According to the article, what concern has the union president raised about the retraining programme?",
+          "questionJa": "記事によると、組合長は再教育プログラムについてどのような懸念を示しましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It has been offered to too few displaced workers to make a meaningful difference",
+              "explanation": "再教育プログラムの対象者数については本文に言及がありません。組合長の懸念はプログラムの内容（スキルの不一致）にあります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It does not equip participants with skills relevant to the positions that the automation has left intact",
+              "explanation": "組合長は「フォークリフト資格取得と基本的なデータ入力スキルを扱うにとどまり、残存する技術的職種への準備として全く不十分だ」と批判しており、スキルの不一致が懸念の核心です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "It requires workers to fund their own certification costs without reimbursement",
+              "explanation": "費用負担については本文に記載がなく、これは組合長が述べた懸念ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It has been discontinued due to a lack of qualified instructors at the facility",
+              "explanation": "再教育プログラムの中止や指導員不足については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s2-article",
+              "paragraphIndex": 1,
+              "snippetEn": "the terminal operator's retraining programme—which covers forklift certification and basic data-entry skills—is wholly inadequate preparation for the technical roles that remain"
+            }
+          ],
+          "explanationOverall": "第2段落でムワンギ組合長は「再教育プログラムがフォークリフト資格取得や基本的データ入力スキルを扱うにとどまり、残存する技術的職種への準備として全く不十分だ（wholly inadequate preparation for the technical roles that remain）」と批判しており、スキルの不一致が核心的懸念です。"
+        },
+        {
+          "no": 151,
+          "type": "infer",
+          "questionEn": "What can be inferred about the two additional terminals mentioned in the final paragraph?",
+          "questionJa": "最終段落で言及されている他の2つのターミナルについて何が推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They handle a larger volume of container throughput than Kelford Terminal",
+              "explanation": "他ターミナルの取扱量については本文に記載がなく、ケルフォードとの比較もされていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They have already secured the capital financing required for automation projects",
+              "explanation": "資本調達が「条件が良好なままであれば」と仮定形で述べられており、すでに確保されているとは読み取れません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Their adoption of automation is not yet certain because of unresolved regulatory and financial conditions",
+              "explanation": "最終段落に「資本調達条件が良好なままであり、環境影響評価が実質的条件なしに解決された場合に」追随する可能性があると述べており、両条件が未確定であるため導入は保証されていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "They are expected to deploy the same Portronix system that Kelford Terminal uses",
+              "explanation": "同じシステムを導入するとは本文に述べられていません。具体的なシステムの選定については言及がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s2-article",
+              "paragraphIndex": 2,
+              "snippetEn": "provided that capital financing conditions remain favourable and pending environmental-impact assessments are resolved without material conditions being imposed"
+            }
+          ],
+          "explanationOverall": "最終段落では「資本調達条件が良好なままであり（provided that capital financing conditions remain favourable）、環境影響評価が実質的条件なしに解決された場合に（pending environmental-impact assessments are resolved without material conditions being imposed）」他の2ターミナルが追随する可能性が高いと述べており、両条件が未確定であることから導入は保証されていないと推測できます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s3-notice",
+          "docType": "notice",
+          "title": "Temporary Modification of Lounge Access — Concourse D Premier Lounge",
+          "paragraphs": [
+            {
+              "en": "Effective June 1 through August 31, access to the Concourse D Premier Lounge will be subject to modified eligibility criteria as a consequence of the scheduled refurbishment of the lounge's east wing, which will temporarily reduce usable seating capacity by approximately 60 percent. During this period, access will be restricted to passengers holding a current Skyreach Platinum or Titanium membership, or those travelling in a confirmed business- or first-class cabin on an international itinerary departing from Concourse D.",
+              "ja": "6月1日から8月31日まで、ラウンジの東翼改装工事によって使用可能な座席が約60パーセント一時的に減少するため、コンコースDプレミアラウンジの利用資格が変更されます。この期間中、利用はスカイリーチプラチナまたはチタニウム会員資格をお持ちの方、またはコンコースDから出発する国際線のビジネスクラスもしくはファーストクラスの確定座席でご搭乗の方に限定されます。"
+            },
+            {
+              "en": "Passengers who hold Skyreach Gold membership or who access the lounge on a day-pass basis will not be admitted to Concourse D Premier Lounge for the duration of the refurbishment. These guests are encouraged to utilise the Concourse B Horizon Lounge, which offers comparable dining and shower facilities and is accessible via the inter-terminal transit system without the need to re-clear security. Complimentary transit vouchers valid for same-day use are available at the Concourse D information desk.",
+              "ja": "スカイリーチゴールド会員またはデイパス利用でラウンジを利用される方は、改装期間中はコンコースDプレミアラウンジへのご入場はできません。これらのお客様は、同等のダイニング・シャワー設備を備え、保安検査の再通過なしにターミナル間移動システムでアクセスできるコンコースBホライゾンラウンジのご利用をお勧めします。当日有効の無料交通券はコンコースD案内デスクにてお受け取りください。"
+            },
+            {
+              "en": "The east wing renovation will introduce twelve additional private sleeping pods, an expanded premium dining area featuring three new cuisine stations, and a dedicated videoconferencing suite equipped with high-definition screens and soundproofed partitions. The fully restored lounge is expected to reopen on September 1, subject to final contractor inspections. We appreciate your understanding and regret any inconvenience this temporary arrangement may cause.",
+              "ja": "東翼のリノベーションにより、12のプライベート仮眠ポッドの追加、3つの新しい料理ステーションを備えた拡張プレミアムダイニングエリア、高解像度スクリーンと防音パーティションを備えた専用ビデオ会議スイートが設けられます。改修後のラウンジは、最終的な施工業者検査を経て9月1日に再オープンする予定です。この一時的な措置によるご不便をお詫び申し上げ、ご理解に感謝いたします。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 152,
+          "type": "detail",
+          "questionEn": "Who will be permitted to use the Concourse D Premier Lounge during the refurbishment period?",
+          "questionJa": "改装期間中、コンコースDプレミアラウンジの利用が認められるのは誰ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "All passengers holding any tier of Skyreach membership, regardless of travel class",
+              "explanation": "第2段落でゴールド会員は明示的に除外されており、すべての会員が利用できるわけではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Passengers with a day pass who are travelling on domestic routes",
+              "explanation": "第2段落でデイパス利用者は明示的に除外されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Skyreach Platinum or Titanium members, or confirmed business- or first-class international passengers from Concourse D",
+              "explanation": "第1段落に「スカイリーチプラチナまたはチタニウム会員、またはコンコースDから出発する国際線のビジネスもしくはファーストクラス確定座席の乗客に限定される」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Any international traveller departing from any concourse who holds a Skyreach Gold card",
+              "explanation": "ゴールド会員は第2段落で除外されており、またコンコースD以外からの出発者も対象外です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s3-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "access will be restricted to passengers holding a current Skyreach Platinum or Titanium membership, or those travelling in a confirmed business- or first-class cabin on an international itinerary departing from Concourse D"
+            }
+          ],
+          "explanationOverall": "第1段落に「access will be restricted to passengers holding a current Skyreach Platinum or Titanium membership, or those travelling in a confirmed business- or first-class cabin on an international itinerary departing from Concourse D」と明記されています。ゴールド会員やデイパス利用者は第2段落で明示的に除外されています。"
+        },
+        {
+          "no": 153,
+          "type": "infer",
+          "questionEn": "What can be inferred about the Concourse B Horizon Lounge?",
+          "questionJa": "コンコースBホライゾンラウンジについて何が推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It is currently undergoing a renovation similar to that of the Concourse D Premier Lounge",
+              "explanation": "コンコースBホライゾンラウンジが改装中という記述は本文にありません。むしろ代替利用先として紹介されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Passengers can reach it without going through additional security screening",
+              "explanation": "第2段落に「保安検査の再通過なしにターミナル間移動システムでアクセスできる（accessible via the inter-terminal transit system without the need to re-clear security）」と記載されており、追加の保安検査なしにアクセスできます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "It will receive the sleeping pods and videoconferencing suite removed from Concourse D",
+              "explanation": "第3段落で言及されている仮眠ポッドやビデオ会議スイートはコンコースDの改装後に新設される設備であり、コンコースBに移設されるとは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It is reserved exclusively for passengers holding Skyreach Platinum status",
+              "explanation": "コンコースBホライゾンラウンジの利用資格については本文に記載がなく、プラチナ専用とは読み取れません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s3-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "accessible via the inter-terminal transit system without the need to re-clear security"
+            }
+          ],
+          "explanationOverall": "第2段落に「accessible via the inter-terminal transit system without the need to re-clear security」と記載されており、乗客が追加の保安審査なしにコンコースBホライゾンラウンジに移動できることが推測されます。"
+        },
+        {
+          "no": 154,
+          "type": "synonym",
+          "questionEn": "The word \"comparable\" in paragraph 2 is closest in meaning to",
+          "questionJa": "第2段落の \"comparable\" に意味が最も近いのは次のうちどれですか。",
+          "targetWord": "comparable",
+          "choices": [
+            {
+              "label": "A",
+              "text": "equivalent",
+              "explanation": "「comparable」はここで「（コンコースDプレミアラウンジと）同等の」という意味で使われており、「equivalent（同等の）」が最も近い意味を持ちます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "superior",
+              "explanation": "「superior」は「より優れた」を意味し、単なる同等性ではなく優位性を示すため意味が異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "affordable",
+              "explanation": "「affordable」は「手頃な価格の」を意味し、設備の質や水準の比較とは関係がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "convenient",
+              "explanation": "「convenient」は「便利な」を意味し、設備の質や水準の同等性とは異なります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s3-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "comparable dining and shower facilities"
+            }
+          ],
+          "explanationOverall": "第2段落の「comparable dining and shower facilities（同等のダイニング・シャワー設備）」という文脈において、「comparable」はコンコースDプレミアラウンジと同じ水準の設備を意味しており、「equivalent（同等の）」が最も近い意味を持ちます。「superior（より優れた）」や「affordable（手頃な）」は文脈に合いません。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s4-chat",
+          "docType": "online_chat",
+          "title": "Legal Team Chat — Vendor License Agreement Review",
+          "messages": [
+            {
+              "sender": "Priya Nair",
+              "timeLabel": "9:04 AM",
+              "bodyEn": "Good morning, everyone. I've finished my initial pass through the Dynacor license agreement. There are two clauses I think we need to flag before we give procurement the green light.",
+              "bodyJa": "おはようございます、皆さん。ダイナコアのライセンス契約書の最初の確認が終わりました。調達部門にゴーサインを出す前に確認が必要な条項が2つあります。"
+            },
+            {
+              "sender": "Tom Eriksson",
+              "timeLabel": "9:07 AM",
+              "bodyEn": "Morning, Priya. What are we looking at?",
+              "bodyJa": "おはよう、プリヤ。どんな内容ですか？"
+            },
+            {
+              "sender": "Priya Nair",
+              "timeLabel": "9:09 AM",
+              "bodyEn": "First, clause 8.3 gives Dynacor the right to audit our usage data with only 48 hours' notice. That's far shorter than the 30-day window we accepted in our last three vendor contracts. Second, clause 12 defines \"derivative works\" so broadly that any internal tool we build on top of their API could be claimed as their intellectual property.",
+              "bodyJa": "1つ目、第8.3条でダイナコアは48時間前の通知のみで使用データを監査する権利を持ちます。これは直近3件のベンダー契約で認めた30日間の猶予よりもはるかに短い。2つ目、第12条が「二次的著作物」を非常に広く定義しており、そのAPIを基に構築した社内ツールが同社の知的財産として主張される可能性があります。"
+            },
+            {
+              "sender": "Reiko Tanaka",
+              "timeLabel": "9:12 AM",
+              "bodyEn": "The derivative works issue is the more serious one in my view. I've seen two competitors run into exactly that problem and end up paying licensing fees on tools they built themselves.",
+              "bodyJa": "私の見解では、二次的著作物の問題の方が深刻です。まったく同じ問題に直面した競合他社2社が、自社で構築したツールにライセンス料を支払う羽目になった事例を知っています。"
+            },
+            {
+              "sender": "Tom Eriksson",
+              "timeLabel": "9:14 AM",
+              "bodyEn": "Agreed. Can we propose carve-out language that limits the definition to works that incorporate their actual source code rather than merely calling the API?",
+              "bodyJa": "同意します。実際のソースコードを組み込んだものに限定し、単にAPIを呼び出すだけの場合は除外するよう定義を絞り込む文言を提案できますか？"
+            },
+            {
+              "sender": "Priya Nair",
+              "timeLabel": "9:17 AM",
+              "bodyEn": "That's exactly what I had in mind. I'll draft a redline for both clauses and circulate it this afternoon. Reiko, would you be able to review the draft before I send it to Dynacor's legal counsel?",
+              "bodyJa": "まさにそれを考えていました。両方の条項の修正案（レッドライン）を作成し、今日の午後に回覧します。レイコ、ダイナコアの法律顧問に送る前にドラフトを確認していただけますか？"
+            },
+            {
+              "sender": "Reiko Tanaka",
+              "timeLabel": "9:19 AM",
+              "bodyEn": "Of course. Ping me when it's ready. I'm in back-to-back meetings until noon, but I'll look at it first thing after lunch.",
+              "bodyJa": "もちろんです。準備ができたら連絡してください。午前中は連続した会議がありますが、昼食後すぐに確認します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 155,
+          "type": "main_idea",
+          "questionEn": "What is the main subject of the conversation?",
+          "questionJa": "この会話の主な内容は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Deciding whether to terminate an existing contract with Dynacor over audit violations",
+              "explanation": "契約解除については会話中に言及がなく、チームは契約条項の修正を検討しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Evaluating multiple competing vendors before selecting a new software provider",
+              "explanation": "複数のベンダー評価については会話中に言及がなく、既存のダイナコア契約のレビューが話題です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Negotiating a discount on the Dynacor licensing fees with the vendor's sales team",
+              "explanation": "ライセンス料の値引き交渉については会話中に一切言及がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Reviewing and preparing amendments to problematic clauses in a vendor contract",
+              "explanation": "チャット全体を通じて、プリヤ氏がダイナコア契約の2つの問題条項を特定し、トム氏とレイコ氏が修正案文（レッドライン）の作成と確認の段取りを話し合っています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s4-chat",
+              "paragraphIndex": 0,
+              "snippetEn": "There are two clauses I think we need to flag before we give procurement the green light"
+            },
+            {
+              "passageId": "t03-s4-chat",
+              "paragraphIndex": 5,
+              "snippetEn": "I'll draft a redline for both clauses and circulate it this afternoon"
+            }
+          ],
+          "explanationOverall": "チャット全体を通じて、プリヤ氏がダイナコアのライセンス契約の2つの問題条項（監査通知期間と二次的著作物の定義）を特定し、トム氏とレイコ氏が修正案文（レッドライン）の作成と確認の段取りを話し合っています。"
+        },
+        {
+          "no": 156,
+          "type": "intention",
+          "questionEn": "At 9:12 A.M., why does Ms. Tanaka write, \"I've seen two competitors run into exactly that problem and end up paying licensing fees on tools they built themselves\"?",
+          "questionJa": "午前9時12分に、田中氏が「まったく同じ問題に直面した競合他社2社が、自社で構築したツールにライセンス料を支払う羽目になった事例を知っています」と書いたのはなぜですか。",
+          "intentionTarget": {
+            "sender": "Reiko Tanaka",
+            "utteranceEn": "I've seen two competitors run into exactly that problem and end up paying licensing fees on tools they built themselves."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "To argue that the company should withdraw from the agreement entirely rather than seek amendments",
+              "explanation": "田中氏は修正案文の作成に積極的に協力しており、契約からの完全撤退を主張していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To suggest that Dynacor has a history of enforcing its intellectual property claims aggressively",
+              "explanation": "ダイナコアの過去の行動については言及がなく、「競合他社2社」の事例を引用する意図は別にあります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To underscore the seriousness of the derivative works clause by citing real-world consequences",
+              "explanation": "田中氏の発言は「二次的著作物の問題の方が深刻だ」という意見表明の直後に来ており、競合他社が「自社構築ツールにライセンス料を支払う羽目になった」という具体例を示すことでリスクの重大性を強調しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To propose that the team consult those competitors for advice on contract negotiation",
+              "explanation": "競合他社への相談提案という意図は文脈から読み取れません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s4-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "I've seen two competitors run into exactly that problem and end up paying licensing fees on tools they built themselves"
+            }
+          ],
+          "explanationOverall": "田中氏の発言は「二次的著作物の問題の方が深刻だ（The derivative works issue is the more serious one in my view）」という意見表明の直後に来ており、競合他社が同じ問題で「自社構築ツールにライセンス料を支払う羽目になった」という具体例で主張を裏付けることで、この条項のリスクの重大性をチームに認識させようとしています。"
+        },
+        {
+          "no": 157,
+          "type": "infer",
+          "questionEn": "What will most likely happen next?",
+          "questionJa": "次に何が起こると考えられますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Mr. Eriksson will contact Dynacor's legal counsel to request an extension of the review deadline",
+              "explanation": "エリクソン氏がダイナコアの法律顧問に連絡するとは会話中に述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Ms. Nair will prepare amended contract language and share it with Ms. Tanaka for review before it is sent externally",
+              "explanation": "プリヤ氏が「今日の午後にレッドラインを回覧する」と述べ、レイコ氏に「外部送付前に確認してほしい」と依頼しており、レイコ氏が「昼食後すぐに確認する」と承諾しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The team will ask the procurement department to put the Dynacor contract on hold indefinitely",
+              "explanation": "調達部門への無期限保留依頼については会話中に言及がありません。チームは修正案の作成に向けて動いています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Ms. Nair will send the revised contract clauses directly to Dynacor without further internal review",
+              "explanation": "プリヤ氏は「ダイナコアの法律顧問に送る前に」レイコ氏にレビューを依頼しており、内部レビューなしの直接送付は予定されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s4-chat",
+              "paragraphIndex": 5,
+              "snippetEn": "Reiko, would you be able to review the draft before I send it to Dynacor's legal counsel?"
+            },
+            {
+              "passageId": "t03-s4-chat",
+              "paragraphIndex": 6,
+              "snippetEn": "I'll look at it first thing after lunch"
+            }
+          ],
+          "explanationOverall": "プリヤ氏が「今日の午後にレッドラインを回覧する（circulate it this afternoon）」と述べ、レイコ氏に「ダイナコアの法律顧問に送る前に確認してほしい（would you be able to review the draft before I send it to Dynacor's legal counsel）」と依頼しており、レイコ氏が「昼食後すぐに確認する（I'll look at it first thing after lunch）」と承諾しています。これらを合わせると、次のステップはレッドライン作成→田中氏によるレビューとなります。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s5-letter",
+          "docType": "letter",
+          "title": "Peer Review Invitation — Journal of Applied Organisational Behaviour",
+          "from": "Professor Helena Brandt, Editor-in-Chief, JAOB",
+          "to": "Dr. Nakamura",
+          "paragraphs": [
+            {
+              "en": "Dear Dr. Nakamura, I am writing on behalf of the Editorial Board of the Journal of Applied Organisational Behaviour (JAOB) to invite you to serve as a peer reviewer for a manuscript currently under consideration for publication. The manuscript, submitted under the reference number JAOB-2026-0441, presents empirical findings on the relationship between hybrid work adoption rates and self-reported employee burnout across five industry sectors in Southeast Asia.",
+              "ja": "中村博士、私はジャーナル・オブ・アプライド・オーガニゼーショナル・ビヘイビア（JAOB）編集委員会を代表して、現在掲載検討中の原稿の査読者としてご参加いただくよう依頼するためにご連絡差し上げます。参照番号JAOB-2026-0441として提出されたこの原稿は、東南アジアの5つの産業セクターにわたるハイブリッドワーク導入率と従業員の自己申告によるバーンアウトの関係に関する実証的知見を提示しています。"
+            },
+            {
+              "en": "We have identified you as a prospective reviewer based on your recent publications in the domains of occupational well-being measurement and cross-cultural organisational research, and we believe your expertise is particularly well-suited to evaluate both the methodological rigour of the study design and the contextual validity of its conclusions. Given your breadth of knowledge in this area, we are confident you would provide a thorough and constructive assessment.",
+              "ja": "職業的ウェルビーイング測定および異文化組織研究の分野における最近のご研究に基づき、中村博士を候補査読者として特定いたしました。研究設計の方法論的厳密性と結論の文脈的妥当性の両方を評価するために、博士の専門知識が特に適していると考えております。この分野における幅広い知識をお持ちであることから、徹底的かつ建設的な評価をご提供いただけると確信しています。"
+            },
+            {
+              "en": "Should you agree to undertake the review, we would request that you submit your evaluation through the JAOB editorial management portal no later than August 29. The review guidelines and a link to the anonymised manuscript will be sent to you upon confirmation of your acceptance. If you anticipate that the timeline presents a difficulty, or if you identify a potential conflict of interest that would preclude your participation, please inform us within five business days so that we may approach an alternative reviewer without undue delay.",
+              "ja": "査読をお引き受けいただける場合、8月29日までにJAOB編集管理ポータルを通じて評価をご提出いただくようお願いします。査読ガイドラインおよび匿名化された原稿へのリンクは、ご承諾確認後にお送りします。スケジュールに支障をきたす可能性がある場合、またはご参加を妨げる利益相反の可能性がある場合は、代替査読者への打診を遅滞なく行えるよう、5営業日以内にお知らせください。"
+            },
+            {
+              "en": "We sincerely hope you will be able to contribute to the review process and look forward to your prompt response. Yours faithfully, Professor Helena Brandt, Editor-in-Chief, Journal of Applied Organisational Behaviour",
+              "ja": "査読プロセスへのご参加をいただけることを切に願い、早急なご回答をお待ちしております。敬具　ヘレナ・ブラント教授　編集長　ジャーナル・オブ・アプライド・オーガニゼーショナル・ビヘイビア"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 158,
+          "type": "main_idea",
+          "questionEn": "What is the main purpose of this letter?",
+          "questionJa": "このレターの主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To request that Dr. Nakamura evaluate a research manuscript on behalf of the journal",
+              "explanation": "第1段落の冒頭に「現在掲載検討中の原稿の査読者として参加いただくよう依頼するためにご連絡した」と明記されており、レター全体が査読の依頼とその手続きの説明に充てられています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To announce a change in the editorial policies of the JAOB",
+              "explanation": "編集方針の変更については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To invite Dr. Nakamura to join the Editorial Board of the JAOB as a permanent member",
+              "explanation": "編集委員会への参加依頼ではなく、特定原稿の査読依頼です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To notify Dr. Nakamura that a manuscript they submitted has been accepted for publication",
+              "explanation": "中村博士が原稿を提出したという記述はなく、むしろ第三者の原稿の査読者として依頼されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s5-letter",
+              "paragraphIndex": 0,
+              "snippetEn": "I am writing on behalf of the Editorial Board of the Journal of Applied Organisational Behaviour (JAOB) to invite you to serve as a peer reviewer for a manuscript currently under consideration for publication"
+            }
+          ],
+          "explanationOverall": "第1段落の冒頭に「現在掲載検討中の原稿の査読者としてご参加いただくよう依頼するためにご連絡差し上げます（I am writing ... to invite you to serve as a peer reviewer for a manuscript currently under consideration for publication）」と明記されており、レター全体が査読の依頼とその手続きの説明に終始しています。"
+        },
+        {
+          "no": 159,
+          "type": "detail",
+          "questionEn": "According to the letter, why was Dr. Nakamura selected as a prospective reviewer?",
+          "questionJa": "レターによると、中村博士が査読者候補として選ばれたのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They were recommended by the authors of the manuscript under review",
+              "explanation": "著者による推薦については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They previously served as a guest editor for a special issue of the JAOB",
+              "explanation": "ゲストエディターとしての経歴については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "They are affiliated with an institution in Southeast Asia and have direct regional expertise",
+              "explanation": "東南アジアの機関所属については本文に記載がなく、選定理由ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Their published work in occupational well-being and cross-cultural organisational research aligns with the manuscript's topics",
+              "explanation": "第2段落に「職業的ウェルビーイング測定および異文化組織研究の分野における最近のご研究に基づき候補者として特定した（identified you as a prospective reviewer based on your recent publications in the domains of occupational well-being measurement and cross-cultural organisational research）」と明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s5-letter",
+              "paragraphIndex": 1,
+              "snippetEn": "We have identified you as a prospective reviewer based on your recent publications in the domains of occupational well-being measurement and cross-cultural organisational research"
+            }
+          ],
+          "explanationOverall": "第2段落に「We have identified you as a prospective reviewer based on your recent publications in the domains of occupational well-being measurement and cross-cultural organisational research」と明記されており、博士の研究実績が選考理由として明示されています。"
+        },
+        {
+          "no": 160,
+          "type": "not",
+          "questionEn": "According to the letter, which of the following is NOT mentioned as something Dr. Nakamura should do?",
+          "questionJa": "レターによると、次のうち中村博士がすべきこととして言及されていないのはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Notify the editors if a conflict of interest prevents them from participating",
+              "explanation": "第3段落に「利益相反の可能性がある場合は5営業日以内にお知らせください（if you identify a potential conflict of interest ... please inform us within five business days）」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Contact the manuscript's authors directly to clarify any ambiguous sections",
+              "explanation": "著者への直接連絡については本文に一切記載がありません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Respond within five business days if they cannot meet the review timeline",
+              "explanation": "第3段落に「スケジュールに支障をきたす可能性がある場合は5営業日以内にお知らせください（please inform us within five business days）」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Submit their review through the journal's online editorial management portal",
+              "explanation": "第3段落に「JAOB編集管理ポータルを通じて評価をご提出いただくようお願いします（submit your evaluation through the JAOB editorial management portal）」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s5-letter",
+              "paragraphIndex": 2,
+              "snippetEn": "we would request that you submit your evaluation through the JAOB editorial management portal no later than August 29"
+            },
+            {
+              "passageId": "t03-s5-letter",
+              "paragraphIndex": 2,
+              "snippetEn": "If you anticipate that the timeline presents a difficulty, or if you identify a potential conflict of interest that would preclude your participation, please inform us within five business days"
+            }
+          ],
+          "explanationOverall": "第3段落には「ポータルを通じて評価を提出する」「スケジュールに支障をきたす場合は5営業日以内に知らせる」「利益相反があれば通知する」と言及されていますが、著者に直接連絡することは一切記載されていません。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s6-ad",
+          "docType": "advertisement",
+          "title": "Pinnacle Executive Coaching Programme",
+          "paragraphs": [
+            {
+              "en": "The Pinnacle Executive Coaching Programme is an intensive, twelve-month engagement designed exclusively for C-suite leaders and senior vice presidents whose organisations generate annual revenues in excess of fifty million dollars. Participants must currently hold a position that carries direct profit-and-loss accountability and must have completed at least five years of executive-level service prior to enrolment. The programme is limited to sixteen participants per cohort in order to ensure that each individual receives the depth of personalised attention that transformational leadership development demands.",
+              "ja": "ピナクル・エグゼクティブ・コーチング・プログラムは、年間売上高5000万ドルを超える組織に在籍するCスイート幹部およびシニア・バイスプレジデント専用の、12か月にわたる集中的な研修です。受講者は、直接的な損益責任を担う役職に現在就いており、受講開始前に少なくとも5年間の経営幹部経験があることが条件です。変革型リーダーシップの育成に必要な十分な個別対応を確保するため、各コホートの定員は16名に限定されています。"
+            },
+            {
+              "en": "Each participant is paired with a dedicated senior coach who brings no fewer than twenty years of boardroom experience across multiple industries. The curriculum encompasses twenty-four one-on-one coaching sessions distributed evenly over the programme year, supplemented by four half-day strategic workshops conducted at our London headquarters. A comprehensive 360-degree leadership assessment tool is administered at the outset and again at the programme's midpoint, providing data-driven benchmarks against which each participant's progress can be objectively measured. Participants are also granted access to our proprietary digital platform, where they may engage in asynchronous reflection exercises and download curated research briefs between sessions.",
+              "ja": "各参加者には、複数の業界で20年以上の取締役会経験を持つ専任シニアコーチが付きます。カリキュラムには、12か月のプログラム期間を通じて均等に配置された24回の1対1コーチングセッションが含まれ、ロンドン本部で開催される4回の半日戦略ワークショップがこれを補完します。包括的な360度リーダーシップ評価は開始時と中間時点に実施され、各参加者の進捗を客観的に測定するためのデータに基づく基準を提供します。参加者は独自のデジタルプラットフォームも利用でき、セッション間に非同期の振り返り演習に取り組んだり、厳選された調査報告書をダウンロードしたりできます。"
+            },
+            {
+              "en": "Applications for the September cohort must be submitted no later than 31 July via the secure online portal at www.pinnaclecoaching.example/apply. Each application requires a current curriculum vitae, a letter of endorsement from the applicant's board chair or equivalent governance authority, and a personal statement of no more than five hundred words outlining the specific leadership challenges the applicant seeks to address. Shortlisted candidates will be invited to a thirty-minute preliminary interview conducted by telephone or video conference. For enquiries regarding programme eligibility or the application procedure, please contact our Participant Relations team at enrolments@pinnaclecoaching.example or on +44 20 7946 0382.",
+              "ja": "9月コホートへの申請は、7月31日までにwww.pinnaclecoaching.example/applyのセキュアなオンラインポータルから提出してください。各申請には、最新の履歴書、申請者の取締役会長または同等のガバナンス機関からの推薦状、および申請者が取り組もうとしている具体的なリーダーシップ課題を概説した500語以内の志望理由書が必要です。書類選考を通過した候補者は、電話またはビデオ会議による30分間の予備面接に招待されます。プログラムの資格や申請手続きに関するお問い合わせは、enrolments@pinnaclecoaching.exampleまたは+44 20 7946 0382にてParticipant Relationsチームにご連絡ください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 161,
+          "type": "detail",
+          "questionEn": "According to the advertisement, which of the following is a requirement for programme applicants?",
+          "questionJa": "広告によると、プログラム申請者の要件として正しいものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They must submit a letter of recommendation from a current client",
+              "explanation": "推薦状はクライアントではなく、取締役会長または同等のガバナンス機関からのものが求められています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They must hold a doctoral degree in business administration or a related field",
+              "explanation": "学位要件については本文に一切記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "They must be a C-suite leader or senior vice president at an organisation with annual revenues exceeding fifty million dollars",
+              "explanation": "第1段落に、年間売上高5000万ドル超の組織に在籍するCスイート幹部またはシニア・バイスプレジデントが対象と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "They must have previously participated in a leadership development programme",
+              "explanation": "以前にリーダーシップ開発プログラムに参加した経験については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "organisations generate annual revenues in excess of fifty million dollars"
+            }
+          ],
+          "explanationOverall": "第1段落に「C-suite leaders and senior vice presidents whose organisations generate annual revenues in excess of fifty million dollars」と明記されており、年間売上高5000万ドル超の組織に在籍することが資格要件の一つです。推薦状の要件（第3段落）は取締役会長または同等機関からのものであり、クライアントからではありません。"
+        },
+        {
+          "no": 162,
+          "type": "not",
+          "questionEn": "Which of the following is NOT mentioned in the advertisement?",
+          "questionJa": "次のうち、広告に記載されていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The number of participants accepted into each cohort",
+              "explanation": "第1段落に「limited to sixteen participants per cohort」と定員が明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The frequency with which coaching sessions are held",
+              "explanation": "第2段落に「twenty-four one-on-one coaching sessions distributed evenly over the programme year」とあり、年間を通じた回数が示されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The qualifications held by the coaches assigned to participants",
+              "explanation": "第2段落に「no fewer than twenty years of boardroom experience across multiple industries」とコーチの経験が記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The criteria used to evaluate personal statements during the selection process",
+              "explanation": "個人陳述書の審査基準については本文中に一切記載がなく、書類選考の評価基準は明示されていません。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "limited to sixteen participants per cohort"
+            },
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "twenty-four one-on-one coaching sessions distributed evenly over the programme year"
+            },
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "no fewer than twenty years of boardroom experience across multiple industries"
+            }
+          ],
+          "explanationOverall": "定員（第1段落）、セッション数（第2段落）、コーチの資格（第2段落）はすべて言及されています。一方、個人陳述書の審査基準については本文中に記載がなく、書類選考後の予備面接についての言及（第3段落）はあるものの、評価基準そのものは示されていません。"
+        },
+        {
+          "no": 163,
+          "type": "infer",
+          "questionEn": "What can be inferred about the Pinnacle Executive Coaching Programme?",
+          "questionJa": "ピナクル・エグゼクティブ・コーチング・プログラムについて推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Participants are expected to engage with programme materials outside of scheduled sessions",
+              "explanation": "第2段落に「asynchronous reflection exercises and download curated research briefs between sessions」とあり、スケジュールされたセッション外での取り組みが想定されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The programme is offered at multiple locations across the United Kingdom",
+              "explanation": "第2段落に「four half-day strategic workshops conducted at our London headquarters」とあり、ロンドン本部のみで研修が実施されることが示されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The 360-degree assessment is conducted solely by the participant's direct reports",
+              "explanation": "360度評価の評価者については本文に詳細が記載されておらず、直属部下のみとは読み取れません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Candidates who are not selected after interview may reapply in a subsequent cohort",
+              "explanation": "再申請については本文に記載がなく、推論の根拠がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "asynchronous reflection exercises and download curated research briefs between sessions"
+            },
+            {
+              "passageId": "t03-s6-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "four half-day strategic workshops conducted at our London headquarters"
+            }
+          ],
+          "explanationOverall": "第2段落に「asynchronous reflection exercises and download curated research briefs between sessions」とあることから、参加者はスケジュールされたセッション以外でも教材に取り組むことが期待されていると推論できます。また、「four half-day strategic workshops conducted at our London headquarters」から、ロンドン本部のみでの実施であり複数拠点は否定されます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s7-receipt",
+          "docType": "receipt",
+          "title": "LinguaTech Professional Translation Services — Invoice & Receipt",
+          "paragraphs": [
+            {
+              "en": "Issued to: Hartwell & Morgenstern LLP, 14 Aldgate Square, London EC3N 1AB. Client Reference: HM-2024-0891. Service Description: Certified translation of one (1) patent specification document from German (source) into English (target), comprising 9,240 source words as verified by the proprietary word-count audit conducted prior to commencement of work. Translation was completed by a subject-matter specialist holding formal qualifications in intellectual property law and a minimum of ten years' experience in German-to-English patent translation. The completed translation carries LinguaTech's Certified Accuracy Seal, which is recognised by the European Patent Office and the Intellectual Property Office of the United Kingdom.",
+              "ja": "発行先：Hartwell & Morgenstern LLP、14 Aldgate Square、London EC3N 1AB。クライアント参照番号：HM-2024-0891。サービス内容：特許明細書1件のドイツ語（原文）から英語（訳文）への認証翻訳。作業開始前に独自の文字数監査により確認された原文語数は9,240語です。翻訳は、知的財産法の正式な資格を持ち、ドイツ語から英語への特許翻訳において最低10年の経験を有する専門家によって完了されました。完成した翻訳には、欧州特許庁および英国知的財産庁に認められたLinguaTechの認証精度シールが付与されています。"
+            },
+            {
+              "en": "Fee Breakdown: Base translation fee (9,240 words at £0.18 per word): £1,663.20. Priority processing surcharge (48-hour turnaround, applied at 35% of base fee): £582.12. Terminology consistency review and glossary compilation: £210.00. Notarisation of translator's declaration: £75.00. Total amount due: £2,530.32. Payment was received in full on 14 November 2024 by bank transfer. VAT is not applicable to certified legal translation services under the provisions of HMRC Notice 701/57.",
+              "ja": "料金内訳：基本翻訳料（9,240語 × £0.18/語）：£1,663.20。優先処理追加料金（48時間納期、基本料金の35%）：£582.12。用語整合性レビューおよび用語集作成：£210.00。翻訳者宣言の公証：£75.00。合計請求額：£2,530.32。2024年11月14日に銀行振込にて全額受領済み。認証法律翻訳サービスには、HMRC通知701/57の規定に基づきVATは適用されません。"
+            },
+            {
+              "en": "Terms and Conditions: In the event that the client identifies a demonstrable error of substance attributable to the translator within ninety days of receipt of the completed document, LinguaTech will undertake a full revision at no additional charge. This guarantee does not extend to stylistic preferences or to alterations requested by a third party following delivery. Refunds will not be issued once work has commenced; however, if LinguaTech is unable to meet the agreed delivery deadline through circumstances within its control, the priority processing surcharge will be waived in full. All source materials submitted to LinguaTech are handled in strict accordance with our Data Processing Agreement, copies of which are available upon request.",
+              "ja": "利用規約：完成した文書の受領から90日以内に、翻訳者に帰すべき実質的な誤りが確認された場合、LinguaTechは追加料金なしで全面改訂を行います。この保証は、文体上の好みや納品後に第三者から要請された修正には適用されません。作業開始後は返金されません。ただし、LinguaTechの管理下にある事情により合意した納期を守れない場合は、優先処理追加料金が全額免除されます。LinguaTechに提出されたすべての原資料は、当社のデータ処理契約に厳密に従って取り扱われます。コピーはご要望に応じてご提供します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 164,
+          "type": "detail",
+          "questionEn": "What does the receipt indicate about the priority processing surcharge?",
+          "questionJa": "領収書は優先処理追加料金について何を示していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It covers the cost of the notarisation of the translator's declaration",
+              "explanation": "公証費用は別途£75.00として計上されており、優先処理追加料金とは別の項目です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It is calculated as a percentage of the base translation fee",
+              "explanation": "第2段落に「Priority processing surcharge (48-hour turnaround, applied at 35% of base fee)」と明記されており、基本翻訳料に対するパーセンテージとして算出されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "It is a fixed charge applied regardless of the order value",
+              "explanation": "追加料金は固定額ではなく基本料金の35%として算出されるため、注文金額によって変動します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It is refunded if the translation contains any errors",
+              "explanation": "返金条件はエラーではなく、LinguaTechが納期を守れなかった場合に「全額免除（waived in full）」となります。これは返金ではなく免除であり、条件も異なります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s7-receipt",
+              "paragraphIndex": 1,
+              "snippetEn": "Priority processing surcharge (48-hour turnaround, applied at 35% of base fee)"
+            }
+          ],
+          "explanationOverall": "第2段落の料金内訳に「Priority processing surcharge (48-hour turnaround, applied at 35% of base fee): £582.12」と明記されており、優先処理追加料金は基本翻訳料の35%として計算されています。"
+        },
+        {
+          "no": 165,
+          "type": "synonym",
+          "questionEn": "The word \"demonstrable\" in paragraph 3 is closest in meaning to",
+          "questionJa": "第3段落の \"demonstrable\" に最も意味が近いものはどれですか。",
+          "targetWord": "demonstrable",
+          "choices": [
+            {
+              "label": "A",
+              "text": "predictable",
+              "explanation": "「predictable」は「予測可能な」を意味し、証明可能性とは異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "deliberate",
+              "explanation": "「deliberate」は「意図的な」を意味し、証明可能性とは関係がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "verifiable",
+              "explanation": "「demonstrable」は「証明できる、実証可能な」という意味で、文脈上「verifiable（検証可能な）」が最も近い意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "substantial",
+              "explanation": "「substantial」は「相当な、実質的な」を意味し、量や規模を示す点が「demonstrable（証明可能な）」とは異なります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s7-receipt",
+              "paragraphIndex": 2,
+              "snippetEn": "the client identifies a demonstrable error of substance attributable to the translator"
+            }
+          ],
+          "explanationOverall": "第3段落の「a demonstrable error of substance attributable to the translator（翻訳者に帰すべき実質的な誤り）」という文脈で使われており、「客観的に証明できる誤り」を意味しています。「demonstrable」は「実証可能な、証明できる」を意味し、「verifiable（検証可能な）」が最も近い意味を持ちます。"
+        },
+        {
+          "no": 166,
+          "type": "infer",
+          "questionEn": "What can be inferred about LinguaTech's refund policy from the receipt?",
+          "questionJa": "領収書からLinguaTechの返金ポリシーについて推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The company provides a full refund if the client is dissatisfied with the stylistic quality of the translation",
+              "explanation": "文体上の好みによる不満は補償対象外と第3段落に明記されており、返金は行われません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Clients can cancel an order and receive a refund before the translation work begins",
+              "explanation": "作業開始前の返金については本文に記載がありません。「once work has commenced（作業開始後）」という表現しか言及されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A client is entitled to a full refund if the translation is delivered after the agreed deadline",
+              "explanation": "納期遅延の場合は「優先処理追加料金が全額免除（waived in full）」されますが、返金（refund）は行われないと第3段落に明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "No refund is available once translation work has begun, regardless of the circumstances",
+              "explanation": "第3段落に「Refunds will not be issued once work has commenced」と明記されており、作業開始後の返金（refund）については例外が記載されていません。なお納期遅延時には「優先処理追加料金が全額免除」される規定がありますが、それは返金ではなく料金の不請求であり、本選択肢の「refund」の範囲外です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s7-receipt",
+              "paragraphIndex": 2,
+              "snippetEn": "Refunds will not be issued once work has commenced"
+            }
+          ],
+          "explanationOverall": "第3段落に「Refunds will not be issued once work has commenced（作業開始後は返金されません）」と明記されています。また、納期遅延時に優先処理追加料金が「免除」されるのは返金ではなく料金の不請求であり、返金ポリシーとは区別されます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s8-web",
+          "docType": "web_page",
+          "title": "GreenBuild Certification Authority — Frequently Asked Questions",
+          "paragraphs": [
+            {
+              "en": "Q: What is the GreenBuild Materials Certification, and which organisations are eligible to apply? A: The GreenBuild Materials Certification is an independent third-party accreditation scheme that verifies the environmental performance of construction materials across the full product lifecycle, from raw material extraction through manufacture, distribution, installation, and end-of-life disposal. Eligibility is open to any manufacturer or importer of construction materials that has been trading continuously for a minimum of three years and can demonstrate compliance with the applicable ISO 14001 environmental management standard or its regional equivalent. Distributors and retailers are not eligible to apply directly; certification must be sought by the entity that controls the production process.",
+              "ja": "Q: GreenBuild建材認証とは何ですか？どの組織が申請資格を持ちますか？A: GreenBuild建材認証は、原材料採掘から製造・流通・施工・廃棄に至る製品ライフサイクル全体にわたって建築材料の環境パフォーマンスを検証する、独立した第三者認定制度です。申請資格は、最低3年間継続して取引を行っており、ISO 14001環境マネジメント規格またはその地域同等規格への準拠を証明できる建築材料の製造業者または輸入業者に開かれています。流通業者や小売業者は直接申請する資格がなく、認証は生産プロセスを管理する主体が申請しなければなりません。"
+            },
+            {
+              "en": "Q: How long does the certification process take, and what does it cost? A: From the point at which a completed application is received, the standard assessment pathway requires between fourteen and twenty weeks, depending on the complexity of the product range under review and the availability of laboratory test data. Applicants who engage an approved pre-assessment consultant prior to submission may reduce this timeline by up to four weeks. The non-refundable application fee is £1,800 for organisations with annual revenues below £10 million and £3,400 for larger organisations. These fees cover the administrative review and a single site inspection; if a second inspection is required as a result of non-conformances identified during the first visit, an additional fee of £650 will apply. All fees are exclusive of VAT.",
+              "ja": "Q: 認証プロセスにはどのくらいの時間がかかりますか？費用はどれくらいですか？A: 完全な申請書が受領されてから、標準評価経路では14〜20週間を要します。この期間は、審査対象製品群の複雑さや試験データの入手可能性によって異なります。提出前に認定された事前評価コンサルタントを利用した申請者は、最大4週間短縮できます。年間収益が1000万ポンド未満の組織には£1,800、それ以上の組織には£3,400の返金不可の申請手数料がかかります。この手数料には、行政審査と1回の現地検査が含まれます。最初の訪問で特定された不適合の結果として2回目の検査が必要な場合、追加料金£650が適用されます。すべての料金はVAT別です。"
+            },
+            {
+              "en": "Q: How long is a GreenBuild certificate valid, and under what circumstances can it be revoked? A: A certificate is valid for three years from the date of issue. During this period, certificate holders are required to submit an annual self-declaration confirming that no material changes have been made to the certified product's formulation, manufacturing process, or supply chain. Failure to submit the self-declaration within thirty days of the anniversary date will result in automatic suspension of the certificate. Revocation may also be initiated by the GreenBuild Authority if a post-market surveillance audit reveals evidence of systematic non-compliance or if the certificate holder is found to have provided false or misleading information at any stage of the application or renewal process. Renewal applications must be submitted no later than twelve weeks before the expiry date.",
+              "ja": "Q: GreenBuild認証の有効期間はどのくらいですか？どのような状況で取り消されますか？A: 証明書は発行日から3年間有効です。この期間中、証明書保有者は、認証された製品の処方・製造プロセス・サプライチェーンに重要な変更が行われていないことを確認する年次自己申告書を提出する必要があります。記念日から30日以内に自己申告書を提出しない場合、証明書は自動的に停止されます。市販後監視監査で組織的な不適合の証拠が明らかになった場合、または証明書保有者が申請や更新プロセスのいずれかの段階で虚偽または誤解を招く情報を提供したことが判明した場合も、GreenBuild機構によって取り消しが開始されることがあります。更新申請は有効期限の12週前までに提出する必要があります。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 167,
+          "type": "main_idea",
+          "questionEn": "What is the primary purpose of this web page?",
+          "questionJa": "このウェブページの主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To explain the eligibility criteria, application process, and certificate management for a building materials accreditation scheme",
+              "explanation": "3つのQ&A形式の段落が、認証の資格条件（第1段落）、申請プロセスと費用（第2段落）、有効期限と取り消し条件（第3段落）をそれぞれ扱っており、建材認証制度の手続き的情報を説明することがページの主目的です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To promote the environmental benefits of certified building materials to construction companies",
+              "explanation": "環境的利点の宣伝ではなく、認証制度の手続き的側面の説明が主目的です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To compare GreenBuild certification with other sustainability accreditation schemes",
+              "explanation": "他の認証制度との比較については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To announce changes to the existing certification requirements following a regulatory review",
+              "explanation": "要件の変更告知ではなく、既存の認証制度の仕組みを説明するFAQです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 0,
+              "snippetEn": "The GreenBuild Materials Certification is an independent third-party accreditation scheme"
+            },
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 1,
+              "snippetEn": "How long does the certification process take, and what does it cost"
+            },
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 2,
+              "snippetEn": "How long is a GreenBuild certificate valid, and under what circumstances can it be revoked"
+            }
+          ],
+          "explanationOverall": "3つのQ&A形式の段落が、それぞれ認証の概要と資格条件、申請プロセスと費用、有効期限と取り消し条件を扱っています。これら全体を通じて、建材認証制度の手続き的情報を説明することがページの主目的です。"
+        },
+        {
+          "no": 168,
+          "type": "detail",
+          "questionEn": "According to the FAQ, under what condition will an applicant be charged an additional fee of £650?",
+          "questionJa": "FAQによると、申請者が£650の追加料金を請求されるのはどのような条件の場合ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "If a second site inspection is necessary due to non-conformances found in the first",
+              "explanation": "第2段落に「if a second inspection is required as a result of non-conformances identified during the first visit, an additional fee of £650 will apply」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "If the applicant requests an accelerated assessment pathway",
+              "explanation": "審査期間短縮は事前評価コンサルタント利用で最大4週間短縮できると述べられていますが、£650の追加料金との関連は記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "If the organisation's annual revenue exceeds £10 million",
+              "explanation": "年間収益が1000万ポンドを超える場合は基本申請手数料が£3,400になりますが、£650の追加料金とは別の話です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "If the application is submitted after the published deadline",
+              "explanation": "締切後の申請に対する追加料金については記載がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 1,
+              "snippetEn": "if a second inspection is required as a result of non-conformances identified during the first visit, an additional fee of £650 will apply"
+            }
+          ],
+          "explanationOverall": "第2段落に「if a second inspection is required as a result of non-conformances identified during the first visit, an additional fee of £650 will apply」と明確に記載されており、最初の現地検査で不適合が発見されて2回目の検査が必要になった場合に追加料金が発生します。"
+        },
+        {
+          "no": 169,
+          "type": "not",
+          "questionEn": "Which of the following is NOT stated in the FAQ?",
+          "questionJa": "次のうち、FAQに記載されていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Distributors cannot apply for certification directly",
+              "explanation": "第1段落に「Distributors and retailers are not eligible to apply directly」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A certificate may be suspended if the annual self-declaration is not submitted on time",
+              "explanation": "第3段落に「Failure to submit the self-declaration within thirty days of the anniversary date will result in automatic suspension of the certificate」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Renewal applications must be received no later than twelve weeks before expiry",
+              "explanation": "第3段落に「Renewal applications must be submitted no later than twelve weeks before the expiry date」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Applicants may appeal a certification refusal by contacting the scheme's founding regulatory body",
+              "explanation": "認証拒否に対する異議申立手続きや設立規制機関への申立については本文に記載がなく、これが本文に言及のない事項です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 0,
+              "snippetEn": "Distributors and retailers are not eligible to apply directly"
+            },
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 2,
+              "snippetEn": "Failure to submit the self-declaration within thirty days of the anniversary date will result in automatic suspension of the certificate"
+            },
+            {
+              "passageId": "t03-s8-web",
+              "paragraphIndex": 2,
+              "snippetEn": "Renewal applications must be submitted no later than twelve weeks before the expiry date"
+            }
+          ],
+          "explanationOverall": "流通業者の申請不可（第1段落）、自己申告書未提出による停止（第3段落）、更新申請期限（第3段落）はすべて記載されています。一方、認証拒否に対する異議申立手続きや設立規制機関への申立については本文に記載がなく、これが正解です。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s9-form",
+          "docType": "form",
+          "title": "Meridian Research Foundation — Grant Assessment Outcome Notification",
+          "paragraphs": [
+            {
+              "en": "Applicant Name: Dr. Priya Subramaniam. Affiliated Institution: Department of Computational Linguistics, Westbrook University. Application Reference: MRF-2025-RL-0047. Programme: Frontier Research in Language Technology (Cycle 7). Assessment Outcome: CONDITIONAL AWARD. The Review Panel has determined that the application demonstrates sufficient scientific merit to warrant funding, subject to the conditions set out in the section below. The Panel notes in particular the methodological rigour of the proposed experimental design and the potential for translational impact within the field of low-resource language processing. The awarded amount is GBP 148,000, representing a reduction of GBP 22,000 from the sum originally requested, as the Panel concluded that the budget allocation for conference travel was disproportionate relative to the core research objectives.",
+              "ja": "申請者名：Priya Subramaniam博士。所属機関：ウェストブルック大学計算言語学科。申請参照番号：MRF-2025-RL-0047。プログラム：言語技術フロンティア研究（サイクル7）。審査結果：条件付き採択。審査委員会は、申請が以下のセクションに記載された条件に従い、資金援助に値する十分な科学的メリットを示していると判断しました。委員会は特に、提案された実験設計の方法論的厳密性と、低リソース言語処理分野における研究成果の実用化可能性を評価しています。採択額はGBP 148,000で、これは当初申請額からGBP 22,000削減されたものです。委員会は学会出張の予算配分が中核的な研究目標に対して不均衡であると判断しました。"
+            },
+            {
+              "en": "Conditions of Award: (1) The principal investigator must submit a revised budget plan, incorporating the reduced conference travel allocation, for written approval by the Foundation's Finance Committee within forty-five days of receipt of this notification. (2) Interim progress reports must be submitted at six-month intervals throughout the project duration, using the standardised reporting template available on the Foundation's secure portal. (3) Any expenditure on equipment items individually valued in excess of GBP 5,000 requires prior written approval from the Programme Director and must be accompanied by a minimum of two competitive quotations. (4) All publications arising from this award must acknowledge Meridian Research Foundation funding and must be deposited in an open-access repository within twelve months of acceptance.",
+              "ja": "採択条件：(1) 主任研究者は、この通知の受領から45日以内に、削減された学会出張費の配分を組み込んだ修正予算計画を、財団の財務委員会による書面承認のために提出する必要があります。(2) プロジェクト期間を通じて、財団のセキュアポータルで入手できる標準化された報告書テンプレートを使用して、6か月ごとに中間進捗報告書を提出する必要があります。(3) 1点あたりGBP 5,000を超える機器への支出には、プログラムディレクターの事前書面承認が必要であり、2件以上の相見積もりを添付しなければなりません。(4) この採択から生まれるすべての出版物は、メリディアン研究財団の資金援助を謝辞に明記し、受理から12か月以内にオープンアクセスリポジトリに登録しなければなりません。"
+            },
+            {
+              "en": "Appeals Procedure: An applicant who disputes the outcome of the assessment or the conditions attached to an award may submit a formal appeal within twenty-eight days of the date of this notification. Appeals must be submitted in writing to the Foundation's Independent Appeals Officer at appeals@meridianresearch.example and must set out the specific grounds on which the decision is contested, with reference to the published assessment criteria. Appeals submitted on the sole grounds of personal dissatisfaction with the outcome, without substantive reference to procedural irregularity or factual error, will not be admitted for review. The Independent Appeals Officer will acknowledge receipt within five working days and will issue a determination within sixty days of the appeal's admission.",
+              "ja": "異議申立手続き：審査結果または採択に付された条件に異議を申し立てる申請者は、この通知の日付から28日以内に正式な異議申立書を提出することができます。異議申立書は財団の独立異議申立オフィサーにappeals@meridianresearch.exampleへ書面で提出しなければならず、公表された審査基準に言及しながら決定に異議を唱える具体的な根拠を明示する必要があります。手続き上の不規則性または事実上の誤りへの実質的な言及なしに、結果への個人的な不満のみを根拠とした異議申立は、審査対象として受け付けられません。独立異議申立オフィサーは5営業日以内に受領を確認し、異議申立の受理から60日以内に判断を下します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 170,
+          "type": "detail",
+          "questionEn": "According to the notification form, what must Dr. Subramaniam do within forty-five days of receiving the notification?",
+          "questionJa": "通知フォームによると、Subramaniam博士は通知受領から45日以内に何をしなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Submit the first interim progress report using the standardised template",
+              "explanation": "中間進捗報告書は6か月ごとに提出するものであり、45日以内の要件ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Obtain approval for any equipment purchases exceeding GBP 5,000",
+              "explanation": "機器購入の承認は45日以内の条件ではなく、個別の支出が発生する際に求められるものです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Provide the Finance Committee with a revised budget incorporating the amended travel allocation",
+              "explanation": "第2段落の採択条件(1)に「submit a revised budget plan, incorporating the reduced conference travel allocation, for written approval by the Foundation's Finance Committee within forty-five days」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Deposit the first research publication in an open-access repository",
+              "explanation": "オープンアクセスリポジトリへの登録は論文受理から12か月以内であり、通知受領から45日以内の要件ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s9-form",
+              "paragraphIndex": 1,
+              "snippetEn": "submit a revised budget plan, incorporating the reduced conference travel allocation, for written approval by the Foundation's Finance Committee within forty-five days of receipt of this notification"
+            }
+          ],
+          "explanationOverall": "第2段落の採択条件(1)に「The principal investigator must submit a revised budget plan, incorporating the reduced conference travel allocation, for written approval by the Foundation's Finance Committee within forty-five days of receipt of this notification」と明確に記載されています。"
+        },
+        {
+          "no": 171,
+          "type": "infer",
+          "questionEn": "What can be inferred about the original grant application submitted by Dr. Subramaniam?",
+          "questionJa": "Subramaniam博士が提出した当初の助成申請について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It was rejected by the Review Panel on the basis of insufficient scientific merit",
+              "explanation": "審査結果は「CONDITIONAL AWARD（条件付き採択）」であり、拒否ではありません。第1段落に「demonstrates sufficient scientific merit」と肯定的評価が示されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It requested funding for conference travel that the Review Panel considered excessive relative to the research goals",
+              "explanation": "第1段落に「the budget allocation for conference travel was disproportionate relative to the core research objectives」とあり、当初の学会出張費配分が研究目標に比べて過大と判断されたことが分かります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "It proposed a research methodology that the Panel found insufficiently rigorous",
+              "explanation": "第1段落に「methodological rigour of the proposed experimental design」と肯定的に評価されており、方法論は高く評価されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It was submitted after the deadline specified in the programme guidelines",
+              "explanation": "期限超過については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s9-form",
+              "paragraphIndex": 0,
+              "snippetEn": "the budget allocation for conference travel was disproportionate relative to the core research objectives"
+            }
+          ],
+          "explanationOverall": "第1段落に、採択額が当初申請額からGBP 22,000減額され、その理由として学会出張費の配分が中核的な研究目標に比べて不釣り合いだったと明記されています。したがって、当初申請の学会出張費が過大と評価されたことが分かります。"
+        },
+        {
+          "no": 172,
+          "type": "synonym",
+          "questionEn": "The word \"admitted\" in paragraph 3 is closest in meaning to",
+          "questionJa": "第3段落の \"admitted\" に最も意味が近いものはどれですか。",
+          "targetWord": "admitted",
+          "choices": [
+            {
+              "label": "A",
+              "text": "accepted",
+              "explanation": "「admitted」はここでは「（審査対象として）受け付けられる、受理される」という意味で使われており、「accepted（受理される）」が最も近い意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "acknowledged",
+              "explanation": "「acknowledged」は「承認される、認識される」を意味しますが、「admitted」の「正式に受理・受け付け」という手続き的な意味とは微妙に異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "postponed",
+              "explanation": "「postponed」は「延期される」を意味し、文脈に合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "disclosed",
+              "explanation": "「disclosed」は「開示される」を意味し、文脈に合いません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s9-form",
+              "paragraphIndex": 2,
+              "snippetEn": "Appeals submitted on the sole grounds of personal dissatisfaction with the outcome, without substantive reference to procedural irregularity or factual error, will not be admitted for review"
+            }
+          ],
+          "explanationOverall": "第3段落の「will not be admitted for review（審査の対象として受け付けられない）」という表現で使われており、「（正式な手続きとして）受理される、受け付けられる」を意味しています。「accepted」が最も近い意味を持ちます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t03-s10-memo",
+          "docType": "memo",
+          "title": "Internal Memorandum — Data Governance Corrective Action Notice",
+          "paragraphs": [
+            {
+              "en": "TO: All Departmental Heads, Regional Operations Directors. FROM: Office of Internal Audit and Compliance, Vantara Group. DATE: 29 October 2025. SUBJECT: Mandatory Corrective Actions Following Q3 Data Governance Audit. This memorandum is issued pursuant to the findings of the third-quarter data governance audit conducted between 1 September and 15 October 2025 across all Vantara Group business units. The audit was commissioned in response to a heightened regulatory environment following the European Data Standards Authority's issuance of revised binding guidelines in July of this year. Departmental heads are required to treat the matters identified below as urgent and to ensure full compliance within the timelines specified.",
+              "ja": "宛先：全部門長、地域業務ディレクター。差出人：ヴァンタラグループ内部監査・コンプライアンス室。日付：2025年10月29日。件名：第3四半期データガバナンス監査後の必須是正措置。この覚書は、2025年9月1日から10月15日にかけて全ヴァンタラグループ事業部門を対象として実施された第3四半期データガバナンス監査の所見に基づき発行されます。本監査は、欧州データ標準局が今年7月に改訂された拘束力のあるガイドラインを発行したことを受けた規制環境の高まりに応答して実施されました。部門長は以下に特定された事項を緊急に扱い、指定された期限内に完全準拠を確保することが求められます。"
+            },
+            {
+              "en": "The audit identified three categories of non-compliance requiring immediate remediation. First, system access credentials were found to have been shared between individuals in eleven separate instances across four departments, in direct contravention of Vantara's Access Control Policy, Version 4.2. Each affected department must conduct an immediate review of all active user accounts, revoke shared credentials without exception, and submit a certified confirmation of completion to the Compliance Office. Second, data retention schedules are not being observed uniformly: records subject to a mandatory three-year retention limit were identified in six departmental archives at ages ranging from four to seven years beyond the required disposal date. Departments holding overdue records must schedule destruction in accordance with the Secure Disposal Protocol and provide documentary evidence of disposal within thirty days. Third, the audit established that client financial data stored on portable devices within the Logistics and Procurement divisions had not been encrypted in accordance with the requirements of Section 7.3 of the Information Security Standard. Encryption must be implemented across all affected devices within fifteen days.",
+              "ja": "監査では、即時改善を要する3つのカテゴリーの非準拠が確認されました。第一に、ヴァンタラのアクセス制御ポリシーバージョン4.2に直接違反する形で、4部門にわたる11の個別事例でシステムアクセス認証情報が個人間で共有されていたことが判明しました。影響を受けた各部門は、全アクティブユーザーアカウントの即時審査を実施し、例外なく共有認証情報を失効させ、完了の認定確認書をコンプライアンス室に提出する必要があります。第二に、データ保持スケジュールが均一に遵守されていません：3年間の強制保持期限の対象となる記録が、6つの部門アーカイブで必要廃棄日から4〜7年を超えた状態で確認されました。期限超過記録を保有する部門は、セキュア廃棄プロトコルに従って廃棄を予定し、30日以内に廃棄の文書証拠を提出する必要があります。第三に、物流・調達部門内の携帯デバイスに保存されたクライアント財務データが、情報セキュリティ標準第7.3条の要件に従って暗号化されていないことが監査で確認されました。影響を受けるすべてのデバイスに15日以内に暗号化を実装する必要があります。"
+            },
+            {
+              "en": "All corrective actions must be completed and formally reported to the Compliance Office no later than 28 November 2025. Confirmation of completion must be submitted via the Internal Audit Portal using the Corrective Action Response Form (reference: CARF-DG-2025). Departments that fail to achieve full compliance by the stated deadline will be referred to the Group Executive Committee, which is empowered to impose operational restrictions on non-compliant units pending resolution. Departmental heads who require clarification on any aspect of these requirements are encouraged to schedule a consultation with the assigned Compliance Business Partner for their division prior to 14 November. Please be advised that a follow-up verification audit will be conducted in January 2026 to confirm the adequacy of the remediation measures implemented.",
+              "ja": "すべての是正措置は、2025年11月28日までに完了し、コンプライアンス室に正式に報告する必要があります。完了の確認は、是正措置対応フォーム（参照：CARF-DG-2025）を使用して内部監査ポータルから提出する必要があります。定められた期限までに完全準拠を達成できなかった部門は、グループ執行委員会に付託されます。同委員会は、解決保留中の非準拠部門に業務制限を課す権限を持っています。これらの要件のいずれかの側面について説明が必要な部門長は、11月14日前に担当部門のコンプライアンス・ビジネス・パートナーとの相談を予定することを推奨します。なお、実施された改善措置の適切性を確認するためのフォローアップ検証監査が2026年1月に実施されることをご承知おきください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 173,
+          "type": "main_idea",
+          "questionEn": "What is the primary purpose of this memorandum?",
+          "questionJa": "この覚書の主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To inform staff of new data protection regulations introduced by European authorities",
+              "explanation": "新規制の周知ではなく、監査結果に基づく是正措置の指示が主目的です。欧州当局への言及は監査実施の背景説明に留まります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To request approval from senior management for a revised data security budget",
+              "explanation": "予算承認の依頼については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To announce the results of an annual performance evaluation of departmental data systems",
+              "explanation": "年次パフォーマンス評価の結果告知ではなく、監査で発見された非準拠事項への対応を求める文書です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To instruct department heads to address specific data governance violations identified in an audit",
+              "explanation": "第1〜3段落を通じて、監査で発見された3種類の非準拠事項とその是正措置、期限、未対応時のペナルティが説明されており、是正措置の指示が覚書の主目的です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s10-memo",
+              "paragraphIndex": 0,
+              "snippetEn": "Mandatory Corrective Actions Following Q3 Data Governance Audit"
+            },
+            {
+              "passageId": "t03-s10-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "The audit identified three categories of non-compliance requiring immediate remediation"
+            }
+          ],
+          "explanationOverall": "第1段落で監査の背景を説明した後、第2段落で3つの非準拠事項（認証情報共有・保持期限超過・暗号化未実装）と是正要求を列挙し、第3段落で期限と未対応時のペナルティを示しています。全体として、データガバナンス違反の是正を部門長に指示することが主目的です。"
+        },
+        {
+          "no": 174,
+          "type": "detail",
+          "questionEn": "According to the memorandum, what are the affected departments required to do regarding overdue data records?",
+          "questionJa": "覚書によると、期限超過のデータ記録に関して影響を受ける部門は何をする必要がありますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Submit a certified list of overdue records to the Compliance Office within fifteen days",
+              "explanation": "15日以内の期限は暗号化実装に関するものであり、データ記録の廃棄証拠提出は30日以内とされています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Transfer all overdue records to a centralised archive managed by the Internal Audit team",
+              "explanation": "集中管理アーカイブへの移管については本文に記載がなく、廃棄が求められています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Arrange for the destruction of overdue records and supply documentary evidence of disposal within thirty days",
+              "explanation": "第2段落に「Departments holding overdue records must schedule destruction in accordance with the Secure Disposal Protocol and provide documentary evidence of disposal within thirty days」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Obtain approval from the Group Executive Committee before destroying any retained records",
+              "explanation": "廃棄前の執行委員会承認については本文に記載がなく、執行委員会は未対応部門への制限権限を持つ機関として言及されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s10-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "Departments holding overdue records must schedule destruction in accordance with the Secure Disposal Protocol and provide documentary evidence of disposal within thirty days"
+            }
+          ],
+          "explanationOverall": "第2段落に「Departments holding overdue records must schedule destruction in accordance with the Secure Disposal Protocol and provide documentary evidence of disposal within thirty days」と明記されており、セキュア廃棄プロトコルに従った廃棄の予定と30日以内の廃棄証拠の提出が求められています。"
+        },
+        {
+          "no": 175,
+          "type": "infer",
+          "questionEn": "What can be inferred about departments that do not complete the required corrective actions by 28 November 2025?",
+          "questionJa": "2025年11月28日までに必要な是正措置を完了しない部門について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They will be subject to financial penalties imposed by the European Data Standards Authority",
+              "explanation": "ペナルティを課すのはグループ執行委員会であり、欧州データ標準局ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They may face restrictions on their operational activities until the issues are resolved",
+              "explanation": "第3段落に「the Group Executive Committee, which is empowered to impose operational restrictions on non-compliant units pending resolution」とあり、解決まで業務制限が課される可能性があることが読み取れます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "They will be required to undergo an additional audit before the end of the current financial year",
+              "explanation": "フォローアップ監査は2026年1月に全部門を対象として予定されており、未対応部門のみへの追加監査とは異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "They will lose access to the Internal Audit Portal used for submitting compliance reports",
+              "explanation": "ポータルへのアクセス制限については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-s10-memo",
+              "paragraphIndex": 2,
+              "snippetEn": "Departments that fail to achieve full compliance by the stated deadline will be referred to the Group Executive Committee, which is empowered to impose operational restrictions on non-compliant units pending resolution"
+            }
+          ],
+          "explanationOverall": "第3段落に「Departments that fail to achieve full compliance by the stated deadline will be referred to the Group Executive Committee, which is empowered to impose operational restrictions on non-compliant units pending resolution」とあります。これにより、期限までに是正を完了しない部門は解決保留中に業務制限を受ける可能性があると推論できます。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t03-d1-article",
+          "docType": "article",
+          "title": "City Launches Major Water Infrastructure Overhaul",
+          "paragraphs": [
+            {
+              "en": "The Kelford City Council has unanimously approved the Clearwater Infrastructure Renewal Project, a $240 million initiative to replace aging water mains and upgrade three municipal treatment facilities across the metropolitan area. [1] The project is financed through a combination of state infrastructure bonds and a federal clean-water grant awarded to the city last November. Work is scheduled to commence in the third quarter of this year and is expected to be completed over a five-year period.",
+              "ja": "ケルフォード市議会は、老朽化した水道本管の交換と市内3か所の浄水施設を改修するクリアウォーター・インフラ更新事業（2億4000万ドル規模）を全会一致で承認した。[1] この事業は州のインフラ債と昨年11月に市が獲得した連邦クリーンウォーター補助金の組み合わせで資金調達される。工事は今年第3四半期に着工し、5年間かけて完了する予定だ。"
+            },
+            {
+              "en": "The renewal will prioritize districts that currently experience elevated levels of sediment and chlorine residuals in the distribution network. [2] Residents in the Ashburn and Denton neighborhoods will notice service interruptions of up to 72 hours during pipe replacement work, and the city has committed to providing advance notice of at least 14 days before any scheduled outage. A temporary water supply station will be established at Fairfax Park to serve affected households. [3] The city also plans to install smart water meters across all upgraded zones to enable real-time leak detection.",
+              "ja": "更新工事は、配水網で土砂や残留塩素が基準値を超えている地区を優先的に対象とする。[2] アシュバーンおよびデントン地区の住民は、管の交換工事中に最大72時間の断水を経験する可能性があり、市は予定断水の少なくとも14日前に事前通知を行うことを約束している。影響を受ける世帯へのサービスとして、フェアファックス公園に臨時給水ステーションが設置される。[3] 市はまた、改修ゾーン全域にスマート水道メーターを設置し、リアルタイムの漏水検知を可能にする計画だ。"
+            },
+            {
+              "en": "Community consultation sessions have been held over the past three months, generating largely favorable responses. Some concerns were raised about construction noise near residential areas and the adequacy of compensation for businesses that may lose foot traffic during road closures. [4] City officials stated that a dedicated liaison office will be established to handle business impact claims, and that eligible businesses may apply for a reimbursement of up to $5,000 per month of disruption.",
+              "ja": "過去3か月間にわたってコミュニティ協議会が開催され、概ね好意的な反応が得られた。住宅地近くの建設騒音や、道路閉鎖中に客足が遠のく可能性のある事業者への補償の十分性について、一部懸念が示された。[4] 市の担当者は、事業者の影響に関する申し立てを処理するための専任連絡窓口が設置され、対象事業者は営業への影響1か月あたり最大5,000ドルの補償を申請できると説明した。"
+            }
+          ],
+          "hasInsertionMarkers": true
+        },
+        {
+          "passageId": "t03-d1-letter",
+          "docType": "letter",
+          "title": "Letter Submitted to the Kelford City Council",
+          "from": "Kelford Traders' Association",
+          "to": "Kelford City Council",
+          "paragraphs": [
+            {
+              "en": "Dear Members of the Kelford City Council, We write on behalf of the Kelford Traders' Association to express our measured support for the Clearwater Infrastructure Renewal Project. We acknowledge that the current state of the water distribution network poses long-term risks to public health and that modernization is overdue.",
+              "ja": "ケルフォード市議会議員各位　ケルフォード商工業者協会を代表して、クリアウォーター・インフラ更新事業への慎重な支持を表明します。現在の配水網の状態が長期的な公衆衛生リスクをもたらしており、近代化が遅れていることは認識しています。"
+            },
+            {
+              "en": "However, we urge the Council to reconsider the proposed compensation ceiling of $5,000 per month for business disruption. Many of our members operate retail and food service establishments whose monthly revenue significantly exceeds this threshold. We request that the ceiling be raised to at least $8,000 per month, or that a sliding-scale formula be applied based on documented average monthly revenue. We also ask that the application process be simplified so that businesses do not require legal assistance to file a claim.",
+              "ja": "しかし、営業への影響に対する補償上限の月額5,000ドルについて、議会に再考を強く求めます。会員の多くは小売業や飲食業を営んでおり、月間売上高がこの上限を大幅に超えています。上限を少なくとも月額8,000ドルに引き上げるか、文書化された平均月間売上高に基づくスライド式算定方式を適用することを要請します。また、事業者が申請書類作成に法的支援を必要としないよう、申請手続きを簡素化することも求めます。"
+            },
+            {
+              "en": "We further request that road closure schedules in commercial zones be released no fewer than 30 days in advance, rather than the 14-day notice currently proposed for residential areas. The longer lead time would allow businesses to arrange alternative access points and notify their customers well ahead of disruption. We remain committed to working constructively with the city to ensure the project's success.",
+              "ja": "さらに、商業地域における道路閉鎖スケジュールは、住宅地向けに現在提案されている14日前通知ではなく、少なくとも30日前に公表されるよう求めます。期間を長くすることで、事業者は代替アクセスルートを手配し、混乱が生じる十分前に顧客に通知することができます。プロジェクトの成功に向けて市と建設的に協力することを引き続き約束します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 176,
+          "type": "insertion",
+          "questionEn": "In which position marked [1], [2], [3], or [4] does the following sentence best belong? \"Officials noted that this represents the city's single largest capital investment in water infrastructure in more than 30 years.\"",
+          "questionJa": "次の文は [1]、[2]、[3]、[4] のどの位置に入るのが最も適切ですか。「担当者は、これが30年以上で市の水インフラへの最大の単一資本投資であると指摘した。」",
+          "choices": [
+            {
+              "label": "A",
+              "text": "[2]",
+              "explanation": "この位置は優先対象地区の説明が続いており、投資規模のコメントを挿入する文脈ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "[3]",
+              "explanation": "この位置はスマートメーター設置計画の後であり、投資規模の強調とは話題がずれます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "[4]",
+              "explanation": "この位置は補償申請の話題の後であり、プロジェクト全体の規模を強調するには唐突です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "[1]",
+              "explanation": "承認・資金調達の文脈の直後に投資規模を強調する当局コメントを置くと流れが自然です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "事業承認と資金調達の説明の直後（[1]）に、投資規模の大きさを補足する当局コメントを置くのが最も論理的な流れです。"
+        },
+        {
+          "no": 177,
+          "type": "main_idea",
+          "questionEn": "What is the article mainly about?",
+          "questionJa": "記事は主に何について書かれていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A city's approval of a large-scale water system upgrade",
+              "explanation": "記事全体は市議会が承認した水道インフラ更新事業の概要（規模・工程・住民影響・補償）を中心に展開しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "A shortage of water supply in a metropolitan district",
+              "explanation": "水不足については触れられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The findings of a public health investigation into tap water quality",
+              "explanation": "公衆衛生調査の結論は記事の主題ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Plans to privatize municipal water treatment facilities",
+              "explanation": "民営化の計画は記事のどこにも述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d1-article",
+              "paragraphIndex": 0,
+              "snippetEn": "Kelford City Council has unanimously approved the Clearwater Infrastructure Renewal Project"
+            }
+          ],
+          "explanationOverall": "記事は市議会によるクリアウォーター・インフラ更新事業の承認を中心に、工期・資金・断水計画・補償制度を説明しています。"
+        },
+        {
+          "no": 178,
+          "type": "detail",
+          "questionEn": "According to the article, how far in advance will residents be notified before a planned water outage?",
+          "questionJa": "記事によると、計画断水の何日前に住民に通知されますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "At least 21 days",
+              "explanation": "21日前という数字は記事にも意見書にも記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "At least 14 days",
+              "explanation": "記事には「advance notice of at least 14 days before any scheduled outage」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "At least 30 days",
+              "explanation": "30日前通知はレター側が商業地域向けに要請している内容であり、記事に記載されている住宅地向けの通知期間ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "At least 7 days",
+              "explanation": "7日前という数字は記事のどこにも登場しません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d1-article",
+              "paragraphIndex": 1,
+              "snippetEn": "advance notice of at least 14 days before any scheduled outage"
+            },
+            {
+              "passageId": "t03-d1-letter",
+              "paragraphIndex": 2,
+              "snippetEn": "road closure schedules in commercial zones be released no fewer than 30 days in advance"
+            }
+          ],
+          "explanationOverall": "記事第1段落に「advance notice of at least 14 days」と明記されています。30日前という数字は商業地域向けの要請としてレターに記載されており、混同しないことが重要です。"
+        },
+        {
+          "no": 179,
+          "type": "infer",
+          "questionEn": "What can be inferred about the Kelford Traders' Association's view of the proposed compensation program?",
+          "questionJa": "ケルフォード商工業者協会は提案されている補償プログラムについてどのような見解を持っていると推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They believe the compensation program should be extended to residential households.",
+              "explanation": "住宅世帯への補償拡大は要求していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They are satisfied with the existing reimbursement ceiling and request faster processing.",
+              "explanation": "現行の補償上限に満足しているのではなく、引き上げを求めています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "They consider the monthly maximum payment to be insufficient for many businesses.",
+              "explanation": "意見書は補償上限（月額5,000ドル）が会員の多くの月間売上高を大幅に下回ると明示しており、引き上げを求めています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "They oppose the establishment of a liaison office for business impact claims.",
+              "explanation": "連絡窓口の設置には反対しておらず、手続き簡素化を求めているだけです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d1-article",
+              "paragraphIndex": 2,
+              "snippetEn": "eligible businesses may apply for a reimbursement of up to $5,000 per month of disruption"
+            },
+            {
+              "passageId": "t03-d1-letter",
+              "paragraphIndex": 1,
+              "snippetEn": "monthly revenue significantly exceeds this threshold. We request that the ceiling be raised to at least $8,000 per month"
+            }
+          ],
+          "explanationOverall": "記事は月額5,000ドルの上限を示しており、意見書はその上限が会員の多くの月間売上高を大幅に下回ると述べ、月額8,000ドルへの引き上げを要請しています。"
+        },
+        {
+          "no": 180,
+          "type": "detail",
+          "questionEn": "What additional request does the Kelford Traders' Association make regarding the disruption schedule?",
+          "questionJa": "ケルフォード商工業者協会は工事スケジュールについてどのような追加要求をしていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A complete ban on construction work during business hours",
+              "explanation": "営業時間中の工事全面禁止は要求していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Separate consultation meetings exclusive to commercial tenants",
+              "explanation": "商業テナント専用の協議会の開催は求めていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A written guarantee that foot traffic will not decrease near retail areas",
+              "explanation": "客足の減少を保証するよう求める記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Earlier notification of road closures in business districts",
+              "explanation": "意見書は商業地域の道路閉鎖スケジュールを少なくとも30日前に公表するよう求めています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d1-letter",
+              "paragraphIndex": 2,
+              "snippetEn": "road closure schedules in commercial zones be released no fewer than 30 days in advance"
+            }
+          ],
+          "explanationOverall": "意見書第2段落に「road closure schedules in commercial zones be released no fewer than 30 days in advance」と明記されています。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t03-d2-web",
+          "docType": "web_page",
+          "title": "PatentBridge — Filing Support Services",
+          "paragraphs": [
+            {
+              "en": "PatentBridge provides end-to-end patent filing support for inventors and businesses of all sizes. Our licensed patent agents review your invention disclosure, conduct a prior-art search, prepare draft claims and specifications, and coordinate with your chosen national or international patent office. All engagements begin with a free 30-minute consultation.",
+              "ja": "PatentBridgeは、あらゆる規模の発明者・企業向けに特許出願の包括的サポートを提供しています。当社のライセンス取得済み特許エージェントが発明開示書のレビュー、先行技術調査、請求項および明細書のドラフト作成、お客様が選択した国内外の特許庁との調整を行います。すべての依頼は30分間の無料相談から始まります。"
+            },
+            {
+              "en": "Service Tiers and Fees\n\nEssential Package: Prior-art search + patentability opinion | $1,200 | Delivery: 15 business days\nStandard Package: Essential + full draft patent application | $3,800 | Delivery: 30 business days\nPremium Package: Standard + prosecution support through first office action | $6,500 | Delivery: 45 business days\nInternational Add-on (PCT filing): $2,400 per filing | Added to any package\n\nNote: A 20% discount applies to applicants who have never previously filed a patent application anywhere in the world (\"first-time filer\" discount). The discount is calculated on the package fee alone; add-on services are billed at their full listed rate. This discount cannot be combined with any other promotional offer. Academic institutions and non-profit organizations qualify for a separate 15% institutional rate.",
+              "ja": "サービスプランと料金\n\nエッセンシャルパッケージ：先行技術調査＋特許性意見書　1,200ドル　納期：15営業日\nスタンダードパッケージ：エッセンシャル＋完全な特許出願書類ドラフト　3,800ドル　納期：30営業日\nプレミアムパッケージ：スタンダード＋最初の拒絶理由通知までの出願手続き支援　6,500ドル　納期：45営業日\n国際追加オプション（PCT出願）：1出願あたり2,400ドル　（いずれかのパッケージに追加可）\n\n注：世界中のいずれの特許庁にも初めて特許出願する申請者には、20%割引が適用されます（「初回出願者」割引）。割引はパッケージ料金のみを対象に計算され、追加オプションのサービスは定価で請求されます。この割引は他のプロモーション割引と併用できません。学術機関および非営利組織には、別途15%の機関料金が適用されます。"
+            },
+            {
+              "en": "To begin, please complete the Invention Disclosure Form available in the Client Portal and schedule your free consultation. Payment is due in full prior to commencement of work. Invoices are issued in US dollars and are payable by bank transfer or major credit card. Rush processing (50% surcharge) is available for the Essential Package only, reducing the delivery window to 7 business days.",
+              "ja": "ご依頼を開始するには、クライアントポータルにある発明開示書フォームを記入し、無料相談をご予約ください。お支払いは作業開始前に全額お支払いいただく必要があります。請求書は米ドル建てで、銀行振込または主要クレジットカードでお支払いいただけます。緊急処理（50%割増料金）はエッセンシャルパッケージのみに対応しており、納期を7営業日に短縮できます。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-d2-email",
+          "docType": "email",
+          "title": "Patent Filing Inquiry — Novova Technologies",
+          "from": "Lena Sokolov <l.sokolov@novova.example>",
+          "to": "info@patentbridge.example",
+          "paragraphs": [
+            {
+              "en": "Dear PatentBridge Team, I am writing on behalf of Novova Technologies, a software startup incorporated eight months ago. We have developed a proprietary machine-learning algorithm for predictive equipment maintenance and are considering protecting it through a patent. Novova Technologies has never filed a patent application in any jurisdiction, so we believe we qualify for any first-time filer incentive you may offer.",
+              "ja": "PatentBridgeチーム御中　8か月前に設立したソフトウェアスタートアップ、ノボバ・テクノロジーズを代表してご連絡いたします。予知保全に特化した独自の機械学習アルゴリズムを開発しており、特許によって保護することを検討しています。ノボバ・テクノロジーズはこれまでどの法域でも特許を出願したことがないため、初回出願者向けのインセンティブの対象になると考えています。"
+            },
+            {
+              "en": "We are interested in the Standard Package with the PCT International Add-on, as we intend to seek protection in at least four jurisdictions. Could you confirm the total cost after applying the applicable discount? We also want to understand whether the 30-business-day delivery window for the Standard Package already accounts for the PCT add-on, or whether additional time should be expected. Finally, we note from your website that rush processing reduces the delivery time for one of your packages — could this option be applied to our order if we decide to proceed quickly?",
+              "ja": "スタンダードパッケージにPCT国際追加オプションを組み合わせた形を希望しています。少なくとも4か国での権利保護を目指しているためです。適用可能な割引を適用した場合の合計費用をご確認いただけますでしょうか。また、スタンダードパッケージの30営業日という納期にPCT追加オプションが含まれているのか、それとも追加の時間が必要になるのかについても確認したいと思います。最後に、ウェブサイトから、緊急処理によっていずれかのパッケージの納期が短縮されると確認しましたが、迅速に進めることにした場合、この選択肢を私どもの注文に適用できますか。"
+            },
+            {
+              "en": "We would appreciate a prompt reply, as we are presenting to investors in approximately six weeks and hope to reference a patent application in progress. Best regards, Lena Sokolov, Head of Operations, Novova Technologies",
+              "ja": "約6週間後に投資家へのプレゼンを控えており、特許出願手続き中であることに言及したいと考えていますので、迅速なご返答をお願いいたします。敬具　レナ・ソコロフ　オペレーション部長　ノボバ・テクノロジーズ"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 181,
+          "type": "detail",
+          "questionEn": "According to the website, for which service does PatentBridge offer expedited processing?",
+          "questionJa": "ウェブサイトによると、PatentBridgeはどのサービスに対して緊急処理を提供していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The Essential Package only",
+              "explanation": "ウェブページに「Rush processing (50% surcharge) is available for the Essential Package only」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Any package for an additional flat fee",
+              "explanation": "均一料金ではなく50%割増料金であり、すべてのパッケージが対象ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The Standard and Premium Packages when combined with a PCT add-on",
+              "explanation": "スタンダードおよびプレミアムパッケージへの緊急処理は提供されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "All packages, provided the client applies at least 48 hours in advance",
+              "explanation": "全パッケージへの適用は記載がなく、48時間前申請の条件も存在しません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d2-web",
+              "paragraphIndex": 2,
+              "snippetEn": "Rush processing (50% surcharge) is available for the Essential Package only"
+            }
+          ],
+          "explanationOverall": "ウェブページ第2段落に「Rush processing (50% surcharge) is available for the Essential Package only」と明確に記載されています。"
+        },
+        {
+          "no": 182,
+          "type": "infer",
+          "questionEn": "What can be inferred about Novova Technologies with regard to the first-time filer discount?",
+          "questionJa": "ノボバ・テクノロジーズの初回出願者割引への適格性について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The discount does not apply because Novova intends to file in multiple jurisdictions.",
+              "explanation": "複数国での出願は割引の適用除外条件として記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The company is likely eligible because it has never filed a patent application in any jurisdiction.",
+              "explanation": "メールにノボバ社自身がどの法域でも特許を出願したことがないと明記されており、ウェブの初回出願者割引の定義に合致します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The company is ineligible because it is not an academic institution or non-profit.",
+              "explanation": "学術機関・非営利組織は別の機関料金の対象であり、初回出願者割引とは無関係です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The company cannot claim the discount because it has been in operation for more than six months.",
+              "explanation": "設立からの期間は割引適格条件に含まれていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d2-web",
+              "paragraphIndex": 1,
+              "snippetEn": "applicants who have never previously filed a patent application anywhere in the world"
+            },
+            {
+              "passageId": "t03-d2-email",
+              "paragraphIndex": 0,
+              "snippetEn": "Novova Technologies has never filed a patent application in any jurisdiction"
+            }
+          ],
+          "explanationOverall": "ウェブサイトの初回出願者割引は「世界中のいずれの特許庁にも一度も出願したことがない申請者」に適用されます。メールは申請者であるノボバ社自身がどの法域でも出願したことがないと述べており、適格と判断できます。"
+        },
+        {
+          "no": 183,
+          "type": "synonym",
+          "questionEn": "The word \"conduct\" in paragraph 1 of the website is closest in meaning to which of the following?",
+          "questionJa": "ウェブサイト第1段落の \"conduct\" に最も近い意味を持つ語はどれですか。",
+          "targetWord": "conduct",
+          "choices": [
+            {
+              "label": "A",
+              "text": "restrict",
+              "explanation": "「制限する」という意味で、文脈とまったく合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "summarize",
+              "explanation": "「要約する」という意味で、先行技術調査を実施するという意味には合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "carry out",
+              "explanation": "「実施する」という意味で、先行技術調査を実行するという文脈に最もよく合います。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "direct",
+              "explanation": "「指揮する」という意味で、人を指導する場面に使われ、調査の実行を表す用法としては不自然です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d2-web",
+              "paragraphIndex": 0,
+              "snippetEn": "conduct a prior-art search"
+            }
+          ],
+          "explanationOverall": "\"conduct a prior-art search\" は先行技術調査を「実施する」という意味で使われており、\"carry out\" が最も近い意味です。"
+        },
+        {
+          "no": 184,
+          "type": "detail",
+          "questionEn": "If Novova Technologies proceeds with the Standard Package and the PCT add-on, what will be their total cost after the applicable discount?",
+          "questionJa": "ノボバ・テクノロジーズがスタンダードパッケージとPCT追加オプションで進めた場合、適用可能な割引後の合計費用はいくらですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "$4,960",
+              "explanation": "PCT追加オプションにも誤って20%割引を適用した場合の計算（3,040＋1,920＝4,960）です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "$5,720",
+              "explanation": "割引の適用先を取り違え、パッケージ料金ではなくPCT追加オプションのみを2割引にした場合の計算（3,800＋1,920＝5,720）です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "$5,440",
+              "explanation": "スタンダードパッケージ（3,800ドル）に初回出願者20%割引を適用すると3,800×0.80＝3,040ドル。PCT追加オプション（2,400ドル）は割引対象外のため合計3,040＋2,400＝5,440ドルです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "$6,200",
+              "explanation": "割引を適用しない場合の合計（3,800＋2,400＝6,200）であり、20%割引が考慮されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d2-web",
+              "paragraphIndex": 1,
+              "snippetEn": "The discount is calculated on the package fee alone; add-on services are billed at their full listed rate."
+            },
+            {
+              "passageId": "t03-d2-email",
+              "paragraphIndex": 0,
+              "snippetEn": "Novova Technologies has never filed a patent application in any jurisdiction"
+            },
+            {
+              "passageId": "t03-d2-email",
+              "paragraphIndex": 1,
+              "snippetEn": "Standard Package with the PCT International Add-on"
+            }
+          ],
+          "explanationOverall": "ウェブページの注記に「割引はパッケージ料金のみを対象に計算され、追加オプションは定価で請求される」とあります。したがって初回出願者割引20%はスタンダードパッケージ（3,800ドル）だけに適用され、3,800×0.80＝3,040ドル。PCTオプション（2,400ドル）は定価のままなので、合計3,040＋2,400＝5,440ドルです。"
+        },
+        {
+          "no": 185,
+          "type": "infer",
+          "questionEn": "What does Lena Sokolov imply about the rush processing option?",
+          "questionJa": "レナ・ソコロフは緊急処理オプションについて何を示唆していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "She has already decided to use rush processing and is confirming the fee.",
+              "explanation": "すでに決定したとは述べておらず、可能性を尋ねています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "She is considering using it if they decide to move forward quickly with the application.",
+              "explanation": "メールに「if we decide to proceed quickly」と明示されており、迅速に進む場合の選択肢として検討していることが分かります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "She assumes rush processing is automatically included with the PCT add-on.",
+              "explanation": "PCT追加オプションに緊急処理が自動付帯するとは述べておらず、適用できるかを質問しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She believes the 30-day delivery window is too short for her investor presentation deadline.",
+              "explanation": "30日の納期が短すぎるとは述べておらず、むしろ投資家プレゼンへの間に合わせを懸念しています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-d2-email",
+              "paragraphIndex": 1,
+              "snippetEn": "if we decide to proceed quickly"
+            },
+            {
+              "passageId": "t03-d2-web",
+              "paragraphIndex": 2,
+              "snippetEn": "Rush processing (50% surcharge) is available for the Essential Package only"
+            }
+          ],
+          "explanationOverall": "メール第1段落の「if we decide to proceed quickly」という表現から、ソコロフが迅速に進める場合の選択肢として緊急処理を検討していることが分かります。ただし、ウェブページにより緊急処理はエッセンシャルパッケージのみが対象であるため、スタンダードパッケージには実際には適用できません。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t03-t1-ad",
+          "docType": "advertisement",
+          "title": "FinovaEx International Trade Fair — Exhibitor Information",
+          "paragraphs": [
+            {
+              "en": "Join thousands of industry professionals at FinovaEx International Trade Fair, the premier annual showcase for financial technology, payment solutions, and regulatory compliance tools. The fair runs from September 14 to September 16 at the Meridian Convention Center, Harwell City.",
+              "ja": "金融テクノロジー、決済ソリューション、コンプライアンスツールを紹介する主要な年次展示会「FinovaEx国際見本市」に、業界のプロフェッショナルと共に参加しませんか。見本市はハーウェル市のメリディアン・コンベンションセンターで9月14日から16日まで開催されます。"
+            },
+            {
+              "en": "Booth Packages\n\nStandard Booth (9 m²): $3,600 | Includes: 1 table, 2 chairs, power access, listing in official program\nPremium Booth (18 m²): $6,800 | Includes: 2 tables, 4 chairs, power access, corner placement, logo on event banner, listing in official program\nPlus Package Add-on: Extra networking dinner ticket — $220 per ticket (max 4 per exhibitor)\n\nEarly-bird discount: 15% off any booth package for applications received by July 31. Standard Booths are available on a first-come, first-served basis; Premium Booths are limited to 20 per fair.",
+              "ja": "ブースパッケージ\n\nスタンダードブース（9㎡）：3,600ドル　内容：テーブル1台、椅子2脚、電源、公式プログラム掲載\nプレミアムブース（18㎡）：6,800ドル　内容：テーブル2台、椅子4脚、電源、コーナー配置、イベントバナーへのロゴ掲載、公式プログラム掲載\nプラスパッケージ追加オプション：交流ディナー追加チケット　1枚220ドル（出展者1社あたり最大4枚）\n\nアーリーバード割引：7月31日までに申し込んだ場合、任意のブースパッケージが15%オフ。スタンダードブースは先着順。プレミアムブースは見本市ごとに20社限定。"
+            },
+            {
+              "en": "Setup day is September 13 (no access before 8:00 A.M.; all booths must be ready by 6:00 P.M.). Teardown must be completed by noon on September 17. All exhibitors must hold valid commercial liability insurance with a minimum coverage of $1,000,000 and provide proof of insurance at least 10 days before the fair opens. Payment in full is required within 14 days of invoice issuance; unpaid invoices will result in forfeiture of the booth reservation.",
+              "ja": "設営日は9月13日です（午前8時以前の入場不可。全ブースは午後6時までに設営完了のこと）。撤収は9月17日の正午までに完了してください。全出展者は最低100万ドルの補償額を持つ商業賠償責任保険に加入し、見本市開幕の少なくとも10日前に保険証明書を提出する必要があります。支払いは請求書発行から14日以内に全額完了が必要です。未払い請求書はブース予約の没収につながります。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t1-email",
+          "docType": "email",
+          "title": "Booth Application — Coretek Solutions",
+          "from": "Marcus Weil <m.weil@coretech.example>",
+          "to": "exhibitors@finovaex.example",
+          "paragraphs": [
+            {
+              "en": "Dear FinovaEx Organizing Team, I am writing to apply for an exhibitor booth at the upcoming FinovaEx International Trade Fair in September. Coretek Solutions develops regulatory compliance software for mid-sized financial institutions, and we believe FinovaEx is the ideal venue to demonstrate our newly released Coretek Audit 3.0 platform to prospective clients.",
+              "ja": "FinovaEx主催チーム御中　9月の次回FinovaEx国際見本市への出展ブースを申し込むためにご連絡いたします。コアテック・ソリューションズは中堅金融機関向けのコンプライアンスソフトウェアを開発しており、新リリースのコアテック監査3.0プラットフォームをFinovaExで潜在顧客にデモする絶好の機会と考えています。"
+            },
+            {
+              "en": "We wish to reserve a Premium Booth. Additionally, we would like to purchase four networking dinner tickets. Our application is submitted on August 3. Please issue an invoice at your earliest convenience so we can arrange payment through our finance department. We have current commercial liability insurance with coverage of $2,000,000 and will provide the certificate before the required deadline.",
+              "ja": "プレミアムブースを予約したいと思います。また、交流ディナーチケットを4枚購入希望です。申し込みは8月3日に提出しています。財務部門での支払い手続きを進めるため、できるだけ早く請求書を発行してください。現在の商業賠償責任保険の補償額は200万ドルで、必要な期日までに証明書を提出します。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t1-invoice",
+          "docType": "invoice",
+          "title": "FinovaEx International Trade Fair — Exhibitor Invoice",
+          "paragraphs": [
+            {
+              "en": "Invoice No.: FX-2024-0441\nBill To: Coretek Solutions, Attn: Marcus Weil\nInvoice Date: August 5\nDue Date: August 19\n\nDescription | Unit Price | Qty | Subtotal\nPremium Booth (18 m²) | $6,800.00 | 1 | $6,800.00\nNetworking Dinner Ticket | $220.00 | 4 | $880.00\n\nSubtotal: $7,680.00\nDiscount: $0.00\nTotal Due: $7,680.00\n\nPayment: Bank transfer to FinovaEx Events Ltd. (account details attached)\nNote: Insurance certificate must be received by September 4.",
+              "ja": "請求書番号：FX-2024-0441\n請求先：コアテック・ソリューションズ　マーカス・ワイル様\n請求日：8月5日　支払期限：8月19日\n\n内容　単価　数量　小計\nプレミアムブース（18㎡）　6,800.00ドル　1　6,800.00ドル\n交流ディナーチケット　220.00ドル　4　880.00ドル\n\n小計：7,680.00ドル\n割引：0.00ドル\n合計金額：7,680.00ドル\n\n支払方法：FinovaExイベンツ社宛て銀行振込（口座詳細は添付）\n注：保険証明書は9月4日までに提出が必要です。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 186,
+          "type": "main_idea",
+          "questionEn": "What is the primary purpose of the advertisement?",
+          "questionJa": "広告の主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To invite businesses to exhibit at an upcoming trade fair",
+              "explanation": "広告全体は金融テクノロジー関連の見本市への出展者募集を目的としています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To announce a change in venue for an annual trade event",
+              "explanation": "会場変更の発表ではなく、出展者の募集が目的です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To provide attendees with a schedule of conference sessions",
+              "explanation": "参加者向けのセッションスケジュールは広告の目的ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To promote a fintech software product to potential buyers",
+              "explanation": "特定のソフトウェア製品の宣伝ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t1-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "FinovaEx International Trade Fair, the premier annual showcase for financial technology"
+            }
+          ],
+          "explanationOverall": "広告はFinovaEx国際見本市への出展者募集を目的とし、ブースパッケージの種類・料金・条件を提示しています。"
+        },
+        {
+          "no": 187,
+          "type": "detail",
+          "questionEn": "Did Coretek Solutions qualify for the early-bird discount?",
+          "questionJa": "コアテック・ソリューションズはアーリーバード割引の対象となりましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Yes, because it reserved a Premium Booth which qualifies automatically.",
+              "explanation": "プレミアムブースの予約が割引を自動的に付与するという条件はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Yes, because Coretek applied more than 30 days before the fair.",
+              "explanation": "30日前というルールは広告に存在せず、7月31日の締め切りが適用されます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "No, because Coretek only qualifies if it books two or more booths.",
+              "explanation": "2ブース以上の予約が割引条件というルールは広告にありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "No, because its application was submitted after the deadline.",
+              "explanation": "広告はアーリーバード割引の締め切りを7月31日と定めており、メールによる申し込みは8月3日です。期限後のため割引対象外です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t1-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "Early-bird discount: 15% off any booth package for applications received by July 31"
+            },
+            {
+              "passageId": "t03-t1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "Our application is submitted on August 3"
+            },
+            {
+              "passageId": "t03-t1-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "Discount: $0.00"
+            }
+          ],
+          "explanationOverall": "広告の早期割引締め切りは7月31日です。コアテックのメールは8月3日付けの申し込みであり、請求書にも割引額がゼロと記載されています。締め切り後の申し込みのため割引対象外です。"
+        },
+        {
+          "no": 188,
+          "type": "infer",
+          "questionEn": "By what date must Coretek Solutions submit its insurance certificate?",
+          "questionJa": "コアテック・ソリューションズはいつまでに保険証明書を提出しなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "August 19",
+              "explanation": "8月19日は請求書の支払期限であり、保険証明書の提出期限ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "September 7",
+              "explanation": "9月7日という日付は広告にも請求書にも記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "September 4",
+              "explanation": "広告は「見本市開幕の少なくとも10日前」に保険証明書の提出を求めており、見本市は9月14日に開幕するため、10日前は9月4日です。請求書にもこの日付が明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "September 13",
+              "explanation": "9月13日は設営日であり、保険証明書の提出期限ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t1-ad",
+              "paragraphIndex": 2,
+              "snippetEn": "provide proof of insurance at least 10 days before the fair opens"
+            },
+            {
+              "passageId": "t03-t1-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "Insurance certificate must be received by September 4"
+            }
+          ],
+          "explanationOverall": "広告に「見本市開幕の少なくとも10日前に保険証明書を提出」とあります。見本市は9月14日開幕なので10日前は9月4日です。請求書にも「Insurance certificate must be received by September 4」と明記されています。"
+        },
+        {
+          "no": 189,
+          "type": "not",
+          "questionEn": "Which of the following is NOT mentioned in the advertisement as being included in the Premium Booth package?",
+          "questionJa": "次のうち、広告にプレミアムブースパッケージの内容として記載されていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A listing in the official program",
+              "explanation": "広告にはプレミアムブースに「listing in official program（公式プログラム掲載）」が含まれると明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A complimentary parking pass for exhibitors",
+              "explanation": "駐車場パスの提供は広告にまったく言及されていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Placement at a corner location",
+              "explanation": "広告にはプレミアムブースの「corner placement（コーナー配置）」が明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A logo displayed on the event banner",
+              "explanation": "広告にはプレミアムブースに「logo on event banner（イベントバナーへのロゴ掲載）」が含まれると明記されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t1-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "Premium Booth (18 m²): $6,800 | Includes: 2 tables, 4 chairs, power access, corner placement, logo on event banner, listing in official program"
+            }
+          ],
+          "explanationOverall": "広告のプレミアムブースには「コーナー配置」「イベントバナーへのロゴ掲載」「公式プログラム掲載」が明記されていますが、駐車場パスについては一切触れられていません。"
+        },
+        {
+          "no": 190,
+          "type": "detail",
+          "questionEn": "What is the total amount that Coretek Solutions is required to pay according to the invoice?",
+          "questionJa": "請求書によると、コアテック・ソリューションズが支払うべき合計金額はいくらですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "$7,680",
+              "explanation": "請求書にプレミアムブース（6,800ドル）＋交流ディナーチケット4枚（880ドル）＝7,680ドルと明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "$6,800",
+              "explanation": "これはプレミアムブースのみの金額であり、ディナーチケット代が含まれていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "$7,460",
+              "explanation": "このような合計金額は請求書に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "$5,780",
+              "explanation": "早期割引を誤適用した場合の誤った計算値で、請求書の実際の金額と異なります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t1-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "Total Due: $7,680.00"
+            }
+          ],
+          "explanationOverall": "請求書はプレミアムブース6,800ドルと交流ディナーチケット4枚分880ドルの合計7,680ドルを明示しています。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t03-t2-notice",
+          "docType": "notice",
+          "title": "Planned Production Shutdown — Facilities Notice",
+          "paragraphs": [
+            {
+              "en": "To: All Vantrik Manufacturing Plant Personnel\nFrom: Plant Operations Management\nDate: October 2\nSubject: Scheduled Maintenance Shutdown — October 21 to October 23\n\nVantrik Manufacturing will conduct a planned shutdown of Assembly Line B and the Hydraulic Press Unit from Monday, October 21 through Wednesday, October 23 inclusive. This shutdown is required to perform mandatory five-year safety inspections and to replace the hydraulic seals on Press Units 3, 5, and 7, which are approaching the end of their certified service life.",
+              "ja": "宛先：バントリック製造工場全従業員\n差出人：工場運営管理部\n日付：10月2日\n件名：予定保全停止　10月21日〜23日\n\nバントリック製造は、組立ラインBおよび油圧プレスユニットの計画停止を10月21日（月）から23日（水）の3日間実施します。この停止は5年に一度の義務的安全点検と、認定耐用年数が近づいているプレスユニット3、5、7号機の油圧シール交換のために必要です。"
+            },
+            {
+              "en": "During the shutdown period, Assembly Line A and the Packaging Section will continue normal operations. Employees assigned to Assembly Line B or to the Hydraulic Press Unit are requested to report to the Maintenance Support Pool in Building 4 for redeployment tasks. Supervisors will receive individual redeployment schedules by October 7.",
+              "ja": "停止期間中、組立ラインAおよび包装部門は通常通り操業を続けます。組立ラインBまたは油圧プレスユニットに配属されている従業員は、再配置業務のため4号棟のメンテナンスサポートプールに報告するよう求められます。管理職は10月7日までに個別の再配置スケジュールを受け取ります。"
+            },
+            {
+              "en": "The inspection and repair work will be carried out by the internal maintenance team in collaboration with Hessex Engineering Services, an external contractor. Any personnel who observe a safety concern or require access to restricted areas during the shutdown must contact the on-site safety officer directly. Unauthorized access to the maintenance zones is strictly prohibited.",
+              "ja": "点検・補修作業は社内保全チームと外部委託業者のヘセックス・エンジニアリング・サービスが協力して実施します。停止期間中に安全上の懸念を発見した従業員や制限区域へのアクセスが必要な従業員は、現場の安全担当者に直接連絡してください。保全ゾーンへの無断立ち入りは厳禁です。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t2-schedule",
+          "docType": "schedule",
+          "title": "Shutdown Maintenance Schedule — October 21–23, Vantrik Manufacturing",
+          "paragraphs": [
+            {
+              "en": "October 21 (Monday): Safety inspection — Press Units 3 and 5 | 07:00–18:00 | Lead: Hessex Engineering (external) | Location: Press Hall\nOctober 21 (Monday): Hydraulic seal removal and preparation — Press Unit 3 | 18:00–22:00 | Lead: Internal maintenance team | Location: Press Hall\nOctober 22 (Tuesday): Hydraulic seal replacement — Press Units 3 and 5 | 07:00–20:00 | Lead: Hessex Engineering (external) | Location: Press Hall\nOctober 22 (Tuesday): Safety inspection — Press Unit 7 | 08:00–14:00 | Lead: Internal maintenance team | Location: Press Hall\nOctober 23 (Wednesday): Hydraulic seal replacement — Press Unit 7 | 07:00–15:00 | Lead: Hessex Engineering (external) | Location: Press Hall\nOctober 23 (Wednesday): Full operational test — Press Units 3, 5, and 7 | 15:00–18:00 | Lead: Plant Operations Management | Location: Press Hall",
+              "ja": "10月21日（月）：安全点検　プレスユニット3・5号機　07:00〜18:00　担当：ヘセックス・エンジニアリング（外部）　場所：プレスホール\n10月21日（月）：油圧シール取り外しと準備　プレスユニット3号機　18:00〜22:00　担当：社内保全チーム　場所：プレスホール\n10月22日（火）：油圧シール交換　プレスユニット3・5号機　07:00〜20:00　担当：ヘセックス・エンジニアリング（外部）　場所：プレスホール\n10月22日（火）：安全点検　プレスユニット7号機　08:00〜14:00　担当：社内保全チーム　場所：プレスホール\n10月23日（水）：油圧シール交換　プレスユニット7号機　07:00〜15:00　担当：ヘセックス・エンジニアリング（外部）　場所：プレスホール\n10月23日（水）：完全作動テスト　プレスユニット3・5・7号機　15:00〜18:00　担当：工場運営管理部　場所：プレスホール"
+            },
+            {
+              "en": "Notes: All maintenance personnel must wear full PPE in the Press Hall at all times. Hessex Engineering will bring their own hydraulic tools; plant tools are not to be used for seal replacement without explicit authorization. Assembly Line B personnel must vacate the Press Hall before 07:00 on October 21. The final test on October 23 requires sign-off from the Plant Operations Manager before line restart is authorized.",
+              "ja": "注意事項：プレスホールでの作業中は全保全担当者が常に完全なPPEを着用すること。ヘセックス・エンジニアリングは自社の油圧工具を持参するため、明示的な許可なしに工場の工具をシール交換に使用しないこと。組立ラインBの担当者は10月21日午前7時前にプレスホールから退去すること。10月23日の最終テストは工場運営マネージャーの承認を得てからラインの再起動が許可される。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t2-texts",
+          "docType": "text_message_chain",
+          "title": "Maintenance Team Text Chain — October 22",
+          "messages": [
+            {
+              "sender": "Ravi",
+              "timeLabel": "7:05 A.M.",
+              "bodyEn": "Morning. Hessex crew arrived on time. We are starting seal replacement on Units 3 and 5 now. Unit 7 inspection will begin around 8:00 as scheduled.",
+              "bodyJa": "おはようございます。ヘセックスのクルーが定刻に到着しました。今からユニット3・5のシール交換を始めます。ユニット7の点検は予定通り8時頃開始します。"
+            },
+            {
+              "sender": "Priya",
+              "timeLabel": "7:18 A.M.",
+              "bodyEn": "Good. One thing — I heard from the plant manager that the final test on the 23rd cannot start until she has personally reviewed the inspection logs. Make sure all logs are submitted to her office by 14:00 on the 23rd.",
+              "bodyJa": "わかりました。一点確認ですが、工場マネージャーから、23日の最終テストは彼女が点検記録を個人的に確認するまで開始できないと聞きました。23日の14時までに全点検記録を彼女のオフィスに提出してください。"
+            },
+            {
+              "sender": "Ravi",
+              "timeLabel": "7:30 A.M.",
+              "bodyEn": "Understood. Also, the Hessex team lead mentioned that the hydraulic tools they brought are not compatible with the valve fittings on Unit 5. They need to borrow the plant's hydraulic wrench set. Is that authorized?",
+              "bodyJa": "了解です。それと、ヘセックスのチームリードから、持参した油圧工具がユニット5のバルブ継手に合わないと報告がありました。工場の油圧レンチセットを借りる必要があるとのことです。それは許可されていますか。"
+            },
+            {
+              "sender": "Priya",
+              "timeLabel": "7:44 A.M.",
+              "bodyEn": "I will confirm with the operations manager and get back to you within the hour. Do not proceed with Unit 5 seals until I give the green light. Start with Unit 3 in the meantime.",
+              "bodyJa": "運営マネージャーに確認して、1時間以内に返答します。私がGOサインを出すまでユニット5のシール作業を進めないでください。その間はユニット3から始めてください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 191,
+          "type": "detail",
+          "questionEn": "According to the notice, which equipment will be taken offline during the shutdown?",
+          "questionJa": "通知によると、停止期間中にオフラインになる機器はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "All assembly lines and the packaging section",
+              "explanation": "包装部門と組立ラインAは通常操業を続けます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The Hydraulic Press Unit only, while Assembly Line B operates normally",
+              "explanation": "組立ラインBも停止対象です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Press Units 3, 5, and 7 only, with Line B continuing at reduced capacity",
+              "explanation": "組立ラインBも停止対象であり、縮小操業ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Assembly Line B and the Hydraulic Press Unit",
+              "explanation": "通知に「Assembly Line B and the Hydraulic Press Unit」の停止が明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t2-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "planned shutdown of Assembly Line B and the Hydraulic Press Unit"
+            }
+          ],
+          "explanationOverall": "通知第0段落に「shutdown of Assembly Line B and the Hydraulic Press Unit」と明記されています。"
+        },
+        {
+          "no": 192,
+          "type": "infer",
+          "questionEn": "What role does Hessex Engineering Services play during the shutdown?",
+          "questionJa": "ヘセックス・エンジニアリング・サービスは停止期間中にどのような役割を果たしていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They provide temporary workers to assist the internal maintenance team full-time.",
+              "explanation": "一時的な労働力の提供は通知にもスケジュールにも記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "They lead safety inspections and hydraulic seal replacement on certain press units.",
+              "explanation": "通知は外部業者として記載し、スケジュールはヘセックスが安全点検とシール交換の特定作業を主導すると示しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "They manage the redeployment of Assembly Line B workers to other tasks.",
+              "explanation": "従業員の再配置管理は工場内部の担当であり、外部業者の役割ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "They conduct the final operational test on all three press units on October 23.",
+              "explanation": "最終作動テストは工場運営管理部の担当とスケジュールに記載されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t2-notice",
+              "paragraphIndex": 2,
+              "snippetEn": "collaboration with Hessex Engineering Services, an external contractor"
+            },
+            {
+              "passageId": "t03-t2-schedule",
+              "paragraphIndex": 0,
+              "snippetEn": "Safety inspection — Press Units 3 and 5 | 07:00–18:00 | Lead: Hessex Engineering (external)"
+            }
+          ],
+          "explanationOverall": "通知は外部委託業者としてヘセックスを挙げ、スケジュールでは安全点検（21日・プレスユニット3・5）およびシール交換（22日・23日）を主導する担当として記載されています。"
+        },
+        {
+          "no": 193,
+          "type": "not",
+          "questionEn": "Which of the following activities is NOT listed in the maintenance schedule?",
+          "questionJa": "次のうち、保全スケジュールに記載されていない活動はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A full operational test of all three press units",
+              "explanation": "10月23日の項目に「Full operational test — Press Units 3, 5, and 7」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Hydraulic seal removal and preparation for Press Unit 3",
+              "explanation": "10月21日の項目に「Hydraulic seal removal and preparation — Press Unit 3」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Recertification training for plant maintenance personnel",
+              "explanation": "人員の再認定訓練はスケジュールに一切記載されていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "A safety inspection of Press Units 3 and 5",
+              "explanation": "10月21日の項目に「Safety inspection — Press Units 3 and 5」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t2-schedule",
+              "paragraphIndex": 0,
+              "snippetEn": "Full operational test — Press Units 3, 5, and 7 | 15:00–18:00 | Lead: Plant Operations Management"
+            }
+          ],
+          "explanationOverall": "スケジュールに記載されているのは安全点検・シール取り外し・シール交換・最終テストです。保全担当者の再認定訓練についてはどこにも記載されていません。"
+        },
+        {
+          "no": 194,
+          "type": "intention",
+          "questionEn": "At 7:44 A.M., why does Priya write, \"Do not proceed with Unit 5 seals until I give the green light\"?",
+          "questionJa": "午前7時44分に、プリヤが「私がGOサインを出すまでユニット5のシール作業を進めないでください」と書いた理由は何ですか。",
+          "intentionTarget": {
+            "sender": "Priya",
+            "utteranceEn": "I will confirm with the operations manager and get back to you within the hour. Do not proceed with Unit 5 seals until I give the green light. Start with Unit 3 in the meantime."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "She wants to ensure the Unit 5 inspection is completed before seals are replaced.",
+              "explanation": "スケジュールによるとユニット5の点検は22日に行われ、プリヤがメッセージを送った21日の問題とは別の話です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "She is concerned that Unit 5 has not yet been cleared by the on-site safety officer.",
+              "explanation": "安全担当者のクリアランス問題は言及されておらず、工具の使用許可が問題の核心です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She plans to supervise the Unit 5 work personally and has not arrived at the Press Hall yet.",
+              "explanation": "プリヤの個人的な立ち会いは言及されておらず、工具使用の許可確認が理由です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She needs to obtain authorization before Hessex is permitted to use plant tools on Unit 5.",
+              "explanation": "スケジュールでは工場の工具は明示的な許可なしに使えないとされており、プリヤは運営マネージャーへの確認が終わるまで作業を一時停止させています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t2-texts",
+              "paragraphIndex": 2,
+              "snippetEn": "the Hessex team lead mentioned that the hydraulic tools they brought are not compatible with the valve fittings on Unit 5"
+            },
+            {
+              "passageId": "t03-t2-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "plant tools are not to be used for seal replacement without explicit authorization"
+            }
+          ],
+          "explanationOverall": "ラビのメッセージはヘセックスが工場の油圧レンチセットの借用を求めていると報告しています。スケジュールノートには明示的な許可なしに工場工具をシール交換に使用してはならないとあり、プリヤは運営マネージャーへの確認が取れるまでユニット5の作業を停止させています。"
+        },
+        {
+          "no": 195,
+          "type": "infer",
+          "questionEn": "What does the information in the texts suggest about the final operational test on October 23?",
+          "questionJa": "テキストメッセージの情報から、10月23日の最終作動テストについて何が推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The test cannot begin until inspection records have been reviewed by the plant manager.",
+              "explanation": "プリヤのメッセージはスケジュールの「工場運営マネージャーの承認後に再起動が許可される」という条件を補強し、点検記録の提出期限（14時）が最終テスト（15時開始）より前であることを示しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The test will be conducted by the Hessex Engineering team, not plant staff.",
+              "explanation": "スケジュールによると最終テストは工場運営管理部が担当します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The test has been moved to the morning to allow for an earlier restart of Assembly Line B.",
+              "explanation": "最終テスト時間の変更はどこにも示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The test outcome determines whether the shutdown will be extended by one additional day.",
+              "explanation": "停止の延長はどの文書にも言及されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t2-schedule",
+              "paragraphIndex": 1,
+              "snippetEn": "The final test on October 23 requires sign-off from the Plant Operations Manager before line restart is authorized"
+            },
+            {
+              "passageId": "t03-t2-texts",
+              "paragraphIndex": 1,
+              "snippetEn": "Make sure all logs are submitted to her office by 14:00 on the 23rd"
+            }
+          ],
+          "explanationOverall": "スケジュールには最終テスト前に工場運営マネージャーの承認が必要とあります。プリヤのメッセージは点検記録を14時までにマネージャーのオフィスに提出するよう指示しており、15時開始の最終テストの前に承認手続きが完了する流れを示しています。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t03-t3-article",
+          "docType": "article",
+          "title": "New Medical Device Regulations to Take Effect in March",
+          "paragraphs": [
+            {
+              "en": "The National Health Products Authority (NHPA) has announced that revised traceability and post-market surveillance requirements under Regulation MDR-2024 will come into force on March 1 of next year. The new rules affect all Class II and Class III medical devices distributed within the country, including imported products. Manufacturers and importers will be required to implement a unique device identification (UDI) system and to submit quarterly adverse-event reports directly through the NHPA's online portal.",
+              "ja": "国家保健製品局（NHPA）は、改訂されたトレーサビリティおよび市販後調査に関する要件（規制MDR-2024）が来年3月1日に発効すると発表した。新規則は国内で流通するすべてのクラスIIおよびクラスIIIの医療機器（輸入品を含む）に影響する。製造業者および輸入業者は固有デバイス識別（UDI）システムを導入し、NHPAのオンラインポータルを通じて四半期ごとに有害事象報告書を直接提出することが求められる。"
+            },
+            {
+              "en": "Manufacturers whose devices are currently registered under the predecessor regulation (MDR-2018) are granted a transitional period of 180 days from March 1 to update their labeling and registration records without penalty. Devices that are newly introduced to the market after March 1 must comply with MDR-2024 in full from the date of first distribution, with no transitional allowance. Failure to comply after the applicable deadline carries a financial penalty of up to $50,000 per device line per month of non-compliance.",
+              "ja": "MDR-2018（前規制）の下で現在登録されている機器の製造業者には、3月1日から180日間の移行期間が付与され、ペナルティなしにラベリングおよび登録記録を更新できる。3月1日以降に新たに市場に導入される機器は、初回流通日からMDR-2024に完全に準拠しなければならず、移行期間は認められない。適用期限後の不遵守には、デバイスラインごとに月額最大5万ドルの金銭的ペナルティが科される。"
+            },
+            {
+              "en": "The NHPA has published detailed implementation guidance on its website and will host a series of free webinars throughout January and February to assist industry participants with the transition. Manufacturers who anticipate difficulty completing legacy-product updates within the 180-day transitional period may apply for an extension of up to 60 additional days, provided the application is filed no later than January 15 and demonstrates a documented compliance plan. NHPA has stated that extension applications submitted after that date will not be considered.",
+              "ja": "NHPAはウェブサイトに詳細な実施ガイダンスを公開しており、業界関係者の移行支援のため1月と2月に無料ウェビナーシリーズを開催する予定だ。既存製品の更新を180日間の移行期間内に完了することが困難だと見込まれる製造業者は、最大60日間の延長を申請できる。ただし、申請書は1月15日までに提出し、文書化されたコンプライアンス計画を示す必要がある。NHPAはその日付を過ぎて提出された延長申請は受け付けないと表明している。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t3-memo",
+          "docType": "memo",
+          "title": "Internal Memo — MDR-2024 Compliance Action Plan",
+          "paragraphs": [
+            {
+              "en": "To: Quality Assurance Team, Regulatory Affairs Team\nFrom: Dr. Yoon Seo, VP of Regulatory Compliance\nDate: December 9\nSubject: Mandatory Actions for MDR-2024 Compliance\n\nAs you are aware, MDR-2024 enters into force on March 1. Our current product portfolio includes seven Class II devices that are registered under MDR-2018 and two Class III devices that we plan to launch on April 15 and May 15 of next year, respectively. Please treat the following as mandatory action items.",
+              "ja": "宛先：品質保証チーム、法規制対応チーム\n差出人：ユン・ソ博士　法規制コンプライアンス担当副社長\n日付：12月9日\n件名：MDR-2024コンプライアンスの必須対応事項\n\nご承知のとおり、MDR-2024は3月1日に発効します。現在の製品ポートフォリオには、MDR-2018の下で登録されている7つのクラスIIデバイスと、来年4月15日と5月15日にそれぞれ発売予定の2つのクラスIIIデバイスが含まれています。以下を必須対応事項として対応してください。"
+            },
+            {
+              "en": "Action 1 — UDI System Implementation: IT and QA must complete UDI labeling integration for all seven legacy Class II devices by August 28 (the final day of the 180-day transitional period). Interim labeling compliance reviews are due on May 1 and July 1.\nAction 2 — New Product Compliance: The two Class III devices planned for Q2 launch must be fully MDR-2024-compliant from day one of distribution. Engineering and Regulatory Affairs must sign off compliance documentation at least 30 days before the planned launch date.\nAction 3 — Extension Application: Given the complexity of updating UDI labels for three of our legacy devices (Product Lines 4, 6, and 8), I recommend filing an extension application with NHPA. This must be filed no later than January 15 and must include a detailed compliance roadmap.",
+              "ja": "対応1 — UDIシステム導入：ITおよびQAは、7つの既存クラスIIデバイスすべてについて、180日間移行期間の最終日である8月28日までにUDIラベリング統合を完了すること。中間ラベリングコンプライアンスレビューは5月1日と7月1日が期限。\n対応2 — 新製品コンプライアンス：Q2発売予定の2つのクラスIIIデバイスは、流通初日からMDR-2024に完全準拠していなければならない。エンジニアリングおよび法規制対応部門は、計画発売日の少なくとも30日前にコンプライアンス文書に署名すること。\n対応3 — 延長申請：既存デバイス3製品（製品ライン4・6・8）のUDIラベル更新の複雑さを考慮し、NHPAへ延長申請を提出することを勧める。申請は1月15日までに提出し、詳細なコンプライアンスロードマップを含める必要がある。"
+            }
+          ]
+        },
+        {
+          "passageId": "t03-t3-chat",
+          "docType": "online_chat",
+          "title": "Regulatory Compliance Team Channel — December 9",
+          "messages": [
+            {
+              "sender": "Yoon",
+              "timeLabel": "3:10 P.M.",
+              "bodyEn": "Hi team. I just circulated the compliance memo for MDR-2024. Please read it carefully — the deadlines are firm.",
+              "bodyJa": "みなさん。MDR-2024のコンプライアンスメモを配布しました。期限は厳守ですので、注意深くお読みください。"
+            },
+            {
+              "sender": "Clara",
+              "timeLabel": "3:22 P.M.",
+              "bodyEn": "Noted. Regarding the extension application — I want to confirm: the article says extensions can cover up to 60 additional days. If the full extension is approved, that would push the deadline for Product Lines 4, 6, and 8 to late October, correct?",
+              "bodyJa": "了解です。延長申請についてですが、記事によると最大60日間の延長が認められるとのこと。満額の延長が承認された場合、製品ライン4・6・8の期限は10月下旬まで延びるということで合っていますか。"
+            },
+            {
+              "sender": "Yoon",
+              "timeLabel": "3:31 P.M.",
+              "bodyEn": "That is correct. The 180-day transitional period ends August 28, and a 60-day extension would move the hard deadline to October 27. But this is contingent on NHPA approval, so we cannot rely on it for planning.",
+              "bodyJa": "その通りです。180日間の移行期間は8月28日で終了し、60日間の延長が認められれば最終期限は10月27日になります。ただし、NHPAの承認が前提なので、計画の根拠にはできません。"
+            },
+            {
+              "sender": "Ben",
+              "timeLabel": "3:45 P.M.",
+              "bodyEn": "What about the two new Class III devices? Those are going into distribution on April 15 and May 15. Does the memo mean we need the compliance sign-offs done by March 16 and April 15, respectively?",
+              "bodyJa": "新しいクラスIIIデバイスの2製品はどうなりますか。4月15日と5月15日に流通開始予定ですよね。メモによると、コンプライアンス署名はそれぞれ3月16日と4月15日までに完了する必要があるということですか。"
+            },
+            {
+              "sender": "Yoon",
+              "timeLabel": "3:58 P.M.",
+              "bodyEn": "Exactly. Those are the correct sign-off dates. The point is that new products have zero grace period under MDR-2024 — they must be compliant from the first day they ship.",
+              "bodyJa": "その通りです。それが正しい署名期限です。重要なのは、新製品にはMDR-2024上の猶予期間がないということです。出荷初日から規制に準拠していなければなりません。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 196,
+          "type": "detail",
+          "questionEn": "According to the article, which products are eligible for the 180-day transitional period under MDR-2024?",
+          "questionJa": "記事によると、MDR-2024の下で180日間の移行期間の対象となるのはどの製品ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Imported products that applied for an extension before March 1",
+              "explanation": "輸入品の延長申請が移行期間の条件であるとは記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Devices currently registered under the predecessor regulation MDR-2018",
+              "explanation": "記事に「Manufacturers whose devices are currently registered under the predecessor regulation (MDR-2018) are granted a transitional period of 180 days」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "All Class II and Class III devices regardless of registration status",
+              "explanation": "新規に市場投入される機器は移行期間の対象外です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Only Class III devices that were approved before January 1 of the current year",
+              "explanation": "クラスIIIのみ、または特定の承認日という条件は記事に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "Manufacturers whose devices are currently registered under the predecessor regulation (MDR-2018) are granted a transitional period of 180 days from March 1"
+            }
+          ],
+          "explanationOverall": "記事第1段落に、MDR-2018の下で登録済みの機器の製造業者に180日間の移行期間が付与されると明記されています。3月1日以降に新規市場投入される機器は移行期間が認められません。"
+        },
+        {
+          "no": 197,
+          "type": "infer",
+          "questionEn": "What can be inferred about the company's plan to file an extension application with the NHPA?",
+          "questionJa": "NHPAへの延長申請を行う会社の計画について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Only Class III devices are eligible for the 60-day extension.",
+              "explanation": "記事では既存の登録済み製品（移行期間対象）への延長が述べられており、クラスIIIのみとは限定していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The company has already submitted the application and is awaiting NHPA approval.",
+              "explanation": "メモは申請を推奨しているだけで、すでに提出済みとは述べていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The application must be submitted before the deadline stated in the article.",
+              "explanation": "記事は延長申請を1月15日以前に提出しなければならないと定めており、メモも同じ期限を示しています。会社は対象製品ラインを特定し申請を準備する必要があります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "The extension would allow the company to delay compliance indefinitely.",
+              "explanation": "延長は最大60日間であり、無期限の猶予ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t3-article",
+              "paragraphIndex": 2,
+              "snippetEn": "application is filed no later than January 15"
+            },
+            {
+              "passageId": "t03-t3-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "must be filed no later than January 15 and must include a detailed compliance roadmap"
+            }
+          ],
+          "explanationOverall": "記事は延長申請の期限を1月15日と定めており、メモも「1月15日以前に提出」と同じ期限を示しています。記事とメモの両方を参照することで、申請可能期限・申請対象（製品ライン4・6・8）・必要書類が確認できます。"
+        },
+        {
+          "no": 198,
+          "type": "synonym",
+          "questionEn": "In the online chat at 3:31 P.M., the phrase \"contingent on\" is closest in meaning to which of the following?",
+          "questionJa": "オンラインチャットの午後3時31分の発言で、\"contingent on\" に最も近い意味を持つ表現はどれですか。",
+          "targetWord": "contingent on",
+          "choices": [
+            {
+              "label": "A",
+              "text": "regardless of",
+              "explanation": "「〜にかかわらず」という意味で、文脈と正反対の意味になります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "in addition to",
+              "explanation": "「〜に加えて」という意味で、条件関係を表すには合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "prior to",
+              "explanation": "「〜より前に」という時間関係を表し、条件関係とは異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "dependent on",
+              "explanation": "「〜次第で決まる」という意味で、\"contingent on NHPA approval\"（NHPAの承認が前提）と同じ意味を表します。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t3-chat",
+              "paragraphIndex": 2,
+              "snippetEn": "this is contingent on NHPA approval, so we cannot rely on it for planning"
+            }
+          ],
+          "explanationOverall": "\"contingent on NHPA approval\" は「NHPAの承認を条件とする」という意味で使われており、\"dependent on\" が最も近い意味です。"
+        },
+        {
+          "no": 199,
+          "type": "infer",
+          "questionEn": "Based on the information in all three documents, what is implied about the two new Class III devices?",
+          "questionJa": "3つの文書の情報に基づくと、2つの新しいクラスIIIデバイスについて何が示唆されていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "They must be fully compliant with MDR-2024 from the first day they are sold, with no transitional grace period.",
+              "explanation": "記事は3月1日以降の新規市場投入製品には移行期間が認められないと述べており、メモとチャットも同様の条件を確認しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "They are eligible for a 60-day extension because they have not yet been distributed.",
+              "explanation": "延長申請は既存の登録済み製品（MDR-2018登録済み）向けであり、新規製品には適用されません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "They must be registered under MDR-2018 before March 1 to be sold in Q2.",
+              "explanation": "新規製品はMDR-2018の下で登録する必要があるという条件は記事に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "They are exempt from the UDI requirement because they are Class III and not Class II.",
+              "explanation": "UDI要件はクラスIIとクラスIIIの両方に適用されます。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "Devices that are newly introduced to the market after March 1 must comply with MDR-2024 in full from the date of first distribution, with no transitional allowance"
+            },
+            {
+              "passageId": "t03-t3-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "two Class III devices planned for Q2 launch must be fully MDR-2024-compliant from day one of distribution"
+            },
+            {
+              "passageId": "t03-t3-chat",
+              "paragraphIndex": 4,
+              "snippetEn": "new products have zero grace period under MDR-2024 — they must be compliant from the first day they ship"
+            }
+          ],
+          "explanationOverall": "記事は新規市場投入製品には移行期間がないと述べています。メモのアクション2は「Q2発売予定の2つのクラスIIIデバイスは流通初日からMDR-2024に完全準拠」と明示し、チャットのユーン氏も「new products have zero grace period under MDR-2024」と確認しています。"
+        },
+        {
+          "no": 200,
+          "type": "intention",
+          "questionEn": "At 3:58 P.M., why does Yoon write, \"The point is that new products have zero grace period under MDR-2024 — they must be compliant from the first day they ship\"?",
+          "questionJa": "午後3時58分に、ユーン氏が「重要なのは、新製品にはMDR-2024上の猶予期間がないということです。出荷初日から規制に準拠していなければなりません」と書いた理由は何ですか。",
+          "intentionTarget": {
+            "sender": "Yoon",
+            "utteranceEn": "Exactly. Those are the correct sign-off dates. The point is that new products have zero grace period under MDR-2024 — they must be compliant from the first day they ship."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "To clarify that the two planned Class III launches cannot rely on any transitional allowance.",
+              "explanation": "ベンが2製品の署名期限を確認したのに対し、ユーン氏は両製品とも移行猶予を利用できないという原則を強調しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To announce that the launch date for the Class III devices has been moved forward to March.",
+              "explanation": "クラスIIIデバイスの発売日の前倒しは発表されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To warn the team that MDR-2024 compliance penalties will apply from January 15.",
+              "explanation": "ペナルティの適用開始日は1月15日ではなく、規制の発効日（3月1日）以降の不遵守に対してです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To confirm that the compliance sign-off for new products should be completed before March 1.",
+              "explanation": "署名の期限はメモに「発売予定日の少なくとも30日前」とあり、3月1日に固定されているわけではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t03-t3-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "Does the memo mean we need the compliance sign-offs done by March 16 and April 15, respectively"
+            },
+            {
+              "passageId": "t03-t3-chat",
+              "paragraphIndex": 4,
+              "snippetEn": "new products have zero grace period under MDR-2024 — they must be compliant from the first day they ship"
+            }
+          ],
+          "explanationOverall": "ベンのメッセージは発売月によって署名期限が変わると理解したことを示しており、ユーン氏はその理解を肯定しつつ、根本原則として新製品には猶予期間がゼロであること（出荷初日から完全準拠が必要）を強調しています。"
+        }
+      ]
+    }
+  ]
+}
