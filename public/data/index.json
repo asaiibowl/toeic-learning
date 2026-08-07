@@ -2,6 +2,23 @@
   "version": 1,
   "tests": [
     {
+      "testId": "test-02",
+      "title": "テストセット02（75分・100問）",
+      "description": "TOEIC L&R Readingの現行公式構成に準拠したオリジナル100問セット（やや難・730〜860点帯）。Part 5: 30問、Part 6: 16問、Part 7: 単一文書29問・複数文書25問。",
+      "createdAt": "2026-08-07T10:00:00+09:00",
+      "tags": [
+        "full-test",
+        "75-minutes",
+        "original",
+        "advanced"
+      ],
+      "completeness": {
+        "part5": 30,
+        "part6": 16,
+        "part7": 54
+      }
+    },
+    {
       "testId": "test-01",
       "title": "テストセット01（75分・100問）",
       "description": "TOEIC L&R Readingの現行公式構成に準拠したオリジナル100問セット。Part 5: 30問、Part 6: 16問、Part 7: 単一文書29問・複数文書25問。",

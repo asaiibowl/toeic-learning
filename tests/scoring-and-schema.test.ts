@@ -79,40 +79,43 @@ test('推定Readingスコアは範囲内の5点刻み', () => {
   assert.ok(middle >= 5 && middle <= 495);
 });
 
-test('テストセット01は公式Reading構成の100問を収録する', () => {
-  const testRoot = join(process.cwd(), 'public', 'data', 'tests', 'test-01');
-  const part5 = Part5DataSchema.parse(
-    JSON.parse(readFileSync(join(testRoot, 'part5.json'), 'utf8')) as unknown,
-  );
-  const part6 = Part6DataSchema.parse(
-    JSON.parse(readFileSync(join(testRoot, 'part6.json'), 'utf8')) as unknown,
-  );
-  const part7 = Part7DataSchema.parse(
-    JSON.parse(readFileSync(join(testRoot, 'part7.json'), 'utf8')) as unknown,
-  );
+// 満数（100問）セットは全件が同じ公式構成を満たすこと
+for (const testId of ['test-01', 'test-02']) {
+  test(`${testId} は公式Reading構成の100問を収録する`, () => {
+    const testRoot = join(process.cwd(), 'public', 'data', 'tests', testId);
+    const part5 = Part5DataSchema.parse(
+      JSON.parse(readFileSync(join(testRoot, 'part5.json'), 'utf8')) as unknown,
+    );
+    const part6 = Part6DataSchema.parse(
+      JSON.parse(readFileSync(join(testRoot, 'part6.json'), 'utf8')) as unknown,
+    );
+    const part7 = Part7DataSchema.parse(
+      JSON.parse(readFileSync(join(testRoot, 'part7.json'), 'utf8')) as unknown,
+    );
 
-  const singleSets = part7.sets.filter((set) => set.setType === 'single');
-  const multipleSets = part7.sets.filter((set) => set.setType !== 'single');
-  assert.equal(part5.questions.length, 30);
-  assert.equal(part6.passages.length, 4);
-  assert.equal(part6.passages.reduce((sum, passage) => sum + passage.questions.length, 0), 16);
-  assert.equal(singleSets.length, 10);
-  assert.equal(singleSets.reduce((sum, set) => sum + set.questions.length, 0), 29);
-  assert.equal(multipleSets.reduce((sum, set) => sum + set.questions.length, 0), 25);
+    const singleSets = part7.sets.filter((set) => set.setType === 'single');
+    const multipleSets = part7.sets.filter((set) => set.setType !== 'single');
+    assert.equal(part5.questions.length, 30);
+    assert.equal(part6.passages.length, 4);
+    assert.equal(part6.passages.reduce((sum, passage) => sum + passage.questions.length, 0), 16);
+    assert.equal(singleSets.length, 10);
+    assert.equal(singleSets.reduce((sum, set) => sum + set.questions.length, 0), 29);
+    assert.equal(multipleSets.reduce((sum, set) => sum + set.questions.length, 0), 25);
 
-  const answers: Record<number, AnswerRecord> = {};
-  const allQuestions = [
-    ...part5.questions,
-    ...part6.passages.flatMap((passage) => passage.questions),
-    ...part7.sets.flatMap((set) => set.questions),
-  ];
-  for (const question of allQuestions) {
-    const correct = question.choices.find((choice) => choice.isCorrect);
-    assert.ok(correct, `No.${question.no} に正解が必要です`);
-    answers[question.no] = { chosen: correct.label, isCorrect: true };
-  }
-  const grade = gradeSession([part5, part6, part7], answers);
-  assert.equal(grade.overall.total, 100);
-  assert.equal(grade.overall.correct, 100);
-  assert.equal(grade.estimatedScore, 495);
-});
+    const answers: Record<number, AnswerRecord> = {};
+    const allQuestions = [
+      ...part5.questions,
+      ...part6.passages.flatMap((passage) => passage.questions),
+      ...part7.sets.flatMap((set) => set.questions),
+    ];
+    for (const question of allQuestions) {
+      const correct = question.choices.find((choice) => choice.isCorrect);
+      assert.ok(correct, `No.${question.no} に正解が必要です`);
+      answers[question.no] = { chosen: correct.label, isCorrect: true };
+    }
+    const grade = gradeSession([part5, part6, part7], answers);
+    assert.equal(grade.overall.total, 100);
+    assert.equal(grade.overall.correct, 100);
+    assert.equal(grade.estimatedScore, 495);
+  });
+}

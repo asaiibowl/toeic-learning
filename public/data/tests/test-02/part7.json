@@ -1,0 +1,2795 @@
+{
+  "testId": "test-02",
+  "part": 7,
+  "sets": [
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s1-email",
+          "docType": "email",
+          "title": "Clinical Trial Enrollment Inquiry",
+          "from": "Dana Reyes <d.reyes@northgate-research.example>",
+          "to": "Amara Okonkwo <a.okonkwo@mailbox.example>",
+          "paragraphs": [
+            {
+              "en": "Dear Ms. Okonkwo, Thank you for your interest in our Phase II cardiovascular study. We are pleased to confirm that applications are currently open for qualified volunteers.",
+              "ja": "オコンクウォ様、弊社フェーズII心臓血管研究へのご関心をいただきありがとうございます。現在、資格を満たしたボランティアへの応募を受け付けていることをお伝えできます。"
+            },
+            {
+              "en": "Participants must be between 40 and 65 years of age, free of diabetes, and available for six monthly clinic visits. A stipend of $80 per visit will be provided to cover travel costs. To begin the screening process, please complete the intake form at trials.northgate-research.example by October 20.",
+              "ja": "参加者は40歳以上65歳以下で糖尿病のない方に限り、月1回・計6回の来院が必要です。交通費の補助として1回あたり80ドルの謝礼が支給されます。審査を開始するには、10月20日までにtrials.northgate-research.exampleの申込フォームにご記入ください。"
+            },
+            {
+              "en": "If you have questions about eligibility or the study procedures, please contact our trial coordinator, Dana Reyes, at d.reyes@northgate-research.example.",
+              "ja": "参加資格や試験手順についてご質問がある場合は、試験コーディネーターのダナ・レイエスへ d.reyes@northgate-research.example でご連絡ください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 147,
+          "type": "main_idea",
+          "questionEn": "What is the purpose of the e-mail?",
+          "questionJa": "このメールの目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To announce the results of a completed clinical trial",
+              "explanation": "試験が完了したとは述べられておらず、現在進行中の募集案内です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To request payment for a medical procedure",
+              "explanation": "費用を請求する内容ではなく、謝礼の支給について説明しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To respond to an inquiry about joining a research study",
+              "explanation": "冒頭で研究への関心に礼を述べ、応募受付中であることを伝えており、問い合わせへの回答です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To notify a participant that she has been accepted",
+              "explanation": "採用決定ではなく、審査フォームの提出を促す段階の連絡です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "Thank you for your interest in our Phase II cardiovascular study."
+            }
+          ],
+          "explanationOverall": "冒頭で「ご関心への礼」を述べ、参加条件・手順を説明している点から問い合わせへの返答と判断します。"
+        },
+        {
+          "no": 148,
+          "type": "detail",
+          "questionEn": "What must applicants do by October 20?",
+          "questionJa": "応募者は10月20日までに何をしなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Pay a registration fee to the coordinator",
+              "explanation": "登録料の支払いは述べられておらず、謝礼が支給される側です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Attend an in-person screening appointment",
+              "explanation": "来院での審査については述べられておらず、オンラインフォームの記入が求められています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Send a medical history document by e-mail",
+              "explanation": "病歴書類のメール送付は指示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Complete an intake form on the research website",
+              "explanation": "10月20日までに指定ウェブサイトの申込フォームを記入するよう明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "please complete the intake form at trials.northgate-research.example by October 20."
+            }
+          ],
+          "explanationOverall": "第2段落末尾にオンラインフォームの提出期限として10月20日が明示されています。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s2-article",
+          "docType": "article",
+          "title": "UrbanRoot Farms Scales Up Operations in Three Cities",
+          "paragraphs": [
+            {
+              "en": "UrbanRoot Farms, a pioneer in hydroponic vertical agriculture, announced a major expansion plan last month. [1] The company will open new growing facilities in Portland, Austin, and Nashville by the end of next year. [2] Each location will use climate-controlled stacking towers to produce leafy greens year-round, regardless of outdoor weather conditions.",
+              "ja": "ハイドロポニック垂直農業のパイオニアであるUrbanRoot Farmsが先月、大規模拡大計画を発表しました。[1] 同社は来年末までにポートランド、オースティン、ナッシュビルに新たな栽培施設を開設します。[2] 各拠点は気候制御型スタッキングタワーを使用し、屋外の天候に関係なく年間を通じて葉物野菜を生産します。"
+            },
+            {
+              "en": "Chief Executive Miriam Solano said the expansion was driven by rising demand from restaurants and grocery chains seeking locally sourced produce. [3] The company currently supplies more than 200 restaurants across the Pacific Northwest. However, she noted that securing affordable warehouse space in urban centres remains the biggest operational challenge. [4]",
+              "ja": "CEO のミリアム・ソラノ氏は、地元産食材を求めるレストランや食料品チェーンからの需要増加が拡大の背景にあると述べました。[3] 同社は現在、太平洋岸北西部の200以上のレストランに供給しています。ただし、都市部での手頃な倉庫スペースの確保が最大の運営上の課題と語りました。[4]"
+            }
+          ],
+          "hasInsertionMarkers": true
+        }
+      ],
+      "questions": [
+        {
+          "no": 149,
+          "type": "insertion",
+          "questionEn": "Where does the following sentence best belong? \"Initial funding for the project came from a regional agricultural development grant.\"",
+          "questionJa": "次の文を入れるのに最も適切な位置はどこですか。「このプロジェクトへの初期資金は、地域農業開発助成金から提供されました。」",
+          "choices": [
+            {
+              "label": "A",
+              "text": "[1]",
+              "explanation": "拡大計画の発表を受け、資金源に言及する文は[1]に置くと計画の背景補足として自然につながります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "[2]",
+              "explanation": "[2]は3都市展開の詳細説明へ移行する位置であり、資金の話題は前の文脈から離れすぎます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "[3]",
+              "explanation": "[3]はCEOのコメントの途中にあり、需要について述べた文の後に資金の話が割り込むと流れが断ち切られます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "[4]",
+              "explanation": "[4]は倉庫確保の課題に続く段落末で、資金の話題を最後に置くと既存の締めくくりが弱まります。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "explanationOverall": "拡大計画の発表直後に初期資金の出所を補足する[1]が最も論理的な挿入位置です。"
+        },
+        {
+          "no": 150,
+          "type": "detail",
+          "questionEn": "How many restaurants does UrbanRoot Farms currently supply?",
+          "questionJa": "UrbanRoot Farms は現在何件のレストランに食材を供給していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Exactly 200",
+              "explanation": "200件ちょうどではなく、200件を超えると明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "More than 200",
+              "explanation": "第2段落に太平洋岸北西部の200以上のレストランへ供給中とあります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "About 300",
+              "explanation": "300という数字は本文に登場しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Fewer than 100",
+              "explanation": "100件未満という記載はなく、200以上と述べられています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s2-article",
+              "paragraphIndex": 1,
+              "snippetEn": "The company currently supplies more than 200 restaurants across the Pacific Northwest."
+            }
+          ],
+          "explanationOverall": "第2段落の現在の供給先数を直接読み取ります。"
+        },
+        {
+          "no": 151,
+          "type": "infer",
+          "questionEn": "What is most likely true about UrbanRoot Farms?",
+          "questionJa": "UrbanRoot Farms について最も当てはまる推測はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It plans to move its headquarters to Nashville.",
+              "explanation": "本社移転の計画は述べられておらず、施設開設の話です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It grows produce that requires outdoor sunlight.",
+              "explanation": "気候制御型タワーを使い、屋外の天候に依存しないと述べられています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It has difficulty finding suitable facilities in cities.",
+              "explanation": "都市部での手頃な倉庫スペース確保が最大の課題だと明記されており、都市での施設確保に苦労していると推測できます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "It does not have any corporate clients yet.",
+              "explanation": "200以上のレストランへ既に供給中であり、クライアントがいないとは言えません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s2-article",
+              "paragraphIndex": 1,
+              "snippetEn": "securing affordable warehouse space in urban centres remains the biggest operational challenge."
+            }
+          ],
+          "explanationOverall": "CEOが「都市部での倉庫スペース確保が最大の課題」と述べていることから推測します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s3-web",
+          "docType": "web_page",
+          "title": "Creston Collection Hotels — Loyalty Programme Update",
+          "paragraphs": [
+            {
+              "en": "Starting January 1, our Creston Rewards programme will move to a points-based system. Members will earn ten points for every dollar spent on eligible room rates, dining, and spa services at any Creston Collection property worldwide.",
+              "ja": "1月1日より、クレストン・リワーズプログラムはポイント制に移行します。会員は世界中のクレストン・コレクション施設で、対象の客室料金、ダイニング、スパサービスに対して1ドルにつき10ポイントを獲得できます。"
+            },
+            {
+              "en": "Silver status is achieved at 5,000 points and includes complimentary breakfast. Gold status requires 15,000 points and adds a guaranteed room upgrade on arrival. All accumulated points from our previous tier system have been automatically converted at a ratio of one tier credit to five points.",
+              "ja": "シルバーステータスは5,000ポイントで取得でき、朝食無料サービスが含まれます。ゴールドステータスは15,000ポイントが必要で、チェックイン時の客室アップグレード保証が追加されます。旧ティア制度で蓄積したすべてのポイントは、1ティアクレジット＝5ポイントの比率で自動変換されています。"
+            },
+            {
+              "en": "Points cannot be redeemed for cash and will expire if an account is inactive for 24 consecutive months. Members who booked directly through our website before December 31 will receive a one-time bonus of 500 points.",
+              "ja": "ポイントは現金への換金はできず、24か月連続で利用がない場合は失効します。12月31日以前に公式ウェブサイトから直接予約した会員には、一回限りの500ポイントボーナスが付与されます。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 152,
+          "type": "main_idea",
+          "questionEn": "What is the main purpose of the web page?",
+          "questionJa": "このウェブページの主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To ask members to update their account information",
+              "explanation": "情報更新の要求は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To announce the opening of a new spa facility",
+              "explanation": "スパ施設の新規開業は述べられておらず、スパはポイント対象サービスの一つとして言及されているだけです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To inform members about changes to the loyalty programme",
+              "explanation": "1月1日からのポイント制移行など、ロイヤルティ制度の改定内容を会員に伝えることが目的です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To advertise new Creston Collection hotel properties",
+              "explanation": "新しいホテル物件の広告ではなく、既存プログラムの変更説明です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s3-web",
+              "paragraphIndex": 0,
+              "snippetEn": "our Creston Rewards programme will move to a points-based system."
+            }
+          ],
+          "explanationOverall": "第1段落からポイント制への移行という制度改定の説明が全体の主旨です。"
+        },
+        {
+          "no": 153,
+          "type": "detail",
+          "questionEn": "What benefit does Silver status provide?",
+          "questionJa": "シルバーステータスにはどのような特典がありますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The ability to convert points into cash",
+              "explanation": "現金への換金は不可と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A free morning meal each day",
+              "explanation": "第2段落にシルバーステータスで朝食無料が含まれると明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "A guaranteed room upgrade at check-in",
+              "explanation": "客室アップグレード保証はゴールドステータスの特典です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A 500-point welcome bonus",
+              "explanation": "500ポイントボーナスは年末前に直接予約した会員向けで、シルバーステータスの特典ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s3-web",
+              "paragraphIndex": 1,
+              "snippetEn": "Silver status is achieved at 5,000 points and includes complimentary breakfast."
+            }
+          ],
+          "explanationOverall": "Silver status の特典を第2段落で直接確認します。"
+        },
+        {
+          "no": 154,
+          "type": "not",
+          "questionEn": "What is NOT mentioned about the Creston Rewards programme?",
+          "questionJa": "クレストン・リワーズプログラムについて述べられていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Members can transfer points to another account.",
+              "explanation": "ポイントの他アカウントへの移転については本文に記載がなく、現金換金不可の説明のみです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Old tier credits were converted to points automatically.",
+              "explanation": "第2段落で旧ティアクレジットが自動変換されたと述べられています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Points are earned on spa services.",
+              "explanation": "第1段落でスパサービスもポイント対象と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Unused points will eventually expire.",
+              "explanation": "第3段落で24か月の未利用でポイントが失効すると述べられています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s3-web",
+              "paragraphIndex": 2,
+              "snippetEn": "Points cannot be redeemed for cash and will expire if an account is inactive for 24 consecutive months."
+            }
+          ],
+          "explanationOverall": "NOT問題では本文に記述のない項目を選びます。ポイント移転については一切触れられていません。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s4-notice",
+          "docType": "notice",
+          "title": "Westbrook University Library — Special Collections Access Procedure",
+          "paragraphs": [
+            {
+              "en": "Effective September 1, researchers wishing to consult materials in the Special Collections archive must submit an online appointment request at least 72 hours in advance. Walk-in visits will no longer be permitted during this period.",
+              "ja": "9月1日より、特別コレクション・アーカイブの資料を閲覧したい研究者は、少なくとも72時間前にオンラインで予約申請を行う必要があります。当期間中は飛び込み来館はできません。"
+            },
+            {
+              "en": "At the time of your appointment, you will be required to present a valid university ID or a government-issued photo identification. Personal bags and food are prohibited in the reading room. Pencils are provided; pens and highlighters must be left outside. Photographs may be taken with a personal camera for personal research use only, provided flash is disabled.",
+              "ja": "予約時間には、有効な大学IDまたは公的機関発行の顔写真付き身分証明書の提示が必要です。閲覧室へのバッグと食べ物の持ち込みは禁止されています。鉛筆は貸し出しますが、ペンと蛍光ペンは外に置いてください。個人の研究目的に限り、フラッシュを無効にした状態で個人用カメラによる撮影が可能です。"
+            },
+            {
+              "en": "Appointments may be cancelled up to 24 hours before the scheduled time without penalty. Late cancellations or no-shows will result in a 30-day restriction on future bookings. Contact archives@westbrook-lib.example with any questions.",
+              "ja": "予約はキャンセルしても当日の24時間前まではペナルティなしで取り消せます。当日キャンセルや無断キャンセルの場合、今後の予約が30日間制限されます。ご質問はarchives@westbrook-lib.exampleまでお問い合わせください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 155,
+          "type": "detail",
+          "questionEn": "What must visitors bring to their appointment?",
+          "questionJa": "予約した訪問者は何を持参しなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Their own pens and pencils",
+              "explanation": "ペンは持ち込み禁止で、鉛筆は貸し出されます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A printed confirmation of their online request",
+              "explanation": "オンライン予約確認書の持参指示はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A letter of authorization from a faculty supervisor",
+              "explanation": "指導教員の承認書は求められていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A form of photo identification",
+              "explanation": "第2段落に大学IDまたは顔写真付き身分証明書の提示が必要と明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s4-notice",
+              "paragraphIndex": 1,
+              "snippetEn": "you will be required to present a valid university ID or a government-issued photo identification."
+            }
+          ],
+          "explanationOverall": "閲覧当日の持参物を第2段落から直接読み取ります。"
+        },
+        {
+          "no": 156,
+          "type": "infer",
+          "questionEn": "What can be inferred about the policy change?",
+          "questionJa": "この方針変更について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It was requested by students rather than library staff.",
+              "explanation": "変更の要望者については何も述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It will be reviewed after six months.",
+              "explanation": "見直し期間については本文に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It was introduced to manage the volume of archive visitors.",
+              "explanation": "72時間前のオンライン予約義務化と飛び込み来館禁止は、来館者数の管理が目的と推測できます。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "It applies only to graduate students.",
+              "explanation": "大学院生に限定するという記述はなく、研究者全般を対象にしています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s4-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "Walk-in visits will no longer be permitted during this period."
+            }
+          ],
+          "explanationOverall": "飛び込み来館を禁止してオンライン予約を義務化した措置は、来館者数の管理を目的としていると推測できます。"
+        },
+        {
+          "no": 157,
+          "type": "synonym",
+          "questionEn": "The word \"penalty\" in paragraph 3 is closest in meaning to",
+          "questionJa": "第3段落の \"penalty\" に最も近い意味はどれですか。",
+          "targetWord": "penalty",
+          "choices": [
+            {
+              "label": "A",
+              "text": "reminder",
+              "explanation": "「注意喚起」の意味で、規則違反に対して科される不利益を表す語ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "punishment",
+              "explanation": "penalty はここでルール違反への制裁・不利益を指しており、punishment が最も近い意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "fee",
+              "explanation": "キャンセル規定では「料金」を指すこともありますが、この通知が定める不利益は金銭ではなく30日間の予約制限なので当てはまりません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "delay",
+              "explanation": "「遅延」の意味はなく、期限内キャンセルで何かが遅れるという記述もありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s4-notice",
+              "paragraphIndex": 2,
+              "snippetEn": "Appointments may be cancelled up to 24 hours before the scheduled time without penalty."
+            }
+          ],
+          "explanationOverall": "without penalty は「不利益を科されずに」という意味です。直後の文で不利益の中身が30日間の予約制限だと示されており、金銭ではなく制裁を指すと分かります。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s5-chat",
+          "docType": "online_chat",
+          "title": "Product Team Chat — Release Update",
+          "messages": [
+            {
+              "sender": "Lena",
+              "timeLabel": "2:05 P.M.",
+              "bodyEn": "Quick update — QA found a memory leak in the export module this morning. We cannot ship version 4.2 on Thursday as planned.",
+              "bodyJa": "短い報告です。今朝QAがエクスポートモジュールでメモリリークを発見しました。計画通り木曜日にバージョン4.2をリリースすることはできません。"
+            },
+            {
+              "sender": "Omar",
+              "timeLabel": "2:07 P.M.",
+              "bodyEn": "How serious is it? Does it affect all platforms or just one?",
+              "bodyJa": "深刻度はどのくらいですか。全プラットフォームに影響しますか、それとも一つだけですか。"
+            },
+            {
+              "sender": "Lena",
+              "timeLabel": "2:09 P.M.",
+              "bodyEn": "It only affects the Windows build, but we still need at least four days to patch and retest. That is going to push us to Monday at the earliest.",
+              "bodyJa": "Windowsビルドのみに影響しますが、パッチ適用と再テストに少なくとも4日は必要です。最短でも月曜日にずれ込みます。"
+            },
+            {
+              "sender": "Priya",
+              "timeLabel": "2:11 P.M.",
+              "bodyEn": "That is going to be tight. We already promised the sales team a Thursday delivery for their client demo.",
+              "bodyJa": "厳しいですね。セールスチームにはクライアントデモ向けに木曜日の納品を約束しています。"
+            },
+            {
+              "sender": "Omar",
+              "timeLabel": "2:13 P.M.",
+              "bodyEn": "Can we give sales a stable build of version 4.1 to use for the demo in the meantime?",
+              "bodyJa": "その間、デモ用として安定版の4.1をセールスに渡すことはできますか。"
+            },
+            {
+              "sender": "Lena",
+              "timeLabel": "2:15 P.M.",
+              "bodyEn": "Yes, version 4.1 is fully stable. I will send them the installer link right now.",
+              "bodyJa": "はい、バージョン4.1は完全に安定しています。今すぐインストーラーのリンクを送ります。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 158,
+          "type": "main_idea",
+          "questionEn": "What is the main topic of the conversation?",
+          "questionJa": "この会話の主なトピックは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A software release that must be postponed",
+              "explanation": "QAによるバグ発見でバージョン4.2のリリースが木曜から延期になることが話題の中心です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "A client demo that has been canceled",
+              "explanation": "デモのキャンセルは述べられておらず、代替版の提供が検討されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A hardware failure in the testing environment",
+              "explanation": "ハードウェアの障害ではなく、ソフトウェアのメモリリークが問題です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A request to hire additional QA engineers",
+              "explanation": "エンジニアの採用依頼は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s5-chat",
+              "paragraphIndex": 0,
+              "snippetEn": "We cannot ship version 4.2 on Thursday as planned."
+            }
+          ],
+          "explanationOverall": "レナの最初の発言でバージョン4.2のリリース延期が伝えられ、それへの対応が会話全体の主題です。"
+        },
+        {
+          "no": 159,
+          "type": "intention",
+          "questionEn": "At 2:11 P.M., what does Priya most likely mean when she says, \"That is going to be tight\"?",
+          "questionJa": "午後2時11分のプリヤの「厳しいですね」は何を意味していますか。",
+          "intentionTarget": {
+            "sender": "Priya",
+            "utteranceEn": "That is going to be tight."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "The memory leak is more serious than Lena described.",
+              "explanation": "バグの深刻度についての発言ではなく、スケジュールへの影響を懸念しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The Windows build requires more testing than other platforms.",
+              "explanation": "プラットフォームごとのテスト工数の比較をしているわけではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The sales team should cancel the client demo.",
+              "explanation": "デモのキャンセルを提案しているわけではなく、スケジュールの問題を指摘しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The schedule will be difficult to meet given the existing promise to the sales team.",
+              "explanation": "直前にセールスチームへ木曜納品を約束済みと述べており、月曜への延期が約束と相容れないことを懸念しています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s5-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "That is going to be tight."
+            }
+          ],
+          "explanationOverall": "プリヤは直後に「セールスチームへの木曜納品の約束」を述べており、延期により約束が守れなくなることを懸念しています。"
+        },
+        {
+          "no": 160,
+          "type": "infer",
+          "questionEn": "What will most likely happen next?",
+          "questionJa": "次に何が起こる可能性が高いですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Lena will contact the client directly to explain the delay.",
+              "explanation": "レナがクライアントへ直接連絡するとは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The sales team will receive a link to version 4.1.",
+              "explanation": "レナが「今すぐインストーラーリンクを送る」と述べており、セールスチームが4.1を受け取る見通しです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Omar will fix the memory leak immediately.",
+              "explanation": "バグ修正の担当者はオマールとは述べられておらず、少なくとも4日必要とあります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Priya will reschedule the client demo to Monday.",
+              "explanation": "デモの再設定はプリヤが行うとは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s5-chat",
+              "paragraphIndex": 5,
+              "snippetEn": "I will send them the installer link right now."
+            }
+          ],
+          "explanationOverall": "レナの最後の発言「今すぐインストーラーリンクを送る」から、セールスチームへの送付が次に起こると判断します。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s6-letter",
+          "docType": "letter",
+          "title": "Notice of Rent Adjustment — Unit 4B, Calloway Commerce Centre",
+          "from": "Calloway Commerce Centre Management <leasing@calloway-cc.example>",
+          "to": "Farida Ng <f.ng@ngconsult.example>",
+          "paragraphs": [
+            {
+              "en": "Dear Ms. Farida Ng, This letter serves as formal notice that the monthly rent for Unit 4B at Calloway Commerce Centre will increase from $3,400 to $3,740 beginning March 1. This adjustment reflects a ten percent increase in line with the annual review clause in your lease agreement, signed on March 1 three years ago.",
+              "ja": "ファリダ・ング様、本書は、カロウェイ・コマース・センター4B号室の月額賃料が3月1日より3,400ドルから3,740ドルに引き上げられることの正式通知です。この改定は、3年前の3月1日に署名されたリース契約の年次見直し条項に基づく10パーセントの引き上げです。"
+            },
+            {
+              "en": "You have the option to terminate your tenancy without penalty before February 15 if you do not wish to continue under the revised terms. Should you choose to remain, no further action is required on your part. Your next rent payment on March 1 should reflect the new amount.",
+              "ja": "改定条件での継続をご希望でない場合は、2月15日以前にペナルティなしでテナント契約を解除することができます。継続を選択された場合は特段の手続きは不要です。3月1日の次回家賃支払いより新額をお支払いください。"
+            },
+            {
+              "en": "If you have questions regarding this notice, please contact our property management office at leasing@calloway-cc.example or call 555-0192 during business hours.",
+              "ja": "この通知に関するご質問は、business hoursにleasing@calloway-cc.exampleまたは555-0192にてプロパティマネジメントオフィスへお問い合わせください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 161,
+          "type": "main_idea",
+          "questionEn": "What is the main purpose of the letter?",
+          "questionJa": "この手紙の主な目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To offer a rent reduction as an incentive to renew",
+              "explanation": "賃料引き下げではなく、値上げの通知です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To request payment of overdue rent",
+              "explanation": "賃料滞納への対応ではなく、将来の改定の予告です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To inform a tenant of an upcoming rent increase",
+              "explanation": "3月1日からの賃料引き上げを正式に通知することが目的です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To confirm the signing of a new lease agreement",
+              "explanation": "新しいリース契約の締結確認ではなく、既存契約の条項に基づく改定通知です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s6-letter",
+              "paragraphIndex": 0,
+              "snippetEn": "This letter serves as formal notice that the monthly rent for Unit 4B at Calloway Commerce Centre will increase"
+            }
+          ],
+          "explanationOverall": "第1段落の冒頭で3月1日からの賃料引き上げを正式通知と明示しています。"
+        },
+        {
+          "no": 162,
+          "type": "detail",
+          "questionEn": "How much will the monthly rent increase?",
+          "questionJa": "月額賃料はいくら増加しますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "By $400",
+              "explanation": "400ドルという数値は本文に登場しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "By $240",
+              "explanation": "3,740 − 3,400 = 340ドルであり、240ドルではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "By $300",
+              "explanation": "300ドルという数値は本文に登場しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "By $340",
+              "explanation": "3,400ドルから3,740ドルへの差額は340ドルです。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s6-letter",
+              "paragraphIndex": 0,
+              "snippetEn": "the monthly rent for Unit 4B at Calloway Commerce Centre will increase from $3,400 to $3,740 beginning March 1."
+            }
+          ],
+          "explanationOverall": "新旧の賃料から差額を計算します（3,740 − 3,400 = 340）。"
+        },
+        {
+          "no": 163,
+          "type": "infer",
+          "questionEn": "What can be inferred about Ms. Ng's lease?",
+          "questionJa": "ングさんのリース契約について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It includes a clause allowing annual rent reviews.",
+              "explanation": "第1段落に「リース契約の年次見直し条項に基づく」と明記されており、そのような条項が存在することが分かります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "It was renewed without any changes last year.",
+              "explanation": "昨年の更新内容については述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It prohibits the tenant from subletting the unit.",
+              "explanation": "転貸禁止については触れられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It was originally a one-year agreement.",
+              "explanation": "3年前に署名したという記述はありますが、当初の契約期間が1年とは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s6-letter",
+              "paragraphIndex": 0,
+              "snippetEn": "This adjustment reflects a ten percent increase in line with the annual review clause in your lease agreement"
+            }
+          ],
+          "explanationOverall": "「リース契約の年次見直し条項に基づく」という記述から、年次見直し条項が契約に含まれていることが推測できます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s7-ad",
+          "docType": "advertisement",
+          "title": "Audio Producer — Ironclad Sound Studio",
+          "paragraphs": [
+            {
+              "en": "Ironclad Sound Studio is hiring a full-time Audio Producer to join our team in Denver. We specialize in producing branded podcasts for corporate clients across the technology and healthcare sectors.",
+              "ja": "アイアンクラッド・サウンド・スタジオは、デンバーのチームに加わるフルタイムのオーディオプロデューサーを募集しています。当スタジオはテクノロジーおよびヘルスケア分野の企業クライアント向けのブランドポッドキャスト制作を専門としています。"
+            },
+            {
+              "en": "The successful candidate will record, edit, and mix audio content; manage client feedback sessions; and coordinate release schedules. A minimum of three years of professional audio production experience is required. Familiarity with Adobe Audition or a comparable DAW is essential. Experience in a client-facing role is strongly preferred.",
+              "ja": "採用者は音声コンテンツの録音・編集・ミキシング、クライアントフィードバックセッションの管理、リリーススケジュールの調整を担当します。プロとして3年以上の音声制作経験が必須です。Adobe Auditionまたは同等のDAWに精通していることが不可欠です。クライアントと直接対応する経験があることが強く望まれます。"
+            },
+            {
+              "en": "We offer a competitive salary, fully paid health insurance, and 20 days of annual leave. Remote work is not available for this position. Interested applicants should send a cover letter, résumé, and two audio samples to careers@ironclad-sound.example by November 30.",
+              "ja": "競争力のある給与、完全有給の健康保険、年間20日の休暇を提供します。この職種はリモートワーク不可です。応募希望者はカバーレター、履歴書、音声サンプル2点を11月30日までにcareers@ironclad-sound.exampleへ送付してください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 164,
+          "type": "detail",
+          "questionEn": "What type of clients does Ironclad Sound Studio primarily serve?",
+          "questionJa": "アイアンクラッド・サウンド・スタジオは主にどのような顧客にサービスを提供していますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Independent musicians and bands",
+              "explanation": "ミュージシャンやバンドへのサービスとは述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Businesses in technology and healthcare",
+              "explanation": "第1段落にテクノロジーおよびヘルスケア分野の企業クライアント向けと明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Local radio stations and broadcasters",
+              "explanation": "ラジオ局や放送局への言及はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Film and television production companies",
+              "explanation": "映像制作会社への言及はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s7-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "We specialize in producing branded podcasts for corporate clients across the technology and healthcare sectors."
+            }
+          ],
+          "explanationOverall": "第1段落のスタジオ紹介から主な顧客層を直接確認します。"
+        },
+        {
+          "no": 165,
+          "type": "not",
+          "questionEn": "What is NOT mentioned as a job requirement?",
+          "questionJa": "求人条件として述べられていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Knowledge of a digital audio workstation",
+              "explanation": "第2段落にAdobe Auditionまたは同等のDAWへの精通が必須と述べられています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Experience working with clients directly",
+              "explanation": "第2段落にクライアント対応経験が強く望まれると述べられています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "A degree in audio engineering or a related field",
+              "explanation": "音響工学の学位については一切触れられていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "At least three years of audio production experience",
+              "explanation": "第2段落に3年以上の経験が必須と明記されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s7-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "A minimum of three years of professional audio production experience is required."
+            }
+          ],
+          "explanationOverall": "NOT問題では本文にない項目を選びます。学位要件は広告に記載がありません。"
+        },
+        {
+          "no": 166,
+          "type": "infer",
+          "questionEn": "What can be inferred about the position?",
+          "questionJa": "この求人について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It requires candidates to relocate to Denver.",
+              "explanation": "リモートワーク不可と述べられており、デンバーへの出社が必要と推測できます。ただし必ずしも転居を要求しているとは言えません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The studio will hire multiple people for this role.",
+              "explanation": "複数採用については述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Applicants must already live in Denver.",
+              "explanation": "居住地の制限は述べられておらず、リモート不可は在職者の勤務形態の話です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The job involves working on-site rather than remotely.",
+              "explanation": "リモートワーク不可と明記されており、スタジオへの出社が必要と推測できます。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s7-ad",
+              "paragraphIndex": 2,
+              "snippetEn": "Remote work is not available for this position."
+            }
+          ],
+          "explanationOverall": "第3段落の「リモートワーク不可」という記述から、対面での勤務が求められると推測できます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s8-invoice",
+          "docType": "invoice",
+          "title": "Meridian Freight Services — Invoice MF-7741",
+          "paragraphs": [
+            {
+              "en": "Shipper: Pelton Industrial Ltd. | Consignee: Volta Components GmbH | Origin: Vancouver, Canada | Destination: Hamburg, Germany | Shipment date: October 3 | Cargo: 12 pallets of circuit boards (2,400 kg)",
+              "ja": "荷送人：ペルトン・インダストリアル社｜荷受人：ヴォルタ・コンポーネンツ社｜発地：カナダ・バンクーバー｜着地：ドイツ・ハンブルク｜出荷日：10月3日｜貨物：回路基板12パレット（2,400 kg）"
+            },
+            {
+              "en": "Ocean freight: $1,860 | Fuel surcharge: $210 | Port handling (Vancouver): $145 | Port handling (Hamburg): $175 | Customs documentation: $90 | Subtotal: $2,480",
+              "ja": "海上運賃：1,860ドル｜燃料割増料金：210ドル｜港湾取扱料（バンクーバー）：145ドル｜港湾取扱料（ハンブルク）：175ドル｜通関書類：90ドル｜小計：2,480ドル"
+            },
+            {
+              "en": "Refrigeration surcharge (applied due to temperature-sensitive cargo declaration): $320 | Total due: $2,800 | Payment terms: Net 30 days from invoice date (October 3). A 1.5% monthly interest charge applies to overdue balances.",
+              "ja": "冷蔵割増料金（温度管理貨物申告に伴い適用）：320ドル｜支払総額：2,800ドル｜支払条件：請求書発行日（10月3日）から30日以内。未払い残高には月1.5%の利息が発生します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 167,
+          "type": "detail",
+          "questionEn": "Why was a refrigeration surcharge added to the invoice?",
+          "questionJa": "冷蔵割増料金が請求書に加算されたのはなぜですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The goods were declared as temperature-sensitive.",
+              "explanation": "第3段落に「温度管理貨物申告に伴い適用」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Delivery was delayed beyond the scheduled date.",
+              "explanation": "遅延については述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The cargo was heavier than the standard limit.",
+              "explanation": "重量オーバーではなく、温度管理の申告が理由です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The shipment was rerouted through a different port.",
+              "explanation": "別港への迂回は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s8-invoice",
+              "paragraphIndex": 2,
+              "snippetEn": "Refrigeration surcharge (applied due to temperature-sensitive cargo declaration): $320"
+            }
+          ],
+          "explanationOverall": "第3段落の冷蔵割増料金の括弧書きで理由が直接説明されています。"
+        },
+        {
+          "no": 168,
+          "type": "synonym",
+          "questionEn": "The word \"terms\" in paragraph 3 is closest in meaning to",
+          "questionJa": "第3段落の \"terms\" に最も近い意味はどれですか。",
+          "targetWord": "terms",
+          "choices": [
+            {
+              "label": "A",
+              "text": "conditions",
+              "explanation": "支払い条件という文脈で terms は conditions（条件）を意味します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "words",
+              "explanation": "語句・用語という意味もありますが、この文脈には合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "periods",
+              "explanation": "期間という意味もありますが、「支払い期間」より「支払い条件」が適切です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "agreements",
+              "explanation": "合意という意味には近いですが、ここでは具体的な支払い条件を指しています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s8-invoice",
+              "paragraphIndex": 2,
+              "snippetEn": "Payment terms: Net 30 days from invoice date (October 3)."
+            }
+          ],
+          "explanationOverall": "Payment terms は「支払い条件」であり、conditions が最も近い意味です。"
+        },
+        {
+          "no": 169,
+          "type": "infer",
+          "questionEn": "If payment is received on November 5, what will most likely happen?",
+          "questionJa": "11月5日に支払いがあった場合、どうなる可能性が高いですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The shipment will be sent back to Vancouver.",
+              "explanation": "未払いと返送を結びつける記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A discount will be applied for early payment.",
+              "explanation": "早期支払い割引の規定は述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The invoice will be canceled and reissued.",
+              "explanation": "再発行については何も述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "An interest charge will be added to the balance.",
+              "explanation": "10月3日から30日後は11月2日が期限であり、11月5日はその後になるため、月1.5%の利息が発生します。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s8-invoice",
+              "paragraphIndex": 2,
+              "snippetEn": "Payment terms: Net 30 days from invoice date (October 3)."
+            },
+            {
+              "passageId": "t02-s8-invoice",
+              "paragraphIndex": 2,
+              "snippetEn": "A 1.5% monthly interest charge applies to overdue balances."
+            }
+          ],
+          "explanationOverall": "請求日10月3日から30日後（11月2日）を過ぎての支払いになるため、月1.5%の利息条項が適用されます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s9-form",
+          "docType": "form",
+          "title": "Nexbridge Technology Forum — Speaker Proposal Form",
+          "paragraphs": [
+            {
+              "en": "Applicant name: Dr. Yuki Tanaka | Affiliation: Westcoast Institute of Applied AI | Proposed session title: Bias Mitigation in Large Language Models | Session format: 45-minute presentation with Q&A | Preferred date: Day 1 (March 4) | Required equipment: Laptop connection, wireless microphone",
+              "ja": "申請者氏名：田中雪博士｜所属：ウェストコースト応用AI研究所｜提案セッションタイトル：大規模言語モデルにおけるバイアス軽減｜セッション形式：質疑応答を含む45分のプレゼンテーション｜希望日：1日目（3月4日）｜必要機器：ノートPC接続、ワイヤレスマイクロフォン"
+            },
+            {
+              "en": "Abstract (max 150 words): This session examines practical techniques for identifying and reducing bias in large language model outputs. Drawing on two years of research at Westcoast Institute, Dr. Tanaka will demonstrate open-source toolkits that allow development teams to audit model responses for demographic bias before deployment. Attendees will leave with actionable guidelines and a curated list of evaluation benchmarks.",
+              "ja": "概要（150語以内）：このセッションでは、大規模言語モデルの出力におけるバイアスの特定と軽減のための実践的な技術を検討します。ウェストコースト研究所での2年間の研究を踏まえ、田中博士は開発チームがデプロイ前にモデルの応答の人口統計学的バイアスを監査できるオープンソースツールキットを紹介します。参加者は実用的なガイドラインと評価ベンチマークのリストを持ち帰ることができます。"
+            },
+            {
+              "en": "Travel support requested: Yes — international travel from Tokyo, Japan | Previous Nexbridge speaking experience: None | Co-presenter: None | Special dietary requirement: Vegetarian",
+              "ja": "渡航支援申請：あり（日本・東京からの国際移動）｜過去のNextbridgeでの登壇：なし｜共同発表者：なし｜食事の特別要件：ベジタリアン"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 170,
+          "type": "main_idea",
+          "questionEn": "What is the purpose of the form?",
+          "questionJa": "このフォームの目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To request research funding from a university",
+              "explanation": "研究資金の申請ではなく、発表の機会を求める提案フォームです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "To apply for a position at a research institute",
+              "explanation": "採用応募ではなく、カンファレンスの登壇申請です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To apply for a speaking slot at a conference",
+              "explanation": "テクノロジーフォーラムへの登壇を申請するためのプロポーザルフォームです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "To register as an attendee for a technology event",
+              "explanation": "参加者としての登録フォームではなく、登壇提案フォームです。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s9-form",
+              "paragraphIndex": 0,
+              "snippetEn": "Proposed session title: Bias Mitigation in Large Language Models"
+            }
+          ],
+          "explanationOverall": "フォームのタイトルと内容（セッションタイトル・概要・発表形式）から登壇申請が目的と分かります。"
+        },
+        {
+          "no": 171,
+          "type": "detail",
+          "questionEn": "What equipment has Dr. Tanaka requested?",
+          "questionJa": "田中博士はどのような機器を要請しましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A projector and laser pointer",
+              "explanation": "プロジェクターとレーザーポインターは記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A laptop connection and a wireless microphone",
+              "explanation": "第1段落の必要機器欄にノートPC接続とワイヤレスマイクロフォンが記載されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "A video recording setup",
+              "explanation": "録画設備については記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A standing desk and a translation headset",
+              "explanation": "スタンディングデスクや通訳ヘッドセットは記載されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s9-form",
+              "paragraphIndex": 0,
+              "snippetEn": "Required equipment: Laptop connection, wireless microphone"
+            }
+          ],
+          "explanationOverall": "第1段落の Required equipment 欄を直接読み取ります。"
+        },
+        {
+          "no": 172,
+          "type": "infer",
+          "questionEn": "What can be inferred about Dr. Tanaka?",
+          "questionJa": "田中博士について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "She will travel from outside the country to attend.",
+              "explanation": "第3段落で東京からの国際移動として渡航支援を申請していることから、海外からの参加と分かります。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Her session is aimed at beginner-level attendees.",
+              "explanation": "対象者レベルは述べられておらず、概要から専門的内容であることが分かります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She will be joined by a co-presenter.",
+              "explanation": "共同発表者欄に「なし」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She has previously spoken at the Nexbridge Forum.",
+              "explanation": "過去の登壇歴欄に「なし」と記載されており、初めての応募です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s9-form",
+              "paragraphIndex": 2,
+              "snippetEn": "Travel support requested: Yes — international travel from Tokyo, Japan"
+            }
+          ],
+          "explanationOverall": "渡航支援申請欄の「日本・東京からの国際移動」から、海外から参加することが推測できます。"
+        }
+      ]
+    },
+    {
+      "setType": "single",
+      "passages": [
+        {
+          "passageId": "t02-s10-memo",
+          "docType": "memo",
+          "title": "Internal Memo: Safety Audit Corrective Actions — Halden Manufacturing Plant",
+          "paragraphs": [
+            {
+              "en": "TO: All Department Supervisors | FROM: Greta Wolff, Safety & Compliance Manager | DATE: November 14 | RE: Corrective Actions Following Safety Audit",
+              "ja": "宛先：全部門スーパーバイザー｜差出人：グレタ・ウォルフ（安全・コンプライアンスマネージャー）｜日付：11月14日｜件名：安全監査後の是正措置"
+            },
+            {
+              "en": "The external safety audit conducted on November 10 identified three areas requiring immediate corrective action. First, emergency exit signage in Warehouse B must be replaced with illuminated signs by November 25. Second, fire extinguisher inspection records in the assembly hall have not been updated since April and must be brought current within five business days. Third, forklift operators must complete a refresher training session before operating any vehicle after December 1.",
+              "ja": "11月10日に実施した外部安全監査において、即時の是正措置が必要な3点が特定されました。第一に、倉庫Bの非常口標識は11月25日までに発光式標識に交換してください。第二に、組立ホールの消火器点検記録が4月から更新されておらず、5営業日以内に最新の状態にしてください。第三に、フォークリフトオペレーターは12月1日以降の車両操作前にリフレッシャー研修を修了する必要があります。"
+            },
+            {
+              "en": "Each supervisor is responsible for documenting the completion of their relevant action item and submitting confirmation to safety@halden-mfg.example no later than the specified deadline. Failure to meet any deadline may result in a formal compliance notice being issued to the department. Please contact my office if you have any questions.",
+              "ja": "各スーパーバイザーは担当する是正項目の完了を記録し、指定期限内にsafety@halden-mfg.exampleへ確認を提出する責任があります。いずれかの期限を守れない場合は部門へ正式なコンプライアンス通知が発行される可能性があります。ご質問があれば私のオフィスへご連絡ください。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 173,
+          "type": "detail",
+          "questionEn": "According to the memo, what must be completed by November 25?",
+          "questionJa": "メモによると、11月25日までに完了しなければならないことは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Updating fire extinguisher records in the assembly hall",
+              "explanation": "消火器点検記録の更新期限は「5営業日以内」であり、11月25日ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Completing refresher training for forklift operators",
+              "explanation": "研修の完了は12月1日以降の車両操作前が期限です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Submitting confirmation to the safety manager",
+              "explanation": "完了確認の提出は各是正項目の期限に従いますが、11月25日に特定されているのは標識交換です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Replacing exit signs in Warehouse B with illuminated ones",
+              "explanation": "第2段落に非常口標識を11月25日までに発光式に交換するよう明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s10-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "emergency exit signage in Warehouse B must be replaced with illuminated signs by November 25."
+            }
+          ],
+          "explanationOverall": "第2段落の是正措置一覧から11月25日を期限とする項目を特定します。"
+        },
+        {
+          "no": 174,
+          "type": "not",
+          "questionEn": "Which action is NOT listed as a corrective measure in the memo?",
+          "questionJa": "是正措置として示されていないものはどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Updating fire extinguisher inspection records",
+              "explanation": "第2段落の第二の是正措置として明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Requiring forklift operators to complete refresher training",
+              "explanation": "第2段落の第三の是正措置として明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Installing new ventilation systems in the assembly hall",
+              "explanation": "換気設備の設置については一切述べられていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "Replacing emergency exit signs with illuminated versions",
+              "explanation": "第2段落の第一の是正措置として明記されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s10-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "The external safety audit conducted on November 10 identified three areas requiring immediate corrective action."
+            }
+          ],
+          "explanationOverall": "NOT問題では本文に記載のない項目を選びます。換気設備の設置は是正措置の一覧に含まれていません。"
+        },
+        {
+          "no": 175,
+          "type": "synonym",
+          "questionEn": "The word \"current\" in paragraph 2 is closest in meaning to",
+          "questionJa": "第2段落の \"current\" に最も近い意味はどれですか。",
+          "targetWord": "current",
+          "choices": [
+            {
+              "label": "A",
+              "text": "accurate",
+              "explanation": "正確という意味には近いですが、current は「時系列上の最新」を強調する語です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "up to date",
+              "explanation": "「最新の状態にする」という文脈で current は up to date が最も近い意味です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "electric",
+              "explanation": "電流という意味もありますが、ここでは時系列的な「最新」を指しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "ongoing",
+              "explanation": "進行中という意味に近いですが、brought current は「最新の状態にする」という慣用表現です。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-s10-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "fire extinguisher inspection records in the assembly hall have not been updated since April and must be brought current within five business days."
+            }
+          ],
+          "explanationOverall": "brought current は「最新の状態にする」という意味で、up to date が最も適切な言い換えです。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t02-d1-article",
+          "docType": "article",
+          "title": "Rail Line Extension Advances",
+          "paragraphs": [
+            {
+              "en": "The Westvale Transit Authority has approved a plan to extend the Northridge commuter rail line by 14 kilometers, connecting the existing terminus at Millford Station to the newly designated Lakeview Hub. [1] Construction is expected to begin in the second quarter of next year and will be completed within 30 months. The project will be funded through a combination of federal grants and municipal bonds.",
+              "ja": "ウェストベール交通局は、ノースリッジ通勤鉄道をミルフォード駅から新設のレイクビュー・ハブまで14キロメートル延伸する計画を承認した。[1] 着工は来年第2四半期を予定しており、30か月以内に完成する見込みだ。この事業は連邦補助金と地方債の組み合わせで資金調達される。"
+            },
+            {
+              "en": "The new stations along the extended route will be equipped with fully accessible platforms, real-time arrival displays, and secure bicycle storage. [2] Commuters traveling from the Lakeview area will see their journey time to Westvale Central reduced by an estimated 22 minutes compared with existing bus services. [3] Parking facilities accommodating 400 vehicles will also be built adjacent to the Lakeview Hub terminal.",
+              "ja": "延伸ルート沿いの新駅は、完全バリアフリーのホーム、リアルタイム到着表示板、安全な自転車置き場を備える予定だ。[2] レイクビューエリアから乗車する通勤者は、既存のバス路線と比較してウェストベール・セントラルまでの所要時間が推定22分短縮される。[3] レイクビュー・ハブ終点には400台収容の駐車場も建設される。"
+            },
+            {
+              "en": "Public response to the announcement has been generally positive. However, some residents living near the planned construction corridor have expressed concerns about noise and traffic disruption during the building phase. [4] The Transit Authority has committed to holding monthly community meetings to address these issues and to providing a 24-hour noise complaint hotline throughout the construction period.",
+              "ja": "発表に対する市民の反応は概ね好意的だ。しかし、建設予定回廊付近の住民の一部は、施工期間中の騒音や交通渋滞への懸念を表明している。[4] 交通局はこれらの問題に対処するため、月1回のコミュニティ会議を開催し、施工期間中は24時間対応の騒音苦情ホットラインを設けることを約束した。"
+            }
+          ],
+          "hasInsertionMarkers": true
+        },
+        {
+          "passageId": "t02-d1-letter",
+          "docType": "letter",
+          "title": "Resident Comment Submitted to the Westvale Transit Authority",
+          "from": "Millford Residents Association",
+          "to": "Westvale Transit Authority",
+          "paragraphs": [
+            {
+              "en": "Dear Westvale Transit Authority, I am writing on behalf of the Millford Residents Association to express our qualified support for the approved rail extension project. We believe that improved connectivity will benefit commuters throughout the region, and we welcome the commitment to accessible station design.",
+              "ja": "ウェストベール交通局御中　ミルフォード住民協会を代表して、承認された鉄道延伸計画への条件付き賛同を表明いたします。接続性の向上が地域全体の通勤者に恩恵をもたらすと考えており、バリアフリー駅舎設計への取り組みを歓迎します。"
+            },
+            {
+              "en": "That said, we urge the Authority to prioritize noise mitigation measures during evening and early morning construction shifts. In particular, we request that no heavy equipment be operated between 9:00 P.M. and 6:00 A.M. We also ask that the community meetings be scheduled no later than 7:00 P.M. so that working residents can attend.",
+              "ja": "ただし、夜間・早朝の施工シフト中における騒音対策を優先するよう当局に強く求めます。特に、午後9時から午前6時の間は重機を使用しないことを要請します。また、コミュニティ会議は就労している住民も参加できるよう、午後7時以前に設定するよう求めます。"
+            },
+            {
+              "en": "We look forward to participating in the monthly community meetings and hope that the Transit Authority will treat our feedback as constructive input rather than opposition. The Millford Residents Association remains committed to working collaboratively toward a transit solution that serves everyone.",
+              "ja": "毎月のコミュニティ会議に参加することを楽しみにしており、交通局が私たちの意見を反対意見ではなく建設的な意見として受け止めてくださることを期待します。ミルフォード住民協会は、すべての人に役立つ交通ソリューションの実現に向けて協力的に取り組んでいく所存です。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 176,
+          "type": "insertion",
+          "questionEn": "In which position marked [1], [2], [3], or [4] does the following sentence best belong? \"The Authority stated that this marks the largest infrastructure investment in the region in over two decades.\"",
+          "questionJa": "次の文は [1]、[2]、[3]、[4] のどの位置に入るのが最も適切ですか。「当局は、これが20年以上で最大の地域インフラ投資であると述べた。」",
+          "choices": [
+            {
+              "label": "A",
+              "text": "[2]",
+              "explanation": "この位置はアクセシビリティ設備について述べており、投資規模の補足が入る文脈ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "[3]",
+              "explanation": "この位置は通勤時間短縮の話題が続いており、機関の声明として唐突になります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "[4]",
+              "explanation": "この位置は騒音苦情ホットラインの説明の後であり、投資規模の強調とは文脈が合いません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "[1]",
+              "explanation": "計画承認の直後に置くと、その投資規模を補足する流れとして自然です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "explanationOverall": "承認の発表直後（[1]）に投資規模を強調する当局の声明を置くのが最も自然な流れです。"
+        },
+        {
+          "no": 177,
+          "type": "main_idea",
+          "questionEn": "What is the article mainly about?",
+          "questionJa": "記事は主に何について書かれていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The approval of a commuter rail extension project",
+              "explanation": "計画の承認、工期、資金調達方法が記事の中心です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "A rise in bus service fares in the Westvale area",
+              "explanation": "バス料金の値上げは話題ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The opening of Millford Station to new passengers",
+              "explanation": "ミルフォード駅の開業は記事の内容ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "A community vote on a proposed transit budget",
+              "explanation": "住民投票については触れられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d1-article",
+              "paragraphIndex": 0,
+              "snippetEn": "The Westvale Transit Authority has approved a plan to extend the Northridge commuter rail line"
+            }
+          ],
+          "explanationOverall": "記事全体は延伸計画の承認・施工予定・資金源という3点を中心に展開しています。"
+        },
+        {
+          "no": 178,
+          "type": "detail",
+          "questionEn": "What amenity will be available at the new stations?",
+          "questionJa": "新駅にはどのような設備が設けられますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "A staffed information booth",
+              "explanation": "有人案内所の設置は記事に記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Storage space for bicycles",
+              "explanation": "記事では安全な自転車置き場（secure bicycle storage）の設置が述べられています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "An on-site café and refreshment area",
+              "explanation": "カフェや軽食エリアへの言及はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Dedicated lanes for taxi drop-off",
+              "explanation": "タクシー専用レーンについては触れられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d1-article",
+              "paragraphIndex": 1,
+              "snippetEn": "secure bicycle storage"
+            }
+          ],
+          "explanationOverall": "第1段落に「secure bicycle storage」とあり、自転車保管スペースの設置が明記されています。"
+        },
+        {
+          "no": 179,
+          "type": "infer",
+          "questionEn": "What can be inferred about the community meetings mentioned in both documents?",
+          "questionJa": "両文書に言及されているコミュニティ会議について推測できることは何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The meetings have already been scheduled for Saturday mornings.",
+              "explanation": "土曜午前という日程はどちらの文書にも記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The Transit Authority plans to cancel the meetings after construction begins.",
+              "explanation": "会議の中止については全く言及されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The Transit Authority has not yet confirmed the meeting times.",
+              "explanation": "当局は会議開催を約束しましたが、住民協会はその時間帯をまだ決まっていないと受け取り、午後7時以前を要請しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "The meetings will be held at Millford Station.",
+              "explanation": "会議の場所はどちらの文書にも明記されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d1-article",
+              "paragraphIndex": 2,
+              "snippetEn": "holding monthly community meetings"
+            },
+            {
+              "passageId": "t02-d1-letter",
+              "paragraphIndex": 1,
+              "snippetEn": "community meetings be scheduled no later than 7:00 P.M."
+            }
+          ],
+          "explanationOverall": "記事は月1回の会議を約束するのみで具体的な時間帯を示しておらず、意見書が午後7時以前を要請していることから、時間帯がまだ確定していないと推測できます。"
+        },
+        {
+          "no": 180,
+          "type": "detail",
+          "questionEn": "What position does the Millford Residents Association take on the rail extension?",
+          "questionJa": "ミルフォード住民協会は鉄道延伸についてどのような立場を取っていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It strongly opposes the project on environmental grounds.",
+              "explanation": "環境問題を理由とした強固な反対は表明していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It requests a delay until a new environmental assessment is completed.",
+              "explanation": "環境評価の新規実施を求める記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It recommends canceling the project and improving bus services instead.",
+              "explanation": "計画中止の勧告はなく、条件付きで支持しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It conditionally supports the project.",
+              "explanation": "意見書の冒頭に「qualified support（条件付き賛同）」と明記されています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d1-letter",
+              "paragraphIndex": 0,
+              "snippetEn": "express our qualified support for the approved rail extension project"
+            }
+          ],
+          "explanationOverall": "意見書第0段落に「qualified support（条件付き賛同）」と明記されています。"
+        }
+      ]
+    },
+    {
+      "setType": "double",
+      "passages": [
+        {
+          "passageId": "t02-d2-web",
+          "docType": "web_page",
+          "title": "ProSkill Online — Course Catalog",
+          "paragraphs": [
+            {
+              "en": "ProSkill Online offers professional development courses for working adults. All courses are instructor-led and delivered via live video sessions. Participants receive a digital certificate upon completing at least 80% of the scheduled sessions. Enrollment closes one week before the course start date.",
+              "ja": "ProSkill Onlineは、社会人向けの専門能力開発講座を提供しています。全講座はインストラクター主導のライブビデオ形式で行われます。受講者は予定セッションの80%以上を受講することでデジタル証明書を取得できます。受講申込の締め切りは開講1週間前です。"
+            },
+            {
+              "en": "Available Courses (Spring Term)\n\nCourse: Project Management Essentials | Duration: 8 weeks | Fee: $320 | Start Date: April 7\nCourse: Data Analysis with Python | Duration: 10 weeks | Fee: $420 | Start Date: April 14\nCourse: Business Writing Skills | Duration: 6 weeks | Fee: $240 | Start Date: April 7\nCourse: Digital Marketing Strategy | Duration: 8 weeks | Fee: $320 | Start Date: April 21\n\nNote: Participants who enroll in two or more courses in the same term receive a 15% discount on the lower-priced course.",
+              "ja": "開講コース（春学期）\n\n講座：プロジェクトマネジメント基礎　期間：8週間　受講料：320ドル　開始日：4月7日\n講座：Pythonによるデータ分析　期間：10週間　受講料：420ドル　開始日：4月14日\n講座：ビジネスライティングスキル　期間：6週間　受講料：240ドル　開始日：4月7日\n講座：デジタルマーケティング戦略　期間：8週間　受講料：320ドル　開始日：4月21日\n\n注：同一学期に2講座以上申し込んだ受講者は、低価格の講座に15%割引が適用されます。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-d2-email",
+          "docType": "email",
+          "title": "Request to Change Course Enrollment",
+          "from": "Sandra Okonkwo <s.okonkwo@mailnet.example>",
+          "to": "support@proskillonline.example",
+          "paragraphs": [
+            {
+              "en": "Dear ProSkill Online Support Team, I am writing to request a change to my course enrollment for the Spring Term. I originally signed up for Business Writing Skills and Data Analysis with Python. I have since realized that my schedule will not allow me to attend the Data Analysis with Python sessions, as the class times conflict with a standing weekly team meeting at my workplace.",
+              "ja": "ProSkill Onlineサポートチーム御中　春学期の受講申込内容の変更をお願いしたく、ご連絡いたします。当初、ビジネスライティングスキルとPythonによるデータ分析に申し込みました。しかし、Pythonによるデータ分析の授業時間が職場の定例週次会議と重なるため、受講できないことが判明しました。"
+            },
+            {
+              "en": "I would like to replace my enrollment in Data Analysis with Python with Digital Marketing Strategy instead. Could you please confirm whether there are still spaces available in that course and whether the change can be processed before the enrollment deadline? I would also like to confirm the total amount due after applying any applicable discount.",
+              "ja": "Pythonによるデータ分析の代わりに、デジタルマーケティング戦略への変更をお願いしたいと思います。同コースにまだ空きがあるかどうか、および申込締め切り前に変更手続きが完了できるかどうかをご確認いただけますでしょうか。また、割引適用後の合計金額についても確認させていただきたく存じます。"
+            },
+            {
+              "en": "Thank you for your assistance. I look forward to your prompt reply. Best regards, Sandra Okonkwo",
+              "ja": "ご対応よろしくお願いいたします。お返事をお待ちしております。敬具　サンドラ・オコンクウォ"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 181,
+          "type": "detail",
+          "questionEn": "According to the web page, what must participants do to receive a digital certificate?",
+          "questionJa": "ウェブページによると、デジタル証明書を受け取るには何をしなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Attend a minimum of four fifths of the sessions",
+              "explanation": "ウェブページでは「80%以上」のセッション出席が条件とされており、これは5分の4に相当します。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "Submit a final project within one week of the course end date",
+              "explanation": "最終課題の提出については記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Pass an online examination after each session",
+              "explanation": "セッションごとの試験については言及されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Enroll at least two weeks before the course begins",
+              "explanation": "申込締め切りは開講1週間前であり、2週間前ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d2-web",
+              "paragraphIndex": 0,
+              "snippetEn": "completing at least 80% of the scheduled sessions"
+            }
+          ],
+          "explanationOverall": "ウェブページに「completing at least 80% of the scheduled sessions」と明記されています。80%は5分の4（four fifths）に相当します。"
+        },
+        {
+          "no": 182,
+          "type": "infer",
+          "questionEn": "Why does Sandra want to change one of her course enrollments?",
+          "questionJa": "サンドラが受講申込の一つを変更したい理由は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The enrollment deadline for her original course has passed.",
+              "explanation": "申込締め切りに関する問題は原因として挙げられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A session overlaps with a recurring work commitment.",
+              "explanation": "メールに「standing weekly team meeting」との時間が重なると明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The course she wants to drop has already been canceled.",
+              "explanation": "講座のキャンセルについては述べられていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She has already taken a similar course at another institution.",
+              "explanation": "他の機関での受講歴には言及していません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d2-email",
+              "paragraphIndex": 0,
+              "snippetEn": "the class times conflict with a standing weekly team meeting at my workplace"
+            }
+          ],
+          "explanationOverall": "メール第0段落に「conflict with a standing weekly team meeting at my workplace」と理由が明記されています。"
+        },
+        {
+          "no": 183,
+          "type": "synonym",
+          "questionEn": "The word \"delivered\" in paragraph 1 of the web page is closest in meaning to which of the following?",
+          "questionJa": "ウェブページ第1段落の \"delivered\" に最も近い意味を持つ語はどれですか。",
+          "targetWord": "delivered",
+          "choices": [
+            {
+              "label": "A",
+              "text": "arranged",
+              "explanation": "「手配される」という意味で、準備の段階を指すため文脈と一致しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "recorded",
+              "explanation": "「録画される」という意味で、ライブ形式の説明と矛盾します。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "conducted",
+              "explanation": "「実施される」という意味でここでの \"delivered\" と最も近く、授業の提供方法を指しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "distributed",
+              "explanation": "「配布される」という意味で、物を配る場面に使われ、ここでは意味が合いません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d2-web",
+              "paragraphIndex": 0,
+              "snippetEn": "delivered via live video sessions"
+            }
+          ],
+          "explanationOverall": "\"delivered via live video sessions\" は授業が実施・提供される方法を示しており、\"conducted\" が最も近い意味です。"
+        },
+        {
+          "no": 184,
+          "type": "detail",
+          "questionEn": "If Sandra's enrollment change is approved, how much will she pay in total for the Spring Term?",
+          "questionJa": "サンドラの変更申請が承認された場合、春学期の合計受講料はいくらになりますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "$612",
+              "explanation": "デジタルマーケティング戦略に割引を誤適用した場合の計算（240＋320×0.85＝240＋272＝512）とも合致せず、まったく誤った計算です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "$476",
+              "explanation": "両講座に割引を適用したと誤って仮定した場合の計算であり、割引は低価格の1講座のみです。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "$524",
+              "explanation": "ビジネスライティングスキル（240ドル）が低価格のため15%割引が適用され、240×0.85＝204ドル。デジタルマーケティング戦略（320ドル）と合計すると524ドルです。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "$560",
+              "explanation": "割引を適用せずに2講座の料金を合計した金額（240＋320）であり、2講座以上の割引が考慮されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d2-web",
+              "paragraphIndex": 1,
+              "snippetEn": "Participants who enroll in two or more courses in the same term receive a 15% discount on the lower-priced course"
+            },
+            {
+              "passageId": "t02-d2-email",
+              "paragraphIndex": 1,
+              "snippetEn": "Digital Marketing Strategy"
+            }
+          ],
+          "explanationOverall": "カタログの2講座以上割引は低価格の講座に15%適用されます。ビジネスライティングスキル（240ドル）が低価格なので、240×0.85＝204ドル。デジタルマーケティング戦略（320ドル）は定価。合計204＋320＝524ドルです。"
+        },
+        {
+          "no": 185,
+          "type": "infer",
+          "questionEn": "What does Sandra ask ProSkill Online to confirm?",
+          "questionJa": "サンドラはProSkill Onlineに何を確認するよう求めていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Whether she can attend sessions from a different time zone",
+              "explanation": "タイムゾーンについては言及していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Whether spaces remain in Digital Marketing Strategy",
+              "explanation": "「まだ空きがあるかどうか」を確認するよう明示的に求めています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Whether the Business Writing Skills course has a new start date",
+              "explanation": "ビジネスライティングスキルの開始日変更については問い合わせていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Whether instructors hold recognized industry certifications",
+              "explanation": "講師の資格については触れていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-d2-email",
+              "paragraphIndex": 1,
+              "snippetEn": "whether there are still spaces available in that course"
+            }
+          ],
+          "explanationOverall": "メール第1段落に「whether there are still spaces available in that course」と明確に確認事項が記されています。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t02-t1-ad",
+          "docType": "advertisement",
+          "title": "NexWork Coworking — Corporate Membership Plans",
+          "paragraphs": [
+            {
+              "en": "Give your team a professional workspace anywhere in the city. NexWork Coworking offers flexible corporate membership plans for businesses of any size. Members gain access to all four of our downtown locations, including high-speed internet, private meeting rooms, and a fully equipped kitchen.",
+              "ja": "チームにどこでも利用できるプロフェッショナルなワークスペースを。NexWork Coworkingは、あらゆる規模の企業向けに柔軟な法人会員プランをご提供しています。会員は高速インターネット、個室会議室、完全装備のキッチンを備えた4か所のダウンタウン拠点すべてをご利用いただけます。"
+            },
+            {
+              "en": "Corporate Plan Options\n\nStarter Plan: Up to 5 seats | $800/month | 20 meeting-room hours included\nGrowth Plan: Up to 15 seats | $1,800/month | 60 meeting-room hours included\nEnterprise Plan: Up to 40 seats | $3,500/month | Unlimited meeting-room hours\n\nNew corporate members signing a minimum 6-month agreement receive a complimentary first-month fee waiver on the Starter or Growth Plan. The Enterprise Plan includes a dedicated account manager at no additional cost.",
+              "ja": "法人プランの選択肢\n\nスタータープラン：最大5席　月額800ドル　会議室20時間付き\nグロースプラン：最大15席　月額1,800ドル　会議室60時間付き\nエンタープライズプラン：最大40席　月額3,500ドル　会議室無制限\n\n最低6か月の契約を締結した新規法人会員には、スタータープランまたはグロースプランに対して初月の会費が免除されます。エンタープライズプランには専任アカウントマネージャーが追加費用なしで含まれます。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t1-email",
+          "docType": "email",
+          "title": "Corporate Membership Inquiry — Dawnfield Consulting",
+          "from": "Priya Nair <p.nair@dawnfieldconsulting.example>",
+          "to": "corporate@nexwork.example",
+          "paragraphs": [
+            {
+              "en": "Dear NexWork Coworking Team, I am reaching out on behalf of Dawnfield Consulting to inquire about your corporate membership options. We are a team of nine consultants who are currently operating from a shared rented office that we will vacate at the end of this month. We are looking for a workspace solution that can accommodate our full team and provides access to meeting rooms for client presentations.",
+              "ja": "NexWork Coworkingチーム御中　ドーンフィールド・コンサルティングを代表してご連絡いたします。私どもは現在9名のコンサルタントが共有レンタルオフィスで業務を行っており、今月末に退去予定です。チーム全員を収容でき、クライアントプレゼンテーション用の会議室を備えたワークスペースを探しています。"
+            },
+            {
+              "en": "Based on the information on your website, the Growth Plan appears to meet our needs. We would like to commit to a 6-month agreement starting from the first of next month. Could you please send us an invoice for the first month so that we can arrange payment through our accounts payable department? We would also appreciate confirmation of which downtown locations would be most convenient for our team based in the Hargrove district.",
+              "ja": "ウェブサイトの情報に基づくと、グロースプランが私どものニーズを満たすように思われます。来月初日から6か月の契約を締結したいと考えています。経理部門で支払い手続きを進められるよう、初月分の請求書をお送りいただけますでしょうか。また、ハーグローブ地区に拠点を置く私どものチームに最も便利なダウンタウン拠点についてもご確認いただければ幸いです。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t1-invoice",
+          "docType": "invoice",
+          "title": "NexWork Coworking — Invoice",
+          "paragraphs": [
+            {
+              "en": "Invoice No.: NW-2024-0318\nBill To: Dawnfield Consulting, Attn: Priya Nair\nInvoice Date: March 18\nDue Date: March 31\n\nDescription: Growth Plan Corporate Membership — Month 1\nPlan Fee: $1,800.00\nFirst-Month Fee Waiver (6-month agreement): -$1,800.00\nSetup Fee (one-time): $150.00\n\nTotal Due: $150.00\n\nPayment Method: Bank transfer to NexWork Coworking (account details on file)\nNote: Recurring monthly charges of $1,800.00 will begin from Month 2 onward.",
+              "ja": "請求書番号：NW-2024-0318\n請求先：ドーンフィールド・コンサルティング　プリヤ・ナイル様\n請求日：3月18日　支払期限：3月31日\n\n内容：グロースプラン法人会員　第1か月目\nプラン料金：1,800.00ドル\n初月会費免除（6か月契約）：-1,800.00ドル\n初期設定費用（一回限り）：150.00ドル\n\n合計金額：150.00ドル\n\n支払方法：NexWork Coworking宛て銀行振込（口座情報は手元にあります）\n注：第2か月目以降、月額1,800.00ドルの定期請求が発生します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 186,
+          "type": "main_idea",
+          "questionEn": "What is the purpose of the advertisement?",
+          "questionJa": "広告の目的は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "To promote corporate workspace membership options",
+              "explanation": "法人向けプランの内容・料金・特典を紹介しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "To announce the opening of a new coworking location",
+              "explanation": "新拠点のオープン告知ではなく、既存の4拠点を紹介しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "To invite applications for a part-time receptionist position",
+              "explanation": "採用告知ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "To describe a change in monthly membership rates",
+              "explanation": "料金改定の案内ではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t1-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "NexWork Coworking offers flexible corporate membership plans"
+            }
+          ],
+          "explanationOverall": "広告は法人会員向けの3プランとその特典を紹介することが主目的です。"
+        },
+        {
+          "no": 187,
+          "type": "detail",
+          "questionEn": "Why does Priya believe the Growth Plan is suitable for Dawnfield Consulting?",
+          "questionJa": "プリヤはなぜグロースプランがドーンフィールド・コンサルティングに適していると考えていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "It includes an unlimited number of meeting-room hours.",
+              "explanation": "会議室無制限はエンタープライズプランの特典です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "It is the only plan that provides a dedicated account manager.",
+              "explanation": "専任アカウントマネージャーはエンタープライズプランのみに含まれます。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "It waives the one-time setup fee for new members.",
+              "explanation": "初期設定費用の免除については広告に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "It can accommodate her nine-person team within its seat limit.",
+              "explanation": "グロースプランは最大15席のため、9名のチームを収容できます。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t1-email",
+              "paragraphIndex": 0,
+              "snippetEn": "a team of nine consultants"
+            },
+            {
+              "passageId": "t02-t1-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "Growth Plan: Up to 15 seats"
+            }
+          ],
+          "explanationOverall": "メールにはチームが9名と記されており、グロースプランの上限15席以内に収まることが適合の根拠です。"
+        },
+        {
+          "no": 188,
+          "type": "infer",
+          "questionEn": "Why does the invoice show a charge of only $150.00 for the first month?",
+          "questionJa": "請求書の初月請求額が150ドルだけである理由は何ですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The team size of nine is below the minimum required for the Growth Plan.",
+              "explanation": "グロースプランの最小人数制限はなく、最大15席です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Dawnfield Consulting paid the remaining balance in advance via bank transfer.",
+              "explanation": "一括前払いについては記載がありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Dawnfield Consulting agreed to a 6-month contract and qualified for a first-month fee waiver.",
+              "explanation": "広告に6か月以上の契約で初月免除と記されており、プリヤが6か月契約を申し込んでいるため、月額1,800ドルが免除され、初期設定費用150ドルのみの請求となっています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "NexWork applied a 15% early registration discount to the full plan price.",
+              "explanation": "15%の早期割引制度は広告に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t1-ad",
+              "paragraphIndex": 1,
+              "snippetEn": "New corporate members signing a minimum 6-month agreement receive a complimentary first-month fee waiver"
+            },
+            {
+              "passageId": "t02-t1-email",
+              "paragraphIndex": 1,
+              "snippetEn": "commit to a 6-month agreement"
+            },
+            {
+              "passageId": "t02-t1-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "First-Month Fee Waiver (6-month agreement): -$1,800.00"
+            }
+          ],
+          "explanationOverall": "広告の「6か月以上の契約で初月免除」条件に、プリヤの6か月契約申込みが合致しています。請求書は月額1,800ドルを免除し、初期設定費用150ドルのみ請求しています。"
+        },
+        {
+          "no": 189,
+          "type": "not",
+          "questionEn": "What is NOT mentioned in any of the three documents about NexWork Coworking?",
+          "questionJa": "3つの文書のいずれにも記載されていないNexWork Coworkingに関する情報はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The type of internet connectivity offered at the facilities",
+              "explanation": "広告に「high-speed internet」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The number of staff members employed at each location",
+              "explanation": "各拠点のスタッフ数はどの文書にも記載がありません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The number of downtown locations available to members",
+              "explanation": "広告に「four downtown locations」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The monthly recurring charge after the first month",
+              "explanation": "請求書に「$1,800.00 will begin from Month 2 onward」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t1-ad",
+              "paragraphIndex": 0,
+              "snippetEn": "all four of our downtown locations"
+            }
+          ],
+          "explanationOverall": "拠点ごとの従業員数はどの文書にも示されていません。他の3選択肢はそれぞれ広告または請求書で言及されています。"
+        },
+        {
+          "no": 190,
+          "type": "detail",
+          "questionEn": "By what date must Dawnfield Consulting submit payment for the first month?",
+          "questionJa": "ドーンフィールド・コンサルティングはいつまでに初月の支払いをしなければなりませんか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "March 31",
+              "explanation": "請求書に「Due Date: March 31」と明記されています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "March 18",
+              "explanation": "これは請求日（Invoice Date）であり、支払期限ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "April 1",
+              "explanation": "来月初日は契約開始日として言及されていますが、支払期限ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "April 30",
+              "explanation": "4月末という日付は請求書には記載されていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t1-invoice",
+              "paragraphIndex": 0,
+              "snippetEn": "Due Date: March 31"
+            }
+          ],
+          "explanationOverall": "請求書の「Due Date: March 31」が支払期限です。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t02-t2-notice",
+          "docType": "notice",
+          "title": "Haverford Museum of Art — Traveling Exhibition Announcement",
+          "paragraphs": [
+            {
+              "en": "The Haverford Museum of Art is pleased to announce the arrival of Shapes in Motion: A Survey of Kinetic Sculpture, a traveling exhibition featuring works by 18 contemporary artists from 11 countries. The exhibition will be on display from May 3 through July 27 in the museum's East Wing galleries.",
+              "ja": "ハーバーフォード美術館は、11か国18名の現代芸術家による作品を特集した巡回展「形の動き：キネティック彫刻の概観」の開催を発表いたします。本展覧会は5月3日から7月27日まで、美術館の東翼ギャラリーにて公開されます。"
+            },
+            {
+              "en": "Admission is $18 for adults, $12 for seniors and students with valid identification, and free for members and children under 12. Audio guides in six languages are available at the information desk for a rental fee of $5. Photography without flash is permitted throughout the exhibition.",
+              "ja": "入場料は大人18ドル、有効な身分証明書を持つシニアおよび学生は12ドル、会員および12歳未満のお子様は無料です。6か国語の音声ガイドはインフォメーションデスクで5ドルのレンタル料にてご利用いただけます。展覧会全体を通じてフラッシュなしの写真撮影が可能です。"
+            },
+            {
+              "en": "Installation of the artworks is scheduled to begin on April 28. Visitors should note that the East Wing will be closed to the public from April 28 through May 2 to allow for safe setup of the kinetic sculptures. The museum's permanent collection galleries in the West Wing will remain fully open during this period.",
+              "ja": "作品の設営は4月28日に開始予定です。キネティック彫刻の安全な設置作業のため、東翼は4月28日から5月2日まで一般公開が休止となりますのでご留意ください。この期間中、西翼の常設コレクションギャラリーは通常通り開館しています。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t2-schedule",
+          "docType": "schedule",
+          "title": "Shapes in Motion — Installation Schedule, Haverford Museum of Art",
+          "paragraphs": [
+            {
+              "en": "April 28 (Monday): Crate delivery and unpacking — Loading dock, 8:00 A.M.–5:00 P.M. | Lead: Facilities team\nApril 29 (Tuesday): Structural mounting for large-format works — East Wing Hall A | Lead: External installation crew\nApril 30 (Wednesday): Placement of medium and small sculptures — East Wing Hall B and C | Lead: Curatorial team\nMay 1 (Thursday): Electrical connections and motion testing — All East Wing galleries | Lead: Technical team\nMay 2 (Friday): Final walkthrough and signage installation — All East Wing galleries | Lead: Curatorial team",
+              "ja": "4月28日（月）：梱包材の配送と開梱　搬入口　午前8時〜午後5時　担当：施設チーム\n4月29日（火）：大型作品の構造的取り付け　東翼ホールA　担当：外部設営クルー\n4月30日（水）：中小型彫刻の配置　東翼ホールBおよびC　担当：キュレーターチーム\n5月1日（木）：電気配線とモーションテスト　東翼全ギャラリー　担当：テクニカルチーム\n5月2日（金）：最終確認とサインage設置　東翼全ギャラリー　担当：キュレーターチーム"
+            },
+            {
+              "en": "Notes: All crew members must complete the site safety briefing before beginning work. Access to the East Wing is restricted to authorized installation personnel only. Please direct any delivery vehicles to the Pemberton Street entrance. Catering for the installation crew will be provided in the staff lounge on each working day.",
+              "ja": "注意事項：全クルーメンバーは作業開始前に現場安全ブリーフィングを完了すること。東翼へのアクセスは許可された設営担当者のみに制限されます。配送車両はすべてペンバートン・ストリートの入口へ誘導してください。各作業日、スタッフラウンジにて設営クルー向けのケータリングが提供されます。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t2-texts",
+          "docType": "text_message_chain",
+          "title": "Installation Crew Text Chain — April 29",
+          "messages": [
+            {
+              "sender": "Marcus",
+              "timeLabel": "8:14 A.M.",
+              "bodyEn": "Good morning. I just arrived at the loading dock. The crates from yesterday are all unpacked and ready for Hall A. The external crew is here too.",
+              "bodyJa": "おはようございます。今搬入口に着きました。昨日の梱包材はすべて開梱され、ホールAの準備が整っています。外部クルーも来ています。"
+            },
+            {
+              "sender": "Yuki",
+              "timeLabel": "8:22 A.M.",
+              "bodyEn": "Thanks, Marcus. One issue — the largest sculpture, the suspended mobile by Carla Reyes, needs an extra ceiling anchor. I checked the structural drawings and we are missing a bracket. I have contacted the supplier and they say they can deliver a replacement by noon.",
+              "bodyJa": "ありがとう、マーカス。一つ問題が。最大の彫刻、カルラ・レイエスの吊り下げモビールに追加の天井アンカーが必要です。構造図を確認したところ、ブラケットが一つ不足しています。サプライヤーに連絡したところ、正午までに代替品を届けられるとのことです。"
+            },
+            {
+              "sender": "Marcus",
+              "timeLabel": "8:31 A.M.",
+              "bodyEn": "That does not leave us much of a window. The external crew has a firm 4:00 P.M. cutoff today. Can we start with the smaller wall-mounted pieces in Hall A while we wait for the bracket?",
+              "bodyJa": "それでは作業できる時間がほとんど残りません。外部クルーは今日午後4時で終了です。ブラケットを待つ間、ホールAの小型壁掛け作品から始めてもよいですか。"
+            },
+            {
+              "sender": "Yuki",
+              "timeLabel": "8:45 A.M.",
+              "bodyEn": "Yes, go ahead with the wall-mounted pieces. I will supervise the mobile installation personally once the bracket arrives. Please make sure the external crew does not leave before we have finished with Carla Reyes's piece — we need their equipment for the ceiling work.",
+              "bodyJa": "はい、壁掛け作品から進めてください。ブラケットが届いたらモビールの設置は私が直接監督します。カルラ・レイエスの作品が終わるまで外部クルーが帰らないようにしてください。天井作業には彼らの機材が必要です。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 191,
+          "type": "detail",
+          "questionEn": "For how many days will the East Wing be closed to visitors before the exhibition opens?",
+          "questionJa": "展覧会開幕前に東翼は何日間来館者に閉鎖されますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Three days",
+              "explanation": "3日間という期間は告知に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Seven days",
+              "explanation": "1週間という記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "Two days",
+              "explanation": "2日間という期間は正確ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Five days",
+              "explanation": "告知によると4月28日から5月2日まで閉鎖されており、これは5日間です。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t2-notice",
+              "paragraphIndex": 2,
+              "snippetEn": "East Wing will be closed to the public from April 28 through May 2"
+            }
+          ],
+          "explanationOverall": "告知に「April 28 through May 2」と明記されており、4/28・4/29・4/30・5/1・5/2の5日間です。"
+        },
+        {
+          "no": 192,
+          "type": "infer",
+          "questionEn": "Based on the schedule and the text messages, what problem did the installation crew face on April 29?",
+          "questionJa": "日程表とテキストメッセージから、設営クルーは4月29日にどのような問題に直面しましたか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Hall A had insufficient lighting for the large-format works.",
+              "explanation": "照明不足の問題はテキストメッセージに記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "A component needed for a large sculpture was missing.",
+              "explanation": "ユキが「ブラケットが一つ不足している」と報告しており、部品不足が問題でした。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "The delivery of art crates was delayed until the afternoon.",
+              "explanation": "梱包材の配送は前日（4月28日）に完了しており、遅延ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The external installation crew did not arrive on time.",
+              "explanation": "マーカスが「外部クルーも来ています」と報告しており、到着の遅れはありませんでした。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t2-texts",
+              "paragraphIndex": 1,
+              "snippetEn": "we are missing a bracket"
+            },
+            {
+              "passageId": "t02-t2-schedule",
+              "paragraphIndex": 0,
+              "snippetEn": "April 29 (Tuesday): Structural mounting for large-format works"
+            }
+          ],
+          "explanationOverall": "テキストメッセージで「ブラケットが不足している」という部品欠品が明らかになり、日程表の大型作品取り付けに支障が生じたことが推測できます。"
+        },
+        {
+          "no": 193,
+          "type": "not",
+          "questionEn": "What is NOT stated in the museum notice about the exhibition?",
+          "questionJa": "美術館の告知に展覧会について記載されていない情報はどれですか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The availability of audio guides",
+              "explanation": "告知に「Audio guides in six languages are available」と記載されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "The duration of the exhibition",
+              "explanation": "告知に「May 3 through July 27」と期間が明記されています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The names of the participating artists",
+              "explanation": "告知は「18 contemporary artists from 11 countries」とのみ述べており、個別の芸術家名は挙げていません。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "The admission price for senior visitors",
+              "explanation": "告知に「$12 for seniors」と明記されています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t2-notice",
+              "paragraphIndex": 0,
+              "snippetEn": "18 contemporary artists from 11 countries"
+            }
+          ],
+          "explanationOverall": "告知は参加芸術家の総数と出身国数を示すのみで、個別の名前は挙げていません。他の選択肢はいずれも告知に明記されています。"
+        },
+        {
+          "no": 194,
+          "type": "intention",
+          "questionEn": "At 8:31 A.M., what does Marcus mean when he writes \"That does not leave us much of a window\"?",
+          "questionJa": "午前8時31分にマーカスが「それでは作業できる時間がほとんど残りません」と書いたのはどういう意味ですか。",
+          "intentionTarget": {
+            "sender": "Marcus",
+            "utteranceEn": "That does not leave us much of a window."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "He thinks the crates should have been delivered earlier in the morning.",
+              "explanation": "梱包材の配送時刻への不満ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "He believes Hall A is too small to accommodate all the sculptures.",
+              "explanation": "スペースの広さについては発言していません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "He wants to postpone the installation to the following day.",
+              "explanation": "翌日への延期は提案しておらず、むしろ代替案を提示しています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "He is concerned that the bracket may not arrive before the crew must leave.",
+              "explanation": "外部クルーが午後4時に終了するため、正午到着予定のブラケットで作業を完了できるか不安を示しています。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t2-texts",
+              "paragraphIndex": 1,
+              "snippetEn": "they can deliver a replacement by noon"
+            },
+            {
+              "passageId": "t02-t2-texts",
+              "paragraphIndex": 2,
+              "snippetEn": "The external crew has a firm 4:00 P.M. cutoff today"
+            }
+          ],
+          "explanationOverall": "ブラケットが正午到着予定である一方、外部クルーの終了が午後4時であることから、時間的余裕のなさへの懸念を示しています。"
+        },
+        {
+          "no": 195,
+          "type": "infer",
+          "questionEn": "Why does Yuki ask the external crew to stay until the mobile is finished?",
+          "questionJa": "ユキはなぜモビールが完成するまで外部クルーに残留するよう求めていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Their equipment is required for the ceiling installation.",
+              "explanation": "ユキは「天井作業には彼らの機材が必要」と明示的に述べています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "They are the only crew authorized to handle Carla Reyes's artwork.",
+              "explanation": "資格認定に関する記述はなく、外部クルーが唯一の取扱権限者という記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The supplier requires a crew member to sign for the delivered bracket.",
+              "explanation": "サプライヤーの受取署名については言及されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "They need to transport the finished mobile to a storage area after installation.",
+              "explanation": "設置後の移動については述べられていません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t2-texts",
+              "paragraphIndex": 3,
+              "snippetEn": "we need their equipment for the ceiling work"
+            }
+          ],
+          "explanationOverall": "テキストメッセージ第3発言（インデックス3）に「we need their equipment for the ceiling work」と明記されています。"
+        }
+      ]
+    },
+    {
+      "setType": "triple",
+      "passages": [
+        {
+          "passageId": "t02-t3-article",
+          "docType": "article",
+          "title": "Industry Consolidation Reshapes Supply Chain Landscape",
+          "paragraphs": [
+            {
+              "en": "The merger of Cascade Materials and Norfield Supply, announced last month, is already prompting manufacturers across the packaging and industrial components sectors to reassess their supplier relationships. The combined entity, to be known as Cascade-Norfield Group, will control approximately 38% of the domestic market for specialty polymer components.",
+              "ja": "先月発表されたカスケード・マテリアルズとノーフィールド・サプライの合併は、包装材および産業部品セクター全体のメーカーが取引先関係を再評価するきっかけとなっている。カスケード・ノーフィールド・グループとなる新会社は、特殊ポリマー部品の国内市場の約38%を占めることになる。"
+            },
+            {
+              "en": "Analysts warn that reduced competition could lead to price increases for buyers who rely on either Cascade or Norfield as their sole supplier. Firms that currently source from both companies will be placed under a unified pricing structure, which may eliminate the volume discounts they previously negotiated independently with each company. Industry observers recommend that affected businesses establish relationships with at least one alternative regional supplier to preserve negotiating leverage.",
+              "ja": "アナリストたちは、競争の減少によって、カスケードまたはノーフィールドのどちらか一方のみを仕入先としている企業の購買コストが上昇する可能性があると警告している。現在両社から調達している企業は統一価格体系の適用を受け、それぞれの会社と個別に交渉してきたボリュームディスカウントが廃止される可能性がある。業界の専門家は、影響を受ける企業が交渉力を維持するために少なくとも一社の代替地域サプライヤーとの関係を構築することを勧めている。"
+            },
+            {
+              "en": "The merger is expected to receive regulatory clearance within six months. Both Cascade and Norfield have stated that existing supply contracts will be honored through their current end dates, and that customers will receive 90 days' notice before any pricing adjustments take effect.",
+              "ja": "合併は6か月以内に規制当局の認可を受ける見込みだ。カスケードおよびノーフィールドは両社とも、既存の供給契約は現行の終了日まで履行され、価格改定が実施される前に顧客に90日前の通知が行われると表明している。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t3-memo",
+          "docType": "memo",
+          "title": "Internal Memo — Procurement Policy Update",
+          "paragraphs": [
+            {
+              "en": "To: All Procurement Team Members\nFrom: Helen Varga, Head of Procurement\nDate: June 10\nSubject: Supplier Diversification Initiative\n\nAs you will be aware, the planned merger of Cascade Materials and Norfield Supply has significant implications for our sourcing strategy. Both companies currently supply us with specialty polymer components, and we anticipate that the unified pricing structure will affect the volume discounts we currently receive.",
+              "ja": "宛先：調達チーム全員\n差出人：ヘレン・バーガ、調達部長\n日付：6月10日\n件名：サプライヤー多様化イニシアチブ\n\nご承知のとおり、カスケード・マテリアルズとノーフィールド・サプライの合併計画は、私どもの調達戦略に重大な影響を与えます。現在、両社から特殊ポリマー部品を調達しており、統一価格体系が現在受けているボリュームディスカウントに影響を及ぼすと予想されます。"
+            },
+            {
+              "en": "Effective immediately, all team members are asked to identify and evaluate at least two regional suppliers capable of providing equivalent polymer components. Supplier assessments must be completed and submitted to me by July 31. In the meantime, no new long-term contracts with Cascade or Norfield should be initiated without my prior approval. Renewals of contracts expiring before the merger's regulatory clearance may proceed under existing terms.",
+              "ja": "即時有効として、チームメンバー全員に、同等のポリマー部品を提供できる地域サプライヤーを少なくとも2社特定・評価するよう求めます。サプライヤー評価は7月31日までに完了し、私に提出してください。それまでの間、私の事前承認なしに、カスケードまたはノーフィールドとの新たな長期契約を開始しないこと。合併の規制認可前に終了する契約の更新は、現行条件で進めて構いません。"
+            }
+          ]
+        },
+        {
+          "passageId": "t02-t3-chat",
+          "docType": "online_chat",
+          "title": "Procurement Team Channel — June 10",
+          "messages": [
+            {
+              "sender": "Helen",
+              "timeLabel": "2:05 P.M.",
+              "bodyEn": "Hi everyone. I just sent around an internal memo regarding our supplier situation. Please read it before end of day.",
+              "bodyJa": "みなさん、こんにちは。サプライヤーの状況に関する社内メモを送りました。本日中に読んでください。"
+            },
+            {
+              "sender": "Dom",
+              "timeLabel": "2:12 P.M.",
+              "bodyEn": "Noted. I already have a contact at Ridgepath Industrial — they supply polymer components to two firms in our sector. Should I reach out to them first?",
+              "bodyJa": "了解しました。リッジパス・インダストリアルに連絡先がすでにあります。同社は私どもと同じセクターの2社にポリマー部品を供給しています。まず彼らに連絡してみましょうか。"
+            },
+            {
+              "sender": "Helen",
+              "timeLabel": "2:18 P.M.",
+              "bodyEn": "Yes, please proceed with Ridgepath. That would count as one of your two required assessments. Remember the deadline is July 31.",
+              "bodyJa": "はい、リッジパスへの連絡を進めてください。それが2社のうち1社の評価としてカウントされます。締め切りは7月31日であることを忘れずに。"
+            },
+            {
+              "sender": "Fiona",
+              "timeLabel": "2:25 P.M.",
+              "bodyEn": "Helen, does the new policy also cover the adhesive tape we currently source exclusively from Norfield? Or is this memo only about the polymer components?",
+              "bodyJa": "ヘレン、新しい方針は現在ノーフィールドのみから調達している粘着テープにも適用されますか。それともこのメモはポリマー部品についてのみですか。"
+            },
+            {
+              "sender": "Helen",
+              "timeLabel": "2:33 P.M.",
+              "bodyEn": "Good point, Fiona. The memo focuses on polymer components, but let's extend the diversification review to all Norfield-supplied items as a precaution. I will update the memo to reflect this.",
+              "bodyJa": "良い指摘です、フィオナ。メモはポリマー部品に焦点を当てていますが、予防措置として、ノーフィールドが供給するすべての品目に多様化レビューを拡大しましょう。この点を反映するようメモを更新します。"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "no": 196,
+          "type": "detail",
+          "questionEn": "What do industry observers recommend that companies do in response to the merger?",
+          "questionJa": "業界の専門家は合併に対応して企業に何をするよう勧めていますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "Reduce overall spending on polymer components by 20%",
+              "explanation": "支出の20%削減という数値目標は記事に記載されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "Build relationships with additional regional suppliers",
+              "explanation": "「少なくとも一社の代替地域サプライヤーとの関係を構築する」ことを勧めています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "C",
+              "text": "Renegotiate existing contracts before regulatory approval",
+              "explanation": "規制認可前の再交渉は勧められておらず、既存契約は終了日まで履行されると述べられています。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "Switch exclusively to domestic manufacturers",
+              "explanation": "国内メーカーへの完全切替えの勧告はありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "establish relationships with at least one alternative regional supplier"
+            }
+          ],
+          "explanationOverall": "記事第1段落に「establish relationships with at least one alternative regional supplier」と明記されています。"
+        },
+        {
+          "no": 197,
+          "type": "infer",
+          "questionEn": "What can be inferred about why Helen issued the memo on June 10?",
+          "questionJa": "ヘレンが6月10日にメモを発行した理由について何が推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "She was responding to a complaint from a team member about supplier quality.",
+              "explanation": "品質への不満は文書中に示されていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "She needed to comply with a new government regulation on procurement.",
+              "explanation": "政府規制への対応はメモの目的ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She wanted to act before the merger receives regulatory approval.",
+              "explanation": "メモは「即時有効」とされており、記事は規制認可まで6か月かかると述べているため、認可前に先手を打って方針を定めています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "D",
+              "text": "She had already received a price increase notice from Cascade Materials.",
+              "explanation": "価格上昇通知の受領はチャットにもメモにも記述がありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t3-article",
+              "paragraphIndex": 2,
+              "snippetEn": "expected to receive regulatory clearance within six months"
+            },
+            {
+              "passageId": "t02-t3-memo",
+              "paragraphIndex": 1,
+              "snippetEn": "Effective immediately"
+            }
+          ],
+          "explanationOverall": "記事は「6か月以内に規制認可が下りる」と述べており、メモは「即時有効」で代替サプライヤーの評価を求めています。認可前に体制を整えようとしている意図が推測できます。"
+        },
+        {
+          "no": 198,
+          "type": "synonym",
+          "questionEn": "The word \"preserve\" in paragraph 2 of the article is closest in meaning to which of the following?",
+          "questionJa": "記事第2段落の \"preserve\" に最も近い意味を持つ語はどれですか。",
+          "targetWord": "preserve",
+          "choices": [
+            {
+              "label": "A",
+              "text": "restore",
+              "explanation": "「回復させる」という意味であり、失った後に取り戻すニュアンスを含み、ここでは不自然です。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "B",
+              "text": "expand",
+              "explanation": "「拡大する」という意味で、交渉力を「保つ」という文脈とは方向性が異なります。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "transfer",
+              "explanation": "「移転する・譲渡する」という意味であり、ここでは全く適合しません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "maintain",
+              "explanation": "「維持する」という意味で「交渉力を保つ」という文脈に最も合います。 正解です。",
+              "isCorrect": true
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t3-article",
+              "paragraphIndex": 1,
+              "snippetEn": "preserve negotiating leverage"
+            }
+          ],
+          "explanationOverall": "\"preserve negotiating leverage\" は「交渉力を維持する」という意味で、\"maintain\" が最も適切な言い換えです。"
+        },
+        {
+          "no": 199,
+          "type": "infer",
+          "questionEn": "What does Fiona's question suggest about her company's current sourcing?",
+          "questionJa": "フィオナの質問から、彼女の会社の現在の調達について何が推測できますか。",
+          "choices": [
+            {
+              "label": "A",
+              "text": "The company sources adhesive tape from only one supplier.",
+              "explanation": "フィオナは「ノーフィールドのみから調達している粘着テープ」と述べており、単一調達であることを示唆しています。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "The company has no existing contracts with Norfield Supply.",
+              "explanation": "チャットではノーフィールドからの調達が前提とされており、契約なしとは言えません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "The adhesive tape supplier was recently changed without management approval.",
+              "explanation": "管理職の承認なしに変更したという記述はありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "The company relies on Cascade Materials for all polymer purchases.",
+              "explanation": "ポリマーはカスケードとノーフィールド双方からの調達が示唆されており、カスケードのみではありません。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t3-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "adhesive tape we currently source exclusively from Norfield"
+            }
+          ],
+          "explanationOverall": "フィオナのチャット発言に「exclusively from Norfield」という表現があり、粘着テープは単一仕入先（ノーフィールド）から調達していることが示されています。"
+        },
+        {
+          "no": 200,
+          "type": "intention",
+          "questionEn": "What does Helen mean when she says \"I will update the memo to reflect this\"?",
+          "questionJa": "ヘレンが「この点を反映するようメモを更新します」と言うのはどういう意味ですか。",
+          "intentionTarget": {
+            "sender": "Helen",
+            "utteranceEn": "I will update the memo to reflect this."
+          },
+          "choices": [
+            {
+              "label": "A",
+              "text": "She will revise the memo to include all Norfield-supplied products in the diversification review.",
+              "explanation": "フィオナの指摘を受けて、ポリマー部品以外のノーフィールド供給品もレビュー対象とするようメモを拡大修正する意図です。 正解です。",
+              "isCorrect": true
+            },
+            {
+              "label": "B",
+              "text": "She will send a corrected version of the memo with a new deadline.",
+              "explanation": "締め切りの変更については述べていません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "C",
+              "text": "She will add Ridgepath Industrial as an approved supplier in the memo.",
+              "explanation": "リッジパスをメモに承認サプライヤーとして追記する話ではありません。 正解ではありません。",
+              "isCorrect": false
+            },
+            {
+              "label": "D",
+              "text": "She will remove the section about polymer components from the original memo.",
+              "explanation": "ポリマー部品の記述を削除するのではなく、対象を拡大すると述べています。 正解ではありません。",
+              "isCorrect": false
+            }
+          ],
+          "evidence": [
+            {
+              "passageId": "t02-t3-chat",
+              "paragraphIndex": 3,
+              "snippetEn": "adhesive tape we currently source exclusively from Norfield"
+            },
+            {
+              "passageId": "t02-t3-chat",
+              "paragraphIndex": 4,
+              "snippetEn": "extend the diversification review to all Norfield-supplied items"
+            }
+          ],
+          "explanationOverall": "ヘレンはフィオナの質問を「Good point」と評価し、ノーフィールド供給品全体に対象を広げる旨を伝えています。「this」はフィオナが指摘した粘着テープを含む拡大方針を指しています。"
+        }
+      ]
+    }
+  ]
+}
